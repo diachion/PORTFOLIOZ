@@ -1,8 +1,15 @@
+@charset "utf-8";
 @import url(https://fonts.googleapis.com/css?family=Raleway);
+
 /* CSS Document */
+
+
 /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
             VARIABLES
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+$raleway: 'Raleway', sans-serif;
+
+
 /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
             BANNER / HEADER
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
@@ -16,7 +23,8 @@
   position: absolute;
   left: 0;
   top: 0;
-  right: 0; }
+  right: 0;
+}
 
 #motto {
   display: block;
@@ -30,17 +38,19 @@
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   border: 8px solid #fff;
-  background: rgba(250, 250, 250, 0.2);
+  background: rgba(250,250,250,0.2);
   padding: 25px;
-  position: absolute; }
+  position: absolute;
+}
 
 #mottoText {
-  font-family: "Raleway", sans-serif;
+  font-family: $raleway; 
   font-size: 1.8em;
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
-  color: #fff; }
+  color: #fff;
+}
 
 #soonDiv {
   display: block;
@@ -48,12 +58,12 @@
   width: 100%;
   position: absolute;
   bottom: 0;
-  right: 0; }
+  right: 0;
+}
 
 #soonText {
-  font-family: "Raleway", sans-serif;
+  font-family: $raleway;
   font-size: 1em;
   color: #fff;
-  text-align: center; }
-
-/*# sourceMappingURL=style.css.map */
+  text-align: center;
+}
