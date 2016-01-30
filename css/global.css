@@ -80,6 +80,9 @@
   typography with my own styles
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
 @import url(https://fonts.googleapis.com/css?family=Raleway);
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase; }
+
 /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
      $COMPONENTS
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
@@ -128,7 +131,18 @@
             GLOBAL NAVIGATION
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
 .navbar {
-  z-index: 999; }
+  border: none;
+  border-radius: 0; }
+
+.affix {
+  top: 0;
+  width: 100%;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out; }
+
+.affix-top {
+  position: static;
+  top: -35px; }
 
 /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
             BANNER / HEADER
@@ -138,9 +152,8 @@
   background-size: cover;
   background-attachment: fixed;
   background-position: 50%;
-  width: 100%;
-  height: 100%;
-  position: absolute;
+  height: 100vh;
+  position: relative;
   left: 0;
   top: 0;
   right: 0; }
@@ -186,6 +199,9 @@
 /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
     	CONTENT
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+.main-jumbo {
+  margin-top: 150px; }
+
 /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
     	SIDEBAR
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */

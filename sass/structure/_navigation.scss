@@ -1,7 +1,19 @@
 /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
             GLOBAL NAVIGATION
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
-
 .navbar {
-  z-index: 999;
+  border: none;
+  border-radius: 0;
+}
+
+.affix {
+	top: 0;
+	width: 100%;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.affix-top {
+  position: static;
+  top: -35px;
 }
