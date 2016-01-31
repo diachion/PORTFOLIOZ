@@ -85,29 +85,7 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 <script src="libs/js/bootstrap.min.js"></script>
-
-<script>
-$(document).ready(function(){
-    /* affix the navbar after scroll below header */
-    $(".navbar").affix({
-      offset: {
-        top: $("header").outerHeight(true)
-      } 
-    });
-
-    // scroll down
-    $("a").click(function(){
-      $("html, body").animate({
-          scrollTop: $( $.attr(this, "href") ).offset().top
-      }, 500);
-      return false;
-    });
-
-    // scroll down tooltip
-    $(".down-arrow").tooltip();
-
-}); 
-</script>
+<script src="global.js"></script>
 
 </body>
 </html>
