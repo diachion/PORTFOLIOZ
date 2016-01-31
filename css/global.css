@@ -162,7 +162,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   margin: 0 auto;
   width: 100%;
-  max-width: 370px;
+  max-width: 375px;
   top: 50%;
   right: 0;
   left: 0;
@@ -176,26 +176,38 @@ h1, h2, h3, h4, h5, h6 {
 
 #mottoText {
   font-family: "Raleway", sans-serif;
-  font-size: 1.8em;
+  font-size: 2em;
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
   line-height: 110%;
-  color: #fff; }
+  color: #fff;
+  margin: 0; }
 
 #soonDiv {
   display: block;
   width: 100%;
   position: absolute;
   bottom: 0;
-  right: 0; }
-
-#soonText {
-  font-family: "Raleway", sans-serif;
-  font-size: 1em;
-  color: #fff;
+  right: 0;
   text-align: center; }
 
+.down-arrow {
+  color: #fff;
+  font-size: 2em;
+  animation: downarrow 1.5s infinite;
+  position: relative; }
+
+@keyframes downarrow {
+  0% {
+    opacity: 0;
+    top: -10px; }
+  75% {
+    opacity: 1;
+    top: 0; }
+  100% {
+    opacity: 0;
+    top: 5; } }
 /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
     	CONTENT
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
