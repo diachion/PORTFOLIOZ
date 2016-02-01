@@ -11,7 +11,7 @@ include ("navigation.php");
 <div class="jumbotron main-jumbo">
   <div class="container">
     <h1 class="text-center">works</h1>
-    <h3 class="text-center">hello world</h3>
+    <h3 class="text-center">look at this trove, treasures untold</h3>
   </div>  <!-- container-->
 </div> <!-- jumbotron -->
 
@@ -25,7 +25,7 @@ include ("navigation.php");
   <div class="card">
 
     <div class="works-thumbnail">
-      <img src="imgs/thumbnails/okami.jpg" alt="work 1"/>
+      <a href="amaterasu.php"><img src="imgs/thumbnails/okami.jpg" alt="work 1"/></a>
     </div> <!-- thumbnail -->
 
     <div class="caption">
@@ -40,7 +40,7 @@ include ("navigation.php");
   <div class="card">
 
     <div class="works-thumbnail">
-      <img src="imgs/thumbnails/kuroko.jpg" alt="work 1"/>
+      <a href="kuroko.php"><img src="imgs/thumbnails/kuroko.jpg" alt="work 1"/></a>
     </div> <!-- thumbnail -->
 
     <div class="caption">

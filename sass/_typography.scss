@@ -8,10 +8,15 @@
   typography with my own styles
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
 
-
+@import url(https://fonts.googleapis.com/css?family=Raleway);
 
 //Links 
-@import url(https://fonts.googleapis.com/css?family=Raleway);
+a {
+	text-decoration: none;
+	&:hover {
+		text-decoration: none;
+	}
+}
 
 //Text
 
@@ -19,5 +24,9 @@
 //Headers
 h1,h2,h3,h4,h5,h6 {
   text-transform: uppercase;
+}
+
+.no-header {
+	text-transform: none;
 }
 
