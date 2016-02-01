@@ -19,7 +19,7 @@ $random = (rand(0, count($bg)-1));
   </div>
 
   <div id="soonDiv">
-    <a class="down-arrow" data-toggle="tooltip" title="scroll down" href="#nav">
+    <a class="down-arrow smooth-scroll" data-toggle="tooltip" title="scroll down" href="#nav">
       <span class="fa fa-arrow-down"></span>
     </a>
   </div>
@@ -91,13 +91,3 @@ $random = (rand(0, count($bg)-1));
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
 <?php include ("footer.php"); ?>
 
-<!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-            JAVASCRIPT AND JQUERY
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-<script src="libs/js/bootstrap.min.js"></script>
-<script src="global.js"></script>
-
-</body>
-</html>
