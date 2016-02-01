@@ -1,3 +1,4 @@
+<div class="nav-wrapper">
 <nav id="nav" class="navbar navbar-inverse 
               <?php 
                 if($pageName !== 'index'){
@@ -24,3 +25,4 @@
     </div>
   </div>  <!-- container-->
 </nav>
+</div>
