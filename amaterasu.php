@@ -88,11 +88,40 @@ include ("navigation.php");
 
   <div class="col-md-8">
     <h3 class="no-header">Tools, Programs, and Softwares Used:</h3>
+    <ul>
+      <li>Adobe Illustrator</li>
+      <li>sdfsdfds</li>
+      <li>sdfsdfds</li>
+      <li>sdfsdfds</li>
+      <li>sdfsdfds</li>
+    </ul>
   </div>
+
+
 </div>  <!-- container-->
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
 
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>hello world.
+<hr/>
+
+<!-- -=-=-=-=- WORK INFORMATION -=-=-=-=- -->
+<div class="container">
+  <div class="col-md-12">
+    <h2>The Story</h2>
+      <p> The image of this piece features Amaterasu, the goddess of the sun. She's from the PS3 game, Okami HD, and at the time 
+      I created this image, I was a huge fan of the game. I really loved the artwork of the game, 
+      and decided I had to recreate one of the many wallpapers and artwork of the game. </p>
+
+    <h2>The Process</h2>
+      <p> I searched for an official image of the game and found this one. Placing the image in Adobe Illustrator as a template, 
+      I began to carefully trace the image with the pen tool and then later fill the shapes with more details. </p>
+
+      <p> The main focus of this piece are the usage of different patterns and stroke appearances. </p>
+
+      <p> The main tools I used in the program, Adobe Illustrator were: pen tool, shape tools, paintbrush, custom brushes, 
+      and custom patterns. </p>
+  </div>
+</div>  <!-- container-->
+<!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
 
 
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
