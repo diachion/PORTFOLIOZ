@@ -55,12 +55,12 @@ include ("navigation.php");
   <div class="card">
 
     <div class="works-thumbnail">
-      <img src="imgs/thumbnails/okami.jpg" alt="work 1"/>
+      <img src="imgs/thumbnails/nekoatsume.jpg" alt="work 1"/>
     </div> <!-- thumbnail -->
 
     <div class="caption">
-      <h3>Work #1</h3>
-      <p>description</p>
+      <h3><a href="nekoatsume.php">Kitty Collector</a></h3>
+      <p>Graphic Design | </p>
     </div> <!-- caption -->
 
   </div> <!-- card -->
