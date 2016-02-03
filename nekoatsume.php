@@ -51,12 +51,12 @@ include ("navigation.php");
 <div class="container">
 
   <div class="col-xs-6 col-md-3 text-center">
-    <a class="thumbnail" data-toggle="modal" data-target=".bs-example-modal-lg">
+    <a class="thumbnail" data-toggle="modal" data-target="#na-original">
       <img src="imgs/works/nekoatsume/progress-o1.jpg" alt="original"/>
     </a>
   </div> <!-- column -->
 
- <div class="modal fade bs-example-modal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+ <div class="modal fade" id="na-original" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -65,22 +65,41 @@ include ("navigation.php");
       </div>
       <div class="modal-body">
         <p><img class="modal-img" src="imgs/works/nekoatsume/progress-o1.jpg" alt="progress"/></p>
-        <p>The original image I used for the background</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <p>The original image I used for the background.</p>
       </div>
     </div>
   </div>
 </div>
 
   <div class="col-xs-6 col-md-3 text-center">
-    <a class="thumbnail" data-toggle="modal" data-target=".bs-example-modal-lg">
+    <a class="thumbnail" data-toggle="modal" data-target="#na-progress1">
       <img src="imgs/works/nekoatsume/progress-o2.jpg" alt="progress"/>
     </a>
   </div> <!-- column -->
 
-  <div class="modal fade bs-example-modal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal fade" id="na-progress1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Progress #1</h4>
+      </div>
+      <div class="modal-body">
+        <p><img class="modal-img" src="imgs/works/nekoatsume/progress-o2.jpg" alt="progress"/></p>
+        <p>I got more photographs and composited them into the background image. I also vectored some elements from Adobe Illustrator and 
+        transfered it over to Adobe Photoshop.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="col-xs-6 col-md-3 text-center">
+    <a class="thumbnail" data-toggle="modal" data-target="#na-progress2">
+      <img src="imgs/works/nekoatsume/progress-o3.jpg" alt="progress"/>
+    </a>
+  </div> <!-- column -->
+
+  <div class="modal fade" id="na-progress2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -88,28 +107,35 @@ include ("navigation.php");
         <h4 class="modal-title" id="myModalLabel">Progress #2</h4>
       </div>
       <div class="modal-body">
-        <p><img class="modal-img" src="imgs/works/nekoatsume/progress-o2.jpg" alt="progress"/></p>
-        <p>I got more photographs and composited them into the background image. I also vectored some elements from Adobe Illustrator and 
-        transfered it over to Adobe Photoshop.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <p><img class="modal-img" src="imgs/works/nekoatsume/progress-o3.jpg" alt="progress"/></p>
+        <p>I added shadows to some elements, the text on the wood, and a custom tree leaves shadow brush over a part of the image.</p>
       </div>
     </div>
   </div>
 </div>
 
   <div class="col-xs-6 col-md-3 text-center">
-    <a class="thumbnail">
-      <img src="imgs/works/nekoatsume/progress-o3.jpg" alt="progress"/>
-    </a>
-  </div> <!-- column -->
-
-  <div class="col-xs-6 col-md-3 text-center">
-    <a class="thumbnail">
+    <a class="thumbnail" data-toggle="modal" data-target="#na-progress3">
       <img src="imgs/works/nekoatsume/progress-o4.jpg" alt="progress"/>
     </a>
   </div> <!-- column -->
+
+  <div class="modal fade" id="na-progress3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Progress #3</h4>
+      </div>
+      <div class="modal-body">
+        <p><img class="modal-img" src="imgs/works/nekoatsume/progress-o4.jpg" alt="progress"/></p>
+        <p>I added and changed some elements, redid the custom tree leaves shadows brush to make the leaves look more like actual leaves, added
+        a second custom brush of cherry blossom leaves and petals behind the logo, and added beams of light by putting a black and white image
+        and set the blending mode to "screen".</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 </div>  <!-- container-->
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->

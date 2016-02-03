@@ -51,18 +51,33 @@ include ("navigation.php");
 <div class="container">
 
   <div class="col-xs-6 col-md-3 text-center">
-    <a class="thumbnail">
+    <a class="thumbnail" data-toggle="modal" data-target="#ammy-original">
       <img src="imgs/works/amaterasu/original.jpg" alt="original"/>
     </a>
   </div> <!-- column -->
 
+<div class="modal fade" id="ammy-original" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Original Artwork</h4>
+      </div>
+      <div class="modal-body">
+        <p><img class="modal-img" src="imgs/works/amaterasu/original.jpg" alt="progress"/></p>
+        <p>This is the original official artwork of Amaterasu from Okami HD.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
   <div class="col-xs-6 col-md-3 text-center">
-    <a class="thumbnail" data-toggle="modal" data-target=".bs-example-modal-lg">
+    <a class="thumbnail" data-toggle="modal" data-target="#ammy-progress1">
       <img src="imgs/works/amaterasu/progress-o1.jpg" alt="progress"/>
     </a>
   </div> <!-- column -->
 
-<div class="modal fade bs-example-modal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+<div class="modal fade" id="ammy-progress1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -71,26 +86,53 @@ include ("navigation.php");
       </div>
       <div class="modal-body">
         <p><img class="modal-img" src="imgs/works/amaterasu/progress-o1.jpg" alt="progress"/></p>
-        <p>Used the pen tool to outline basic shapes and filled with base colors</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <p>I used the pen tool to outline basic shapes and filled them with base colors.</p>
       </div>
     </div>
   </div>
 </div>
 
   <div class="col-xs-6 col-md-3 text-center">
-    <a class="thumbnail">
+    <a class="thumbnail" data-toggle="modal" data-target="#ammy-progress2">
       <img src="imgs/works/amaterasu/progress-o2.jpg" alt="progress"/>
     </a>
   </div> <!-- column -->
 
+<div class="modal fade" id="ammy-progress2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Progress #2</h4>
+      </div>
+      <div class="modal-body">
+        <p><img class="modal-img" src="imgs/works/amaterasu/progress-o2.jpg" alt="progress"/></p>
+        <p>I added in a few more elements and details with the pen tool.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
   <div class="col-xs-6 col-md-3 text-center">
-    <a class="thumbnail">
+    <a class="thumbnail" data-toggle="modal" data-target="#ammy-progress3">
       <img src="imgs/works/amaterasu/progress-o3.jpg" alt="progress"/>
     </a>
   </div> <!-- column -->
+
+<div class="modal fade" id="ammy-progress3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Progress #3</h4>
+      </div>
+      <div class="modal-body">
+        <p><img class="modal-img" src="imgs/works/amaterasu/progress-o3.jpg" alt="progress"/></p>
+        <p>I added in patterns, both free and custom ones, to some elements. I also added in free brush strokes for the outlines.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 </div>  <!-- container-->
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
@@ -124,3 +166,8 @@ include ("navigation.php");
 <?php
 include ("footer.php");
 ?>
+
+<!-- falling sakura petals -->
+<script>
+  $("body").sakura();
+</script>

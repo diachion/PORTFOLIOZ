@@ -4,8 +4,7 @@ include ("header.php");
 ?>
 
 <?php
-$bg = ["imgs/nightskyo1.jpg", "imgs/nightskyo2.jpg", "imgs/nightskyo4.jpg", "imgs/nightskyo5.jpg", 
-        "imgs/nightskyo6.jpg", "imgs/dayskyo1.jpg"];
+$bg = ["imgs/nightskyo1.jpg", "imgs/nightskyo2.jpg", "imgs/nightskyo6.jpg", "imgs/dayskyo1.jpg"];
 
 $random = (rand(0, count($bg)-1));
 

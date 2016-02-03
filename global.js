@@ -17,6 +17,6 @@ $(document).ready(function(){
 
     // scroll down tooltip
     $(".down-arrow").tooltip();
-    
+ 
 
 }); 
