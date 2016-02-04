@@ -30,7 +30,118 @@ include ("navigation.php");
 
     <div class="caption">
       <h3><a href="amaterasu.php">Amaterasu</a></h3>
-      <p><strong>Graphic Design</strong> | March 2, 2015</p>
+      <p><strong>Design</strong> | March 2, 2015</p>
+    </div> <!-- caption -->
+
+  </div> <!-- card -->
+</div> <!-- col-md-4 -->
+
+<div class="col-sm-6 col-md-4 text-center">
+  <div class="card">
+
+    <div class="works-thumbnail">
+      <img src="imgs/thumbnails/okami.jpg" alt="work 1"/>
+    </div> <!-- thumbnail -->
+
+    <div class="caption">
+      <h3>Work #1</h3>
+      <p>description</p>
+    </div> <!-- caption -->
+
+  </div> <!-- card -->
+</div> <!-- col-md-4 -->
+
+<div class="col-sm-6 col-md-4 text-center">
+  <div class="card">
+
+    <div class="works-thumbnail">
+      <img src="imgs/thumbnails/nekoatsume.jpg" alt="work 1"/>
+    </div> <!-- thumbnail -->
+
+    <div class="caption">
+      <h3><a href="nekoatsume.php">Kitty Collector</a></h3>
+      <p><strong>Design</strong> | November 9, 2015</p>
+    </div> <!-- caption -->
+
+  </div> <!-- card -->
+</div> <!-- col-md-4 -->
+<!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+
+
+<!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
+<div class="col-sm-6 col-md-4 text-center">
+  <div class="card">
+
+    <div class="works-thumbnail">
+      <img src="imgs/thumbnails/orange11.jpg" alt="work 1"/>
+    </div> <!-- thumbnail -->
+
+    <div class="caption">
+      <h3><a href="orange11.php">The Orange Eleven</a></h3>
+      <p><strong>Development</strong> | December 3, 2014</p>
+    </div> <!-- caption -->
+
+  </div> <!-- card -->
+</div> <!-- col-md-4 -->
+
+<div class="col-sm-6 col-md-4 text-center">
+  <div class="card">
+
+    <div class="works-thumbnail">
+      <img src="imgs/thumbnails/okami.jpg" alt="work 1"/>
+    </div> <!-- thumbnail -->
+
+    <div class="caption">
+      <h3>Work #1</h3>
+      <p>description</p>
+    </div> <!-- caption -->
+
+  </div> <!-- card -->
+</div> <!-- col-md-4 -->
+
+<div class="col-sm-6 col-md-4 text-center">
+  <div class="card">
+
+    <div class="works-thumbnail">
+      <img src="imgs/thumbnails/okami.jpg" alt="work 1"/>
+    </div> <!-- thumbnail -->
+
+    <div class="caption">
+      <h3>Work #1</h3>
+      <p>description</p>
+    </div> <!-- caption -->
+
+  </div> <!-- card -->
+</div> <!-- col-md-4 -->
+<!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+
+
+<!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
+<div class="col-sm-6 col-md-4 text-center">
+  <div class="card">
+
+    <div class="works-thumbnail">
+      <img src="imgs/thumbnails/okami.jpg" alt="work 1"/>
+    </div> <!-- thumbnail -->
+
+    <div class="caption">
+      <h3>Work #1</h3>
+      <p>description</p>
+    </div> <!-- caption -->
+
+  </div> <!-- card -->
+</div> <!-- col-md-4 -->
+
+<div class="col-sm-6 col-md-4 text-center">
+  <div class="card">
+
+    <div class="works-thumbnail">
+      <img src="imgs/thumbnails/okami.jpg" alt="work 1"/>
+    </div> <!-- thumbnail -->
+
+    <div class="caption">
+      <h3>Work #1</h3>
+      <p>description</p>
     </div> <!-- caption -->
 
   </div> <!-- card -->
@@ -46,117 +157,6 @@ include ("navigation.php");
     <div class="caption">
       <h3><a href="kuroko.php">The Best Present</a></h3>
       <p><strong>Vector Frame Animation</strong> | January 31, 2016</p>
-    </div> <!-- caption -->
-
-  </div> <!-- card -->
-</div> <!-- col-md-4 -->
-
-<div class="col-sm-6 col-md-4 text-center">
-  <div class="card">
-
-    <div class="works-thumbnail">
-      <img src="imgs/thumbnails/nekoatsume.jpg" alt="work 1"/>
-    </div> <!-- thumbnail -->
-
-    <div class="caption">
-      <h3><a href="nekoatsume.php">Kitty Collector</a></h3>
-      <p>Graphic Design | </p>
-    </div> <!-- caption -->
-
-  </div> <!-- card -->
-</div> <!-- col-md-4 -->
-<!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
-
-
-<!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
-<div class="col-sm-6 col-md-4 text-center">
-  <div class="card">
-
-    <div class="works-thumbnail">
-      <img src="imgs/thumbnails/okami.jpg" alt="work 1"/>
-    </div> <!-- thumbnail -->
-
-    <div class="caption">
-      <h3>Work #1</h3>
-      <p>description</p>
-    </div> <!-- caption -->
-
-  </div> <!-- card -->
-</div> <!-- col-md-4 -->
-
-<div class="col-sm-6 col-md-4 text-center">
-  <div class="card">
-
-    <div class="works-thumbnail">
-      <img src="imgs/thumbnails/okami.jpg" alt="work 1"/>
-    </div> <!-- thumbnail -->
-
-    <div class="caption">
-      <h3>Work #1</h3>
-      <p>description</p>
-    </div> <!-- caption -->
-
-  </div> <!-- card -->
-</div> <!-- col-md-4 -->
-
-<div class="col-sm-6 col-md-4 text-center">
-  <div class="card">
-
-    <div class="works-thumbnail">
-      <img src="imgs/thumbnails/okami.jpg" alt="work 1"/>
-    </div> <!-- thumbnail -->
-
-    <div class="caption">
-      <h3>Work #1</h3>
-      <p>description</p>
-    </div> <!-- caption -->
-
-  </div> <!-- card -->
-</div> <!-- col-md-4 -->
-<!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
-
-
-<!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
-<div class="col-sm-6 col-md-4 text-center">
-  <div class="card">
-
-    <div class="works-thumbnail">
-      <img src="imgs/thumbnails/okami.jpg" alt="work 1"/>
-    </div> <!-- thumbnail -->
-
-    <div class="caption">
-      <h3>Work #1</h3>
-      <p>description</p>
-    </div> <!-- caption -->
-
-  </div> <!-- card -->
-</div> <!-- col-md-4 -->
-
-<div class="col-sm-6 col-md-4 text-center">
-  <div class="card">
-
-    <div class="works-thumbnail">
-      <img src="imgs/thumbnails/okami.jpg" alt="work 1"/>
-    </div> <!-- thumbnail -->
-
-    <div class="caption">
-      <h3>Work #1</h3>
-      <p>description</p>
-    </div> <!-- caption -->
-
-  </div> <!-- card -->
-</div> <!-- col-md-4 -->
-
-<div class="col-sm-6 col-md-4 text-center">
-  <div class="card">
-
-    <div class="works-thumbnail">
-      <img src="imgs/thumbnails/okami.jpg" alt="work 1"/>
-    </div> <!-- thumbnail -->
-
-    <div class="caption">
-      <h3>Work #1</h3>
-      <p>description</p>
     </div> <!-- caption -->
 
   </div> <!-- card -->

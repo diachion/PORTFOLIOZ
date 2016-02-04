@@ -8,7 +8,8 @@
   typography with my own styles
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
 
-@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Chewy);
+@import url(https://fonts.googleapis.com/css?family=Muli);
 
 //Links 
 a {
@@ -19,10 +20,19 @@ a {
 }
 
 //Text
-
+body {
+  font-family: $bodyfont;
+  font-size: 16px;
+}
 
 //Headers
-h1,h2,h3,h4,h5,h6 {
+h2,h3,h4,h5,h6 {
+  font-family: $bodyfont;
+  text-transform: uppercase;
+}
+
+h1 {
+	font-family: $headerfont;
   text-transform: uppercase;
 }
 

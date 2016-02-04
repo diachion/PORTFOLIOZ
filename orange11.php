@@ -1,5 +1,5 @@
 <?php
-$pageName = "amaterasu";
+$pageName = "orange11";
 include ("header.php");
 include ("navigation.php");
 ?>
@@ -10,8 +10,8 @@ include ("navigation.php");
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
 <div class="jumbotron main-jumbo">
   <div class="container">
-    <h1 class="text-center">kitty collector</h1>
-    <h3 class="text-center">gotta collect 'em all!</h3>
+    <h1 class="text-center">the orange 11</h1>
+    <h3 class="text-center">netherlands national football team</h3>
   </div>  <!-- container-->
 </div> <!-- jumbotron -->
 
@@ -23,7 +23,7 @@ include ("navigation.php");
 <div class="container">
 <!-- -=-=-=-=- FINISHED WORK -=-=-=-=- -->
 	<div class="col-md-8 text-center">
-    <img class="work-main" src="imgs/works/nekoatsume/nekoatsume.jpg" alt="work 1"/>
+    <img class="work-main media-middle" src="imgs/works/orange11/oel-focus.jpg" alt="work 1"/>
   </div> <!-- column -->
 
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
@@ -32,13 +32,15 @@ include ("navigation.php");
 <!-- -=-=-=-=- WORK INFORMATION -=-=-=-=- -->
 
   <div class="col-md-4">
-    <h3 class="no-header">Graphic Design</h3>
-    <h3 class="no-header">March 2, 2015</h3>
-    <h3 class="no-header">Applications Used:</h3>
-      <ul class="apps-list">
-        <li>Adobe Photoshop</li>
-        <li>Adobe Illustrator</li>
+    <h3 class="no-header">Web Development</h3>
+    <h3 class="no-header">December 3, 2014</h3>
+    <h3 class="no-header">Technologies Used:</h3>
+      <ul class="tech-list">
+        <li>HTML 5</li>
+        <li>CSS 3</li>
+        <li>JQuery</li>
       </ul>
+    <button type="button" class="btn btn-primary">Visit Website</button>
   </div> <!-- column -->
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
 </div>  <!-- container-->
@@ -48,12 +50,12 @@ include ("navigation.php");
 <div class="container">
 
   <div class="col-xs-6 col-md-3 text-center">
-    <a class="thumbnail" data-toggle="modal" data-target="#na-original">
-      <img src="imgs/works/nekoatsume/progress-o1.jpg" alt="original"/>
+    <a class="thumbnail" data-toggle="modal" data-target="#oel-main">
+      <img src="imgs/works/orange11/oel-main.jpg" alt="original"/>
     </a>
   </div> <!-- column -->
 
- <div class="modal fade" id="na-original" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+ <div class="modal fade" id="oel-main" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -61,42 +63,21 @@ include ("navigation.php");
         <h4 class="modal-title" id="myModalLabel">Original Background Image</h4>
       </div>
       <div class="modal-body">
-        <p><img class="modal-img" src="imgs/works/nekoatsume/progress-o1.jpg" alt="progress"/></p>
+        <p><img class="modal-img" src="imgs/works/orange11/oel-main.jpg" alt="progress"/></p>
         <p>The original image I used for the background.</p>
       </div>
     </div>
   </div>
 </div>
 
+
   <div class="col-xs-6 col-md-3 text-center">
-    <a class="thumbnail" data-toggle="modal" data-target="#na-progress1">
-      <img src="imgs/works/nekoatsume/progress-o2.jpg" alt="progress"/>
+    <a class="thumbnail" data-toggle="modal" data-target="#oel-history">
+      <img src="imgs/works/orange11/oel-history.jpg" alt="progress"/>
     </a>
   </div> <!-- column -->
 
-  <div class="modal fade" id="na-progress1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Progress #1</h4>
-      </div>
-      <div class="modal-body">
-        <p><img class="modal-img" src="imgs/works/nekoatsume/progress-o2.jpg" alt="progress"/></p>
-        <p>I got more photographs and composited them into the background image. I also vectored some elements from Adobe Illustrator and 
-        transfered it over to Adobe Photoshop.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-  <div class="col-xs-6 col-md-3 text-center">
-    <a class="thumbnail" data-toggle="modal" data-target="#na-progress2">
-      <img src="imgs/works/nekoatsume/progress-o3.jpg" alt="progress"/>
-    </a>
-  </div> <!-- column -->
-
-  <div class="modal fade" id="na-progress2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal fade" id="oel-history" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -104,20 +85,21 @@ include ("navigation.php");
         <h4 class="modal-title" id="myModalLabel">Progress #2</h4>
       </div>
       <div class="modal-body">
-        <p><img class="modal-img" src="imgs/works/nekoatsume/progress-o3.jpg" alt="progress"/></p>
+        <p><img class="modal-img" src="imgs/works/orange11/oel-history.jpg" alt="progress"/></p>
         <p>I added shadows to some elements, the text on the wood, and a custom tree leaves shadow brush over a part of the image.</p>
       </div>
     </div>
   </div>
 </div>
 
+
   <div class="col-xs-6 col-md-3 text-center">
-    <a class="thumbnail" data-toggle="modal" data-target="#na-progress3">
-      <img src="imgs/works/nekoatsume/progress-o4.jpg" alt="progress"/>
+    <a class="thumbnail" data-toggle="modal" data-target="#oel-fifa">
+      <img src="imgs/works/orange11/oel-fifa.jpg" alt="progress"/>
     </a>
   </div> <!-- column -->
 
-  <div class="modal fade" id="na-progress3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal fade" id="oel-fifa" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -125,7 +107,7 @@ include ("navigation.php");
         <h4 class="modal-title" id="myModalLabel">Progress #3</h4>
       </div>
       <div class="modal-body">
-        <p><img class="modal-img" src="imgs/works/nekoatsume/progress-o4.jpg" alt="progress"/></p>
+        <p><img class="modal-img" src="imgs/works/orange11/oel-fifa.jpg" alt="progress"/></p>
         <p>I added and changed some elements, redid the custom tree leaves shadows brush to make the leaves look more like actual leaves, added
         a second custom brush of cherry blossom leaves and petals behind the logo, and added beams of light by putting a black and white image
         and set the blending mode to "screen".</p>
@@ -133,6 +115,30 @@ include ("navigation.php");
     </div>
   </div>
 </div>
+
+
+  <div class="col-xs-6 col-md-3 text-center">
+    <a class="thumbnail" data-toggle="modal" data-target="#oel-stats">
+      <img src="imgs/works/orange11/oel-stats.jpg" alt="progress"/>
+    </a>
+  </div> <!-- column -->
+
+  <div class="modal fade" id="oel-stats" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Progress #1</h4>
+      </div>
+      <div class="modal-body">
+        <p><img class="modal-img" src="imgs/works/orange11/oel-stats.jpg" alt="progress"/></p>
+        <p>I got more photographs and composited them into the background image. I also vectored some elements from Adobe Illustrator and 
+        transfered it over to Adobe Photoshop.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 </div>  <!-- container-->
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
@@ -158,7 +164,6 @@ include ("navigation.php");
   </div>
 </div>  <!-- container-->
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
-
 
 <hr/>
 

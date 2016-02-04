@@ -34,13 +34,9 @@ include ("navigation.php");
   <div class="col-md-4">
     <h3 class="no-header">Graphic Design</h3>
     <h3 class="no-header">March 2, 2015</h3>
-    <h3 class="no-header">Tools, Programs, and Softwares Used:</h3>
-      <ul class="tools-list">
+    <h3 class="no-header">Applications Used:</h3>
+      <ul class="apps-list">
         <li>Adobe Illustrator</li>
-        <li>sdfsdfds</li>
-        <li>sdfsdfds</li>
-        <li>sdfsdfds</li>
-        <li>sdfsdfds</li>
       </ul>
   </div> <!-- column -->
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
@@ -158,6 +154,20 @@ include ("navigation.php");
   </div>
 </div>  <!-- container-->
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
+
+
+<hr/>
+
+<!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+            WORKS NAVIGATION
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
+<div class="container">
+  <div class="text-center">
+    <h4>navigation stuff goes down here to navigate between works</h4>
+    <button type="button" class="btn btn-primary">Previous</button>
+    <button type="button" class="btn btn-primary">Next</button>
+  </div>
+</div>  <!-- container-->
 
 
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-

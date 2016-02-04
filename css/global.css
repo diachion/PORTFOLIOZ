@@ -79,13 +79,23 @@
   overrides any of Bootstrap's default
   typography with my own styles
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
-@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Chewy);
+@import url(https://fonts.googleapis.com/css?family=Muli);
 a {
   text-decoration: none; }
   a:hover {
     text-decoration: none; }
 
-h1, h2, h3, h4, h5, h6 {
+body {
+  font-family: "Muli", sans-serif;
+  font-size: 16px; }
+
+h2, h3, h4, h5, h6 {
+  font-family: "Muli", sans-serif;
+  text-transform: uppercase; }
+
+h1 {
+  font-family: "Chewy", cursive;
   text-transform: uppercase; }
 
 .no-header {
@@ -213,7 +223,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute; }
 
 #mottoText {
-  font-family: "Raleway", sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 2em;
   text-align: center;
   text-transform: uppercase;
@@ -258,8 +268,14 @@ h1, h2, h3, h4, h5, h6 {
   height: auto;
   margin-bottom: 50px; }
 
-.tools-list {
+.apps-list {
   margin-bottom: 50px; }
+
+.tech-list {
+  margin-bottom: 40px; }
+
+.btn {
+  margin-bottom: 35px; }
 
 /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
     	SIDEBAR
