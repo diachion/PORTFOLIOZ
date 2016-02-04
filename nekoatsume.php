@@ -166,11 +166,16 @@ include ("navigation.php");
             WORKS NAVIGATION
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
 <div class="container">
-  <div class="text-center">
-    <h4>navigation stuff goes down here to navigate between works</h4>
+  <h4 class="text-center">navigation stuff goes down here to navigate between works</h4>
+
+  <div class="col-md-6 text-right">
     <button type="button" class="btn btn-primary">Previous</button>
+  </div>
+
+  <div class="col-md-6 text-left">
     <button type="button" class="btn btn-primary">Next</button>
   </div>
+
 </div>  <!-- container-->
 
 

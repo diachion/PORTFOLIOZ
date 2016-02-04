@@ -139,7 +139,7 @@ include ("navigation.php");
 <div class="container">
   <div class="col-md-12">
     <h2>The Story</h2>
-      <p> Meet Amaterasu, the goddess of the sun. She's from the PS3 game, Okami HD, and at the time 
+      <p> Meet Amaterasu, the goddess of the sun, part of Japanese myth. She is from the PS3 game, Okami HD, and at the time 
       I created this image, I was a huge fan of the game. I really loved the artwork of the game, 
       and decided I had to recreate one of the many wallpapers and artwork of the game. </p>
 

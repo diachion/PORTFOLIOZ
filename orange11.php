@@ -60,11 +60,11 @@ include ("navigation.php");
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Original Background Image</h4>
+        <h4 class="modal-title" id="myModalLabel">Home Page</h4>
       </div>
       <div class="modal-body">
         <p><img class="modal-img" src="imgs/works/orange11/oel-main.jpg" alt="progress"/></p>
-        <p>The original image I used for the background.</p>
+        <p>The main page, which is also the News page.</p>
       </div>
     </div>
   </div>
@@ -82,11 +82,11 @@ include ("navigation.php");
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Progress #2</h4>
+        <h4 class="modal-title" id="myModalLabel">History Page</h4>
       </div>
       <div class="modal-body">
         <p><img class="modal-img" src="imgs/works/orange11/oel-history.jpg" alt="progress"/></p>
-        <p>I added shadows to some elements, the text on the wood, and a custom tree leaves shadow brush over a part of the image.</p>
+        <p>Tells the history of the team.</p>
       </div>
     </div>
   </div>
@@ -104,13 +104,11 @@ include ("navigation.php");
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Progress #3</h4>
+        <h4 class="modal-title" id="myModalLabel">FIFA Page</h4>
       </div>
       <div class="modal-body">
         <p><img class="modal-img" src="imgs/works/orange11/oel-fifa.jpg" alt="progress"/></p>
-        <p>I added and changed some elements, redid the custom tree leaves shadows brush to make the leaves look more like actual leaves, added
-        a second custom brush of cherry blossom leaves and petals behind the logo, and added beams of light by putting a black and white image
-        and set the blending mode to "screen".</p>
+        <p>Articles about FIFA.</p>
       </div>
     </div>
   </div>
@@ -128,12 +126,11 @@ include ("navigation.php");
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Progress #1</h4>
+        <h4 class="modal-title" id="myModalLabel">Player Statistics Page</h4>
       </div>
       <div class="modal-body">
         <p><img class="modal-img" src="imgs/works/orange11/oel-stats.jpg" alt="progress"/></p>
-        <p>I got more photographs and composited them into the background image. I also vectored some elements from Adobe Illustrator and 
-        transfered it over to Adobe Photoshop.</p>
+        <p>Statistics of the players on the team.</p>
       </div>
     </div>
   </div>
