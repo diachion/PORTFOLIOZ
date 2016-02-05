@@ -1,5 +1,5 @@
 <?php
-$pageName = "orange11";
+$pageName = "parkpal";
 include ("header.php");
 include ("navigation.php");
 ?>
@@ -10,8 +10,8 @@ include ("navigation.php");
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
 <div class="jumbotron main-jumbo">
   <div class="container">
-    <h1 class="text-center">the orange 11</h1>
-    <h3 class="text-center">netherlands national football team</h3>
+    <h1 class="text-center">park pal</h1>
+    <h3 class="text-center">greater vancouver parks guide</h3>
   </div>  <!-- container-->
 </div> <!-- jumbotron -->
 
@@ -23,7 +23,7 @@ include ("navigation.php");
 <div class="container">
 <!-- -=-=-=-=- FINISHED WORK -=-=-=-=- -->
 	<div class="col-md-8 text-center">
-    <img class="work-main" src="imgs/works/orange11/oel-focus.jpg" alt="work 1"/>
+    <img class="work-main" src="imgs/works/parkpal/pp-focus.jpg" alt="work 1"/>
   </div> <!-- column -->
 
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
@@ -33,7 +33,7 @@ include ("navigation.php");
 
   <div class="col-md-4">
     <h3 class="no-header">Web Development</h3>
-    <h3 class="no-header">December 3, 2014</h3>
+    <h3 class="no-header">May 19, 2015</h3>
     <h3 class="no-header">Technologies Used:</h3>
       <ul class="tech-list">
         <li>HTML 5</li>
@@ -50,12 +50,54 @@ include ("navigation.php");
 <div class="container">
 
   <div class="col-xs-6 col-md-3 text-center">
-    <a class="thumbnail" data-toggle="modal" data-target="#oel-main">
-      <img src="imgs/works/orange11/oel-main.jpg" alt="original"/>
+    <a class="thumbnail" data-toggle="modal" data-target="#pp-designs">
+      <img src="imgs/works/parkpal/pp-designs.jpg" alt="progress"/>
     </a>
   </div> <!-- column -->
 
- <div class="modal fade" id="oel-main" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal fade" id="pp-designs" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Early Designs</h4>
+      </div>
+      <div class="modal-body">
+        <p><img class="modal-img" src="imgs/works/parkpal/pp-designs.jpg" alt="progress"/></p>
+        <p>Some of my early designs and mockups.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="col-xs-6 col-md-3 text-center">
+    <a class="thumbnail" data-toggle="modal" data-target="#pp-welcome">
+      <img src="imgs/works/parkpal/pp-welcome.jpg" alt="progress"/>
+    </a>
+  </div> <!-- column -->
+
+  <div class="modal fade" id="pp-welcome" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Welcome Screen</h4>
+      </div>
+      <div class="modal-body">
+        <p><img class="modal-img" src="imgs/works/parkpal/pp-welcome.jpg" alt="progress"/></p>
+        <p>The screen that shows up when you first launch the site.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="col-xs-6 col-md-3 text-center">
+    <a class="thumbnail" data-toggle="modal" data-target="#pp-main">
+      <img src="imgs/works/parkpal/pp-main.jpg" alt="original"/>
+    </a>
+  </div> <!-- column -->
+
+ <div class="modal fade" id="pp-main" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -63,8 +105,8 @@ include ("navigation.php");
         <h4 class="modal-title" id="myModalLabel">Home Page</h4>
       </div>
       <div class="modal-body">
-        <p><img class="modal-img" src="imgs/works/orange11/oel-main.jpg" alt="progress"/></p>
-        <p>The main page, which is also the News page.</p>
+        <p><img class="modal-img" src="imgs/works/parkpal/pp-main.jpg" alt="progress"/></p>
+        <p>The main page, which has the list of all the available parks.</p>
       </div>
     </div>
   </div>
@@ -72,65 +114,21 @@ include ("navigation.php");
 
 
   <div class="col-xs-6 col-md-3 text-center">
-    <a class="thumbnail" data-toggle="modal" data-target="#oel-history">
-      <img src="imgs/works/orange11/oel-history.jpg" alt="progress"/>
+    <a class="thumbnail" data-toggle="modal" data-target="#pp-stanley">
+      <img src="imgs/works/parkpal/pp-stanley.jpg" alt="progress"/>
     </a>
   </div> <!-- column -->
 
-  <div class="modal fade" id="oel-history" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal fade" id="pp-stanley" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">History Page</h4>
+        <h4 class="modal-title" id="myModalLabel">Stanley Park's Page</h4>
       </div>
       <div class="modal-body">
-        <p><img class="modal-img" src="imgs/works/orange11/oel-history.jpg" alt="progress"/></p>
-        <p>Tells the history of the team.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-  <div class="col-xs-6 col-md-3 text-center">
-    <a class="thumbnail" data-toggle="modal" data-target="#oel-fifa">
-      <img src="imgs/works/orange11/oel-fifa.jpg" alt="progress"/>
-    </a>
-  </div> <!-- column -->
-
-  <div class="modal fade" id="oel-fifa" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">FIFA Page</h4>
-      </div>
-      <div class="modal-body">
-        <p><img class="modal-img" src="imgs/works/orange11/oel-fifa.jpg" alt="progress"/></p>
-        <p>Articles about FIFA.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-  <div class="col-xs-6 col-md-3 text-center">
-    <a class="thumbnail" data-toggle="modal" data-target="#oel-stats">
-      <img src="imgs/works/orange11/oel-stats.jpg" alt="progress"/>
-    </a>
-  </div> <!-- column -->
-
-  <div class="modal fade" id="oel-stats" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Player Statistics Page</h4>
-      </div>
-      <div class="modal-body">
-        <p><img class="modal-img" src="imgs/works/orange11/oel-stats.jpg" alt="progress"/></p>
-        <p>Statistics of the players on the team.</p>
+        <p><img class="modal-img" src="imgs/works/parkpal/pp-stanley.jpg" alt="progress"/></p>
+        <p>The page for Stanley Park. Other pages for other parks are similar.</p>
       </div>
     </div>
   </div>

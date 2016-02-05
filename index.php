@@ -33,12 +33,33 @@ $random = (rand(0, count($bg)-1));
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
             JUMBOTRON
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
-<div class="jumbotron main-jumbo" style="margin-top: 100px;">
+<div class="jumbotron main-jumbo" style="margin-top: 100px; margin-bottom: 100px;">
   <div class="container">
     <h1 class="text-center">from imagination to reality</h1>
     <h3 class="text-center">front end web developer and designer</h3>
   </div>  <!-- container-->
 </div> <!-- jumbotron -->
+
+
+<!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+            Imagine it. Plan it. Create it.
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
+<div class="container">
+  <h1 class="text-center">Imagine it. Plan it. Create it.</h1>
+
+  <div class="col-md-4">
+    <h2 class="text-center">Websites / Apps</h2>
+  </div> <!-- column -->
+
+  <div class="col-md-4">
+    <h2 class="text-center">User Interfaces</h2>
+  </div> <!-- column -->
+
+  <div class="col-md-4">
+    <h2 class="text-center">Graphic Designs</h2>
+  </div> <!-- column -->
+
+</div>  <!-- container-->
 
 
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
@@ -57,18 +78,17 @@ $random = (rand(0, count($bg)-1));
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="..." alt="...">
+        <img src="imgs/thumbnails/orange11.jpg" alt="The Orange 11">
         <div class="carousel-caption">
-          ...
+          Kicking off with a good start
         </div>
       </div>
       <div class="item">
-        <img src="..." alt="...">
+        <img src="imgs/thumbnails/orange11.jpg" alt="The Orange 11">
         <div class="carousel-caption">
           ...
         </div>
       </div>
-      ...
     </div>
 
     <!-- Controls -->

@@ -41,12 +41,12 @@ include ("navigation.php");
   <div class="card">
 
     <div class="works-thumbnail">
-      <img src="imgs/thumbnails/okami.jpg" alt="work 1"/>
+      <img src="imgs/thumbnails/parkpal.jpg" alt="work 1"/>
     </div> <!-- thumbnail -->
 
     <div class="caption">
-      <h3>Park Pal</h3>
-      <p><strong>Development</strong> | </p>
+      <h3><a href="parkpal.php">Park Pal</a></h3>
+      <p><strong>Development</strong> | May 19, 2015</p>
     </div> <!-- caption -->
 
   </div> <!-- card -->
@@ -120,38 +120,6 @@ include ("navigation.php");
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
 
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
-<div class="col-sm-6 col-md-4 text-center">
-  <div class="card">
-
-    <div class="works-thumbnail">
-      <img src="imgs/thumbnails/okami.jpg" alt="work 1"/>
-    </div> <!-- thumbnail -->
-
-    <div class="caption">
-      <h3>Work #1</h3>
-      <p>description</p>
-    </div> <!-- caption -->
-
-  </div> <!-- card -->
-</div> <!-- col-md-4 -->
-
-
-<div class="col-sm-6 col-md-4 text-center">
-  <div class="card">
-
-    <div class="works-thumbnail">
-      <img src="imgs/thumbnails/okami.jpg" alt="work 1"/>
-    </div> <!-- thumbnail -->
-
-    <div class="caption">
-      <h3>Work #1</h3>
-      <p>description</p>
-    </div> <!-- caption -->
-
-  </div> <!-- card -->
-</div> <!-- col-md-4 -->
-
-
 <div class="col-sm-6 col-md-4 text-center">
   <div class="card">
 
