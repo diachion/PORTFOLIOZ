@@ -25,12 +25,12 @@ include ("navigation.php");
   <div class="card">
 
     <div class="works-thumbnail">
-      <img src="imgs/thumbnails/okami.jpg" alt="work 1"/>
+      <img src="imgs/thumbnails/betterme.jpg" alt="work 1"/>
     </div> <!-- thumbnail -->
 
     <div class="caption">
-      <h3>BetterMe</h3>
-      <p><strong>Development</strong> | December  , 2015</p>
+      <h3><a href="betterme.php">Better Me</a></h3>
+      <p><strong>Development</strong> | December 3, 2015</p>
     </div> <!-- caption -->
 
   </div> <!-- card -->
@@ -75,12 +75,12 @@ include ("navigation.php");
   <div class="card">
 
     <div class="works-thumbnail">
-      <img src="imgs/thumbnails/okami.jpg" alt="work 1"/>
+      <img src="imgs/thumbnails/frogurts.jpg" alt="work 1"/>
     </div> <!-- thumbnail -->
 
     <div class="caption">
-      <h3>Lydia's Frogurts</h3>
-      <p><strong>Rebranding</strong> | </p>
+      <h3><a href="frogurts.php">Lydia's Frogurts</a></h3>
+      <p><strong>Rebranding</strong> | February 2, 2015</p>
     </div> <!-- caption -->
 
   </div> <!-- card -->

@@ -30,7 +30,6 @@ include ("navigation.php");
 
 
 <!-- -=-=-=-=- WORK INFORMATION -=-=-=-=- -->
-
   <div class="col-md-4">
     <h3 class="no-header">Web Development</h3>
     <h3 class="no-header">May 19, 2015</h3>
