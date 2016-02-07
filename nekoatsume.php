@@ -31,9 +31,9 @@ include ("navigation.php");
 
 <!-- -=-=-=-=- WORK INFORMATION -=-=-=-=- -->
   <div class="col-md-4">
-    <h3 class="no-header">Graphic Design</h3>
-    <h3 class="no-header">March 2, 2015</h3>
-    <h3 class="no-header">Applications Used:</h3>
+    <h3 class="no-header"><span class="fa fa-tag icon-left"></span>Design</h3>
+    <h3 class="no-header"><span class="fa fa-calendar-check-o icon-left"></span>March 2, 2015</h3>
+    <h3 class="no-header"><span class="fa fa-paint-brush icon-left"></span>Applications Used:</h3>
       <ul class="apps-list">
         <li>Adobe Photoshop</li>
         <li>Adobe Illustrator</li>

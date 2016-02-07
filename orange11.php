@@ -31,9 +31,9 @@ include ("navigation.php");
 
 <!-- -=-=-=-=- WORK INFORMATION -=-=-=-=- -->
   <div class="col-md-4">
-    <h3 class="no-header">Web Development</h3>
-    <h3 class="no-header">December 3, 2014</h3>
-    <h3 class="no-header">Technologies Used:</h3>
+    <h3 class="no-header"><span class="fa fa-tag icon-left"></span>Development</h3>
+    <h3 class="no-header"><span class="fa fa-calendar-check-o icon-left"></span>December 3, 2014</h3>
+    <h3 class="no-header"><span class="fa fa-file-code-o icon-left"></span>Technologies Used:</h3>
       <ul class="tech-list">
         <li>HTML 5</li>
         <li>CSS 3</li>

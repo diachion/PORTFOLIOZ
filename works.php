@@ -26,6 +26,10 @@ include ("navigation.php");
 
     <div class="works-thumbnail">
       <img src="imgs/thumbnails/betterme.jpg" alt="work 1"/>
+      <figcaption>
+        <p>VIEW PROJECT</p>
+        <a href="betterme.php"></a>
+      </figcaption>
     </div> <!-- thumbnail -->
 
     <div class="caption">
@@ -42,6 +46,10 @@ include ("navigation.php");
 
     <div class="works-thumbnail">
       <img src="imgs/thumbnails/parkpal.jpg" alt="work 1"/>
+      <figcaption>
+        <p>VIEW PROJECT</p>
+        <a href="betterme.php"></a>
+      </figcaption>
     </div> <!-- thumbnail -->
 
     <div class="caption">
@@ -58,6 +66,10 @@ include ("navigation.php");
 
     <div class="works-thumbnail">
       <img src="imgs/thumbnails/orange11.jpg" alt="work 1"/>
+      <figcaption>
+        <p>VIEW PROJECT</p>
+        <a href="betterme.php"></a>
+      </figcaption>
     </div> <!-- thumbnail -->
 
     <div class="caption">
@@ -76,11 +88,15 @@ include ("navigation.php");
 
     <div class="works-thumbnail">
       <img src="imgs/thumbnails/frogurts.jpg" alt="work 1"/>
+      <figcaption>
+        <p>VIEW PROJECT</p>
+        <a href="betterme.php"></a>
+      </figcaption>
     </div> <!-- thumbnail -->
 
     <div class="caption">
       <h3><a href="frogurts.php">Lydia's Frogurts</a></h3>
-      <p><strong>Rebranding</strong> | February 2, 2015</p>
+      <p><strong>Branding</strong> | February 2, 2015</p>
     </div> <!-- caption -->
 
   </div> <!-- card -->
@@ -92,6 +108,10 @@ include ("navigation.php");
 
     <div class="works-thumbnail">
       <img src="imgs/thumbnails/nekoatsume.jpg" alt="work 1"/>
+      <figcaption>
+        <p>VIEW PROJECT</p>
+        <a href="betterme.php"></a>
+      </figcaption>
     </div> <!-- thumbnail -->
 
     <div class="caption">
@@ -107,7 +127,11 @@ include ("navigation.php");
   <div class="card">
 
     <div class="works-thumbnail">
-      <a href="amaterasu.php"><img src="imgs/thumbnails/okami.jpg" alt="work 1"/></a>
+      <img src="imgs/thumbnails/okami.jpg" alt="work 1"/>
+      <figcaption>
+        <p>VIEW PROJECT</p>
+        <a href="betterme.php"></a>
+      </figcaption>
     </div> <!-- thumbnail -->
 
     <div class="caption">
@@ -124,7 +148,11 @@ include ("navigation.php");
   <div class="card">
 
     <div class="works-thumbnail">
-      <a href="kuroko.php"><img src="imgs/thumbnails/kuroko.jpg" alt="work 1"/></a>
+      <img src="imgs/thumbnails/kuroko.jpg" alt="work 1"/>
+      <figcaption>
+        <p>VIEW PROJECT</p>
+        <a href="betterme.php"></a>
+      </figcaption>
     </div> <!-- thumbnail -->
 
     <div class="caption">

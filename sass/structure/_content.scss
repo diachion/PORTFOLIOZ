@@ -16,10 +16,12 @@
 
 .apps-list {
 	margin-bottom: 50px;
+  margin-left: 15px;
 }
 
 .tech-list {
 	margin-bottom: 40px;
+  margin-left: 15px;
 }
 
 .btn {
@@ -30,8 +32,13 @@
 /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
           ABOUT ME
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
-// .mypics {
-//   width: 100%;
-//   max-width: 300px;
-//   border-radius: 150px;
-// }
+.me-small {
+  border-radius: 50%;
+  height: auto;
+  max-width: 200px;
+  width: 100%;
+}
+
+.img-responsive {
+  display: inline-block;
+}

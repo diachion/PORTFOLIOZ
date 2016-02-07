@@ -47,15 +47,18 @@ $random = (rand(0, count($bg)-1));
 <div class="container">
   <h1 class="text-center">Imagine it. Plan it. Create it.</h1>
 
-  <div class="col-md-4">
+  <div class="col-sm-4 text-center">
+    <img src="imgs/icons/laptop.svg" alt="Websites / Apps">
     <h2 class="text-center">Websites / Apps</h2>
   </div> <!-- column -->
 
-  <div class="col-md-4">
-    <h2 class="text-center">User Interfaces</h2>
+  <div class="col-sm-4 text-center">
+    <img src="imgs/icons/browser.svg" alt="UI / UX Design">
+    <h2 class="text-center">UI / UX Design</h2>
   </div> <!-- column -->
 
-  <div class="col-md-4">
+  <div class="col-sm-4 text-center">
+    <img src="imgs/icons/pencil.svg" alt="Graphic Designs">
     <h2 class="text-center">Graphic Designs</h2>
   </div> <!-- column -->
 

@@ -41,3 +41,95 @@
   margin-bottom:15px;
   height: 330px;
 }
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+        THUMBNAIL HOVER EFFECT
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
+
+.works-thumbnail {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.works-thumbnail p {
+  letter-spacing: 1px;
+  font-size: 68.5%;
+  margin: 0;
+  transition: all 0.35s ease;
+  position: relative;
+  top: 60%;
+  padding: 20px 2.5em;
+  opacity: 0;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  text-shadow: 0px 0px 5px #000;
+  font-size:1em;
+}
+
+.works-thumbnail figcaption {
+    padding: 2em;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    box-sizing: border-box;
+    transition: all 0.35s ease;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    @include linear-gradient(to top, #ccc 0%, #2b2b2b 100%);
+    opacity: 0;
+      >a {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1000;
+      text-indent: 200%;
+      white-space: nowrap;
+      font-size: 0;
+      opacity: 1;
+     }
+  &::before, &::after {  
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    bottom: 30px;
+    left: 30px;
+    content: '';
+    opacity: 1;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+  }
+  &::before {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: scale(0,1);
+    transform: scale(0,1);
+  }
+  &::after {
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+    -webkit-transform: scale(1,0);
+    transform: scale(1,0);
+  }
+  &:hover {
+    opacity: 1;
+      >p {
+        top: 50%;
+        opacity: 1;
+      }
+      &::before, &::after {
+        transform: scale(1, 1);
+        -webkit-transform: scale(1,1);
+      }
+  }
+}

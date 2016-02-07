@@ -8,7 +8,7 @@
   typography with my own styles
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
 
-@import url(https://fonts.googleapis.com/css?family=Chewy);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url(https://fonts.googleapis.com/css?family=Muli);
 
 //Links 
@@ -38,5 +38,14 @@ h1 {
 
 .no-header {
 	text-transform: none;
+}
+
+//Icon Fonts
+.icon-left {
+  margin-right: 0.5em;
+}
+
+.icon-right {
+  margin-left: 0.5em;
 }
 

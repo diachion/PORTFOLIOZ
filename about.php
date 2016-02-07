@@ -21,9 +21,9 @@ include ("navigation.php");
 
 
 <!-- -=-=-=-=- PICTURES OF ME - dat me? o3o -=-=-=-=- -->
-<div class="container">
+<div class="container center-items">
   <div class="col-md-4 text-center">
-    <img class="img-circle img-responsive" src="imgs/datme2.jpg" alt="Lydia Quon"/>
+    <img class="img-circle img-responsive me-small" src="imgs/datme2.jpg" alt="Lydia Quon"/>
   </div> <!-- col-md-4 -->
 
   <div class="col-md-4 text-center">
@@ -31,7 +31,7 @@ include ("navigation.php");
   </div> <!-- col-md-4 -->
 
   <div class="col-md-4 text-center">
-    <img class="img-circle img-responsive" src="imgs/datme3.jpg" alt="Lydia Quon"/>
+    <img class="img-circle img-responsive me-small" src="imgs/datme3.jpg" alt="Lydia Quon"/>
   </div> <!-- col-md-4 -->
 </div>  <!-- container-->
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
