@@ -1,5 +1,5 @@
 <?php
-$pageName = "works";
+$pageName = "works dark-theme";
 include ("header.php");
 include ("navigation.php");
 ?>
@@ -48,7 +48,7 @@ include ("navigation.php");
       <img src="imgs/thumbnails/parkpal.jpg" alt="work 1"/>
       <figcaption>
         <p>VIEW PROJECT</p>
-        <a href="betterme.php"></a>
+        <a href="parkpal.php"></a>
       </figcaption>
     </div> <!-- thumbnail -->
 
@@ -68,7 +68,7 @@ include ("navigation.php");
       <img src="imgs/thumbnails/orange11.jpg" alt="work 1"/>
       <figcaption>
         <p>VIEW PROJECT</p>
-        <a href="betterme.php"></a>
+        <a href="orange11.php"></a>
       </figcaption>
     </div> <!-- thumbnail -->
 
@@ -90,7 +90,7 @@ include ("navigation.php");
       <img src="imgs/thumbnails/frogurts.jpg" alt="work 1"/>
       <figcaption>
         <p>VIEW PROJECT</p>
-        <a href="betterme.php"></a>
+        <a href="frogurts.php"></a>
       </figcaption>
     </div> <!-- thumbnail -->
 
@@ -110,7 +110,7 @@ include ("navigation.php");
       <img src="imgs/thumbnails/nekoatsume.jpg" alt="work 1"/>
       <figcaption>
         <p>VIEW PROJECT</p>
-        <a href="betterme.php"></a>
+        <a href="nekoatsume.php"></a>
       </figcaption>
     </div> <!-- thumbnail -->
 
@@ -130,7 +130,7 @@ include ("navigation.php");
       <img src="imgs/thumbnails/okami.jpg" alt="work 1"/>
       <figcaption>
         <p>VIEW PROJECT</p>
-        <a href="betterme.php"></a>
+        <a href="amaterasu.php"></a>
       </figcaption>
     </div> <!-- thumbnail -->
 
@@ -151,7 +151,7 @@ include ("navigation.php");
       <img src="imgs/thumbnails/kuroko.jpg" alt="work 1"/>
       <figcaption>
         <p>VIEW PROJECT</p>
-        <a href="betterme.php"></a>
+        <a href="kuroko.php"></a>
       </figcaption>
     </div> <!-- thumbnail -->
 

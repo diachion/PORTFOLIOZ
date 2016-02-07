@@ -1,5 +1,5 @@
 <?php
-$pageName = "betterme";
+$pageName = "betterme light-theme";
 include ("header.php");
 include ("navigation.php");
 ?>

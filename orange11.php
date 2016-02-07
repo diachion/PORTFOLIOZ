@@ -1,5 +1,5 @@
 <?php
-$pageName = "orange11";
+$pageName = "orange11 light-theme";
 include ("header.php");
 include ("navigation.php");
 ?>

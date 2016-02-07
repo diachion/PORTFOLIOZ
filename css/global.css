@@ -79,7 +79,7 @@
   overrides any of Bootstrap's default
   typography with my own styles
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
-@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Nunito);
 @import url(https://fonts.googleapis.com/css?family=Muli);
 a {
   text-decoration: none; }
@@ -95,7 +95,7 @@ h2, h3, h4, h5, h6 {
   text-transform: uppercase; }
 
 h1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito", sans-serif;
   text-transform: uppercase; }
 
 .no-header {
@@ -152,7 +152,8 @@ h1 {
   border: 1px solid #ccc;
   box-shadow: 1px 1px 10px 1px #ccc;
   margin-bottom: 15px;
-  height: 330px; }
+  height: 330px;
+  background-color: #fff; }
 
 /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
         THUMBNAIL HOVER EFFECT
@@ -270,12 +271,36 @@ h1 {
      https://coolors.co/app/13374c-fffc9d-a0d6ff-92bad8-e1edf4
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
 .jumbotron {
-  margin-top: 70px; }
+  margin-top: 70px;
+  background-color: transparent; }
 
 .center-items {
   display: flex;
   align-items: center;
   justify-content: center; }
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+      (JOIN THE) DARK (SIDE) THEME
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+.dark-theme {
+  background-color: #13374C;
+  color: #E1EDF4; }
+  .dark-theme h2, .dark-theme h4, .dark-theme h5, .dark-theme h6 {
+    color: #E1EDF4; }
+  .dark-theme h1, .dark-theme h3 {
+    color: #000; }
+  .dark-theme .jumbotron {
+    background-color: #E1EDF4;
+    background-image: url("../imgs/DarkTheme_Header.svg");
+    background-size: cover;
+    background-position: 50%;
+    padding-bottom: 200px; }
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+      (LET THERE BE) LIGHT THEME
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+.light-theme {
+  background-color: #E1EDF4; }
 
 /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
             GLOBAL NAVIGATION

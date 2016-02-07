@@ -1,5 +1,5 @@
 <?php
-$pageName = "kuroko";
+$pageName = "kuroko light-theme";
 include ("header.php");
 include ("navigation.php");
 ?>

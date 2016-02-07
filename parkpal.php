@@ -1,5 +1,5 @@
 <?php
-$pageName = "parkpal";
+$pageName = "parkpal light-theme";
 include ("header.php");
 include ("navigation.php");
 ?>

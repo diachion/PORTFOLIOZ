@@ -5,10 +5,41 @@
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
 .jumbotron {
 	margin-top: 70px;
+  background-color: transparent;
 }
 
 .center-items {
 	display: flex;
   align-items: center;
   justify-content: center;
+}
+
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+      (JOIN THE) DARK (SIDE) THEME
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+.dark-theme {
+  background-color: #13374C;
+  color: #E1EDF4;
+    h2, h4, h5, h6 {
+      color: #E1EDF4;
+    }
+    h1, h3 {
+      color: #000;
+    }
+    .jumbotron {
+      background-color: #E1EDF4;
+      background-image: url("../imgs/DarkTheme_Header.svg");
+      background-size: cover;
+      background-position: 50%;
+      padding-bottom: 200px;
+    }
+}
+
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+      (LET THERE BE) LIGHT THEME
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+.light-theme {
+  background-color: #E1EDF4;
 }

@@ -1,5 +1,5 @@
 <?php
-$pageName = "index";
+$pageName = "index dark-theme";
 include ("header.php");
 ?>
 

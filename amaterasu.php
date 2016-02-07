@@ -1,5 +1,5 @@
 <?php
-$pageName = "amaterasu";
+$pageName = "amaterasu light-theme";
 include ("header.php");
 include ("navigation.php");
 ?>

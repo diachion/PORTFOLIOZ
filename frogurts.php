@@ -1,5 +1,5 @@
 <?php
-$pageName = "frogurts";
+$pageName = "frogurts light-theme";
 include ("header.php");
 include ("navigation.php");
 ?>
