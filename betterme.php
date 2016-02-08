@@ -11,7 +11,7 @@ include ("navigation.php");
 <div class="jumbotron main-jumbo">
   <div class="container">
     <h1 class="text-center">better me</h1>
-    <h3 class="text-center">become a better you!</h3>
+    <h3 class="text-center">better life!</h3>
   </div>  <!-- container-->
 </div> <!-- jumbotron -->
 
@@ -32,12 +32,15 @@ include ("navigation.php");
 <!-- -=-=-=-=- WORK INFORMATION -=-=-=-=- -->
   <div class="col-md-4">
     <h3 class="no-header"><span class="fa fa-tag icon-left"></span>Development</h3>
-    <h3 class="no-header"><span class="fa fa-calendar-check-o icon-left"></span>May 19, 2015</h3>
+    <h3 class="no-header"><span class="fa fa-calendar-check-o icon-left"></span>December 3, 2015</h3>
     <h3 class="no-header"><span class="fa fa-file-code-o icon-left"></span>Technologies Used:</h3>
       <ul class="tech-list">
         <li>HTML 5</li>
         <li>CSS 3</li>
+        <li>JavaScript</li>
         <li>JQuery</li>
+        <li>PHP</li>
+        <li>MySQL</li>
       </ul>
     <button type="button" class="btn btn-primary">Visit Website</button>
   </div> <!-- column -->

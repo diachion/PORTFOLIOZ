@@ -6,13 +6,28 @@
 .jumbotron {
 	// margin-top: 70px;
   background-color: transparent;
-  margin-bottom: 100px;
+  //margin-bottom: 50px;
 }
 
 .center-items {
 	display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.divider {
+  background-image: url("../imgs/DarkTheme_Dividerv2.png");
+  background-repeat: repeat-x;
+  margin: 35px 0 25px 0;
+  height: 40px;
+}
+
+.header-font {
+  font-family: $headerfont;
+}
+
+.padding-bot {
+  padding-bottom: 30px;
 }
 
 
@@ -22,20 +37,56 @@
 .dark-theme {
   background-color: $maindark;
   color: $mainlight;
-    h2, h4, h5, h6 {
+    h1, h2, h3, h4, h5, h6 {
       color: $mainlight;
     }
-    h1, h3 {
-      color: $maindark;
-    }
+    .navbar-inverse {
+      background-color: $mainlight;
+      background-image: url("../imgs/DarkTheme_Navbar.png");
+      background-repeat: repeat-x;
+      box-shadow: 1px 3px 5px rgba(0,0,0,0.3);
+        .navbar-nav>li>a {
+          font-family: $headerfont;
+          color: $maindark;
+          transition: all 0.4s ease;
+            &:hover {
+              color: $mainlightalt;
+              text-transform: uppercase;
+            }
+        } // .navbar-nav>li>a
+        .navbar-brand {
+          font-family: $headerfont;
+          color: $maindark;
+          transition: all 0.4s ease;
+            &:hover {
+              color: $mainlightalt;;
+            }
+        } // .navbar-brand
+        .navbar-toggle {
+          .icon-bar {
+            background-color: $maindark;
+          }
+        } // .navbar-toggle
+    } // .navbar-inverse
     .jumbotron {
-      background-image: url("../imgs/DarkTheme_Header.svg");
+      background-image: url("../imgs/DarkTheme_Headerv2.svg");
       background-size: cover;
       background-position: 50%;
-      padding-bottom: 200px;
-      padding-top: 100px;
-    }
-}
+      padding-bottom: 190px;
+      padding-top: 50px;
+      margin-top: -1px;
+      h1, h2, h3, h4, h5, h6 {
+        color: $maindark;
+      }
+    } // .jumbotron
+    >footer {
+      border-top: 1px dashed $maindarkalt;
+      margin-top: 50px;
+        h5 {
+          color: $maindarkalt;
+        }
+    } // footer
+} // .dark-theme
 
 
 /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
@@ -44,16 +95,48 @@
 .light-theme {
   background-color: $mainlight;
   color: $maindark;
-    h2, h4, h5, h6 {
+    h1, h2, h3, h4, h5, h6 {
       color: $maindark;
     }
-    h1, h3 {
-      color: $maindark;
-    }
+    .navbar-inverse {
+      background-color: $maindark;
+      background-image: url("../imgs/LightTheme_Navbar.png");
+      background-repeat: repeat-x;
+      box-shadow: 1px 3px 5px rgba(0,0,0,0.3);
+        .navbar-nav>li>a {
+          font-family: $headerfont;
+          color: $mainlight;
+          transition: all 0.4s ease;
+            &:hover {
+              color: $accent;
+              text-transform: uppercase;
+            }
+        } // .navbar-nav>li>a
+        .navbar-brand {
+          font-family: $headerfont;
+          color: $mainlight;
+          transition: all 0.4s ease;
+            &:hover {
+              color: $accent;;
+            }
+        } // .navbar-brand
+        .navbar-toggle {
+          .icon-bar {
+            background-color: $mainlight;
+          }
+        } // .navbar-toggle
+    } // .navbar-inverse
     .jumbotron {
       background-image: url("../imgs/LightTheme_Header.svg");
       background-size: cover;
       background-position: 50%;
-      padding-top: 250px;
-    }
-}
+      padding-top: 210px;
+    } // .jumbotron
+    >footer {
+      border-top: 1px dashed $maindark;
+      margin-top: 50px;
+        h5 {
+          color: $maindark;
+        }
+    } // footer
+} // .light-theme

@@ -155,6 +155,12 @@ h1 {
   height: 330px;
   background-color: #E1EDF4;
   color: #13374C; }
+  .card .caption > h3 > a {
+    font-family: "Nunito", sans-serif;
+    color: #13374C;
+    transition: all 0.4s ease; }
+    .card .caption > h3 > a:hover {
+      color: #A0D6FF; }
 
 /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
         THUMBNAIL HOVER EFFECT
@@ -272,13 +278,24 @@ h1 {
      https://coolors.co/app/13374c-fffc9d-a0d6ff-92bad8-e1edf4
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
 .jumbotron {
-  background-color: transparent;
-  margin-bottom: 100px; }
+  background-color: transparent; }
 
 .center-items {
   display: flex;
   align-items: center;
   justify-content: center; }
+
+.divider {
+  background-image: url("../imgs/DarkTheme_Dividerv2.png");
+  background-repeat: repeat-x;
+  margin: 35px 0 25px 0;
+  height: 40px; }
+
+.header-font {
+  font-family: "Nunito", sans-serif; }
+
+.padding-bot {
+  padding-bottom: 30px; }
 
 /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
       (JOIN THE) DARK (SIDE) THEME
@@ -286,16 +303,42 @@ h1 {
 .dark-theme {
   background-color: #13374C;
   color: #E1EDF4; }
-  .dark-theme h2, .dark-theme h4, .dark-theme h5, .dark-theme h6 {
+  .dark-theme h1, .dark-theme h2, .dark-theme h3, .dark-theme h4, .dark-theme h5, .dark-theme h6 {
     color: #E1EDF4; }
-  .dark-theme h1, .dark-theme h3 {
-    color: #13374C; }
+  .dark-theme .navbar-inverse {
+    background-color: #E1EDF4;
+    background-image: url("../imgs/DarkTheme_Navbar.png");
+    background-repeat: repeat-x;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.3); }
+    .dark-theme .navbar-inverse .navbar-nav > li > a {
+      font-family: "Nunito", sans-serif;
+      color: #13374C;
+      transition: all 0.4s ease; }
+      .dark-theme .navbar-inverse .navbar-nav > li > a:hover {
+        color: #A0D6FF;
+        text-transform: uppercase; }
+    .dark-theme .navbar-inverse .navbar-brand {
+      font-family: "Nunito", sans-serif;
+      color: #13374C;
+      transition: all 0.4s ease; }
+      .dark-theme .navbar-inverse .navbar-brand:hover {
+        color: #A0D6FF; }
+    .dark-theme .navbar-inverse .navbar-toggle .icon-bar {
+      background-color: #13374C; }
   .dark-theme .jumbotron {
-    background-image: url("../imgs/DarkTheme_Header.svg");
+    background-image: url("../imgs/DarkTheme_Headerv2.svg");
     background-size: cover;
     background-position: 50%;
-    padding-bottom: 200px;
-    padding-top: 100px; }
+    padding-bottom: 190px;
+    padding-top: 50px;
+    margin-top: -1px; }
+    .dark-theme .jumbotron h1, .dark-theme .jumbotron h2, .dark-theme .jumbotron h3, .dark-theme .jumbotron h4, .dark-theme .jumbotron h5, .dark-theme .jumbotron h6 {
+      color: #13374C; }
+  .dark-theme > footer {
+    border-top: 1px dashed #92BAD8;
+    margin-top: 50px; }
+    .dark-theme > footer h5 {
+      color: #92BAD8; }
 
 /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
       (LET THERE BE) LIGHT THEME
@@ -303,27 +346,61 @@ h1 {
 .light-theme {
   background-color: #E1EDF4;
   color: #13374C; }
-  .light-theme h2, .light-theme h4, .light-theme h5, .light-theme h6 {
+  .light-theme h1, .light-theme h2, .light-theme h3, .light-theme h4, .light-theme h5, .light-theme h6 {
     color: #13374C; }
-  .light-theme h1, .light-theme h3 {
-    color: #13374C; }
+  .light-theme .navbar-inverse {
+    background-color: #13374C;
+    background-image: url("../imgs/LightTheme_Navbar.png");
+    background-repeat: repeat-x;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.3); }
+    .light-theme .navbar-inverse .navbar-nav > li > a {
+      font-family: "Nunito", sans-serif;
+      color: #E1EDF4;
+      transition: all 0.4s ease; }
+      .light-theme .navbar-inverse .navbar-nav > li > a:hover {
+        color: #FFFC9D;
+        text-transform: uppercase; }
+    .light-theme .navbar-inverse .navbar-brand {
+      font-family: "Nunito", sans-serif;
+      color: #E1EDF4;
+      transition: all 0.4s ease; }
+      .light-theme .navbar-inverse .navbar-brand:hover {
+        color: #FFFC9D; }
+    .light-theme .navbar-inverse .navbar-toggle .icon-bar {
+      background-color: #E1EDF4; }
   .light-theme .jumbotron {
     background-image: url("../imgs/LightTheme_Header.svg");
     background-size: cover;
     background-position: 50%;
-    padding-top: 250px; }
+    padding-top: 210px; }
+  .light-theme > footer {
+    border-top: 1px dashed #13374C;
+    margin-top: 50px; }
+    .light-theme > footer h5 {
+      color: #13374C; }
 
 /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
             GLOBAL NAVIGATION
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
 .nav-wrapper {
-  height: 50px;
+  position: relative;
+  z-index: 9999;
+  height: 60px;
   background-color: #E1EDF4; }
 
 .navbar {
   border: none;
   border-radius: 0;
-  z-index: 999; }
+  z-index: 999;
+  min-height: 60px; }
+
+.navbar-inverse .navbar-toggle, .navbar-inverse .navbar-collapse {
+  border: none; }
+  .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-collapse:focus, .navbar-inverse .navbar-collapse:hover {
+    background-color: transparent; }
+
+.navbar-nav, .navbar-header {
+  margin: 7.5px -15px; }
 
 .affix {
   top: 0;
@@ -383,10 +460,12 @@ h1 {
   text-align: center; }
 
 .down-arrow {
-  color: #fff;
+  color: #E1EDF4;
   font-size: 3em;
   animation: downarrow 1.5s infinite;
   position: relative; }
+  .down-arrow:hover, .down-arrow:active, .down-arrow:focus {
+    color: #E1EDF4; }
 
 @keyframes downarrow {
   0% {
@@ -440,7 +519,5 @@ h1 {
 /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
     	FOOTER
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
-footer div {
-  background-color: #ccc; }
 
 /*# sourceMappingURL=global.css.map */

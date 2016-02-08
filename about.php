@@ -36,38 +36,48 @@ include ("navigation.php");
 </div>  <!-- container-->
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
 
-<hr/>
+<div class="container">
+  <div class="col-md-12 divider text-center"></div>
+</div>  <!-- container-->
 
 <!-- -=-=-=-=- SKILLS -=-=-=-=- -->
 <div class="container">
   <div class="col-md-12 text-center">
-    <h2>My Awesome shitty skills</h2>
+    <h2 class="header-font padding-bot">Technical Skills I Possess</h2>
   </div>
 
-  <div class="col-md-6 text-center">
-    sadsf
+  <div class="col-sm-6 text-center">
+      <p>HTML 5</p>
+      <p>CSS 3</p>
+      <p>JavaScript / JQuery</p>
+      <p>PHP</p>
+      <p>MySQL</p>
+      <p>SASS</p>
+      <p>Bootstrap</p>
   </div>
 
-  <div class="col-md-6 text-center">
-    adfd
+  <div class="col-sm-6 text-center">
+    <p>Adobe Photoshop</p>
+    <p>Adobe Illustrator</p>
+    <p>Adobe InDesign</p>
+    <p>Adobe After Effects</p>
+    <p>GitHub (Version Control System)</p>
+
   </div>
 </div>  <!-- container-->
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
 
-<hr/>
+<div class="container">
+  <div class="col-md-12 divider text-center"></div>
+</div>  <!-- container-->
 
 <!-- -=-=-=-=- LISTEN TO MY STORY -=-=-=-=- -->
 <div class="container">
   <div class="col-md-12">
-    <h2>LISTEN TO MY STORY</h2>
+    <h2 class="header-font">LISTEN TO MY STORY</h2>
   </div>
 </div>  <!-- container-->
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
-
-
-
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>hello world.
 
 
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-

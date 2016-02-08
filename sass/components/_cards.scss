@@ -42,6 +42,14 @@
   height: 330px;
   background-color: $mainlight;
   color: $maindark;
+    .caption>h3>a {
+      font-family: $headerfont;
+      color: $maindark;
+      transition: all 0.4s ease;
+        &:hover {
+          color: $mainlightalt;
+        }
+    }
 }
 
 /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-

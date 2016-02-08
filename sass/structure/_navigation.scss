@@ -2,7 +2,9 @@
             GLOBAL NAVIGATION
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
 .nav-wrapper {
-	height: 50px;
+  position: relative;
+  z-index: 9999;
+	height: 60px;
   background-color: $mainlight;
 }
 
@@ -10,6 +12,20 @@
   border: none;
   border-radius: 0;
   z-index: 999;
+  min-height: 60px;
+}
+
+.navbar-inverse {
+  .navbar-toggle, .navbar-collapse {
+  border: none;
+    &:focus, &:hover {
+      background-color: transparent;
+    }
+  }
+}
+
+.navbar-nav, .navbar-header {
+  margin: 7.5px -15px;
 }
 
 .affix {

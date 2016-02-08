@@ -51,10 +51,13 @@
 }
 
 .down-arrow {
-  color: #fff;
+  color: $mainlight;
   font-size: 3em;
   animation: downarrow 1.5s infinite;
   position: relative;
+  &:hover, &:active, &:focus {
+    color: $mainlight;
+  }
 }
 
 @keyframes downarrow {
