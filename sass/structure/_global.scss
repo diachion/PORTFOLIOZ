@@ -4,8 +4,9 @@
      https://coolors.co/app/13374c-fffc9d-a0d6ff-92bad8-e1edf4
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
 .jumbotron {
-	margin-top: 70px;
+	// margin-top: 70px;
   background-color: transparent;
+  margin-bottom: 100px;
 }
 
 .center-items {
@@ -19,20 +20,20 @@
       (JOIN THE) DARK (SIDE) THEME
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
 .dark-theme {
-  background-color: #13374C;
-  color: #E1EDF4;
+  background-color: $maindark;
+  color: $mainlight;
     h2, h4, h5, h6 {
-      color: #E1EDF4;
+      color: $mainlight;
     }
     h1, h3 {
-      color: #000;
+      color: $maindark;
     }
     .jumbotron {
-      background-color: #E1EDF4;
       background-image: url("../imgs/DarkTheme_Header.svg");
       background-size: cover;
       background-position: 50%;
       padding-bottom: 200px;
+      padding-top: 100px;
     }
 }
 
@@ -41,5 +42,18 @@
       (LET THERE BE) LIGHT THEME
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
 .light-theme {
-  background-color: #E1EDF4;
+  background-color: $mainlight;
+  color: $maindark;
+    h2, h4, h5, h6 {
+      color: $maindark;
+    }
+    h1, h3 {
+      color: $maindark;
+    }
+    .jumbotron {
+      background-image: url("../imgs/LightTheme_Header.svg");
+      background-size: cover;
+      background-position: 50%;
+      padding-top: 250px;
+    }
 }

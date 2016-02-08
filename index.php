@@ -33,7 +33,7 @@ $random = (rand(0, count($bg)-1));
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
             JUMBOTRON
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
-<div class="jumbotron main-jumbo" style="margin-top: 100px; margin-bottom: 100px;">
+<div class="jumbotron main-jumbo">
   <div class="container">
     <h1 class="text-center">from imagination to reality</h1>
     <h3 class="text-center">front end web developer and designer</h3>

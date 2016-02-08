@@ -34,7 +34,7 @@ include ("navigation.php");
 
     <div class="caption">
       <h3><a href="betterme.php">Better Me</a></h3>
-      <p><strong>Development</strong> | December 3, 2015</p>
+      <p><strong>Development</strong> <span class="fa fa-star"></span> December 3, 2015</p>
     </div> <!-- caption -->
 
   </div> <!-- card -->
@@ -54,7 +54,7 @@ include ("navigation.php");
 
     <div class="caption">
       <h3><a href="parkpal.php">Park Pal</a></h3>
-      <p><strong>Development</strong> | May 19, 2015</p>
+      <p><strong>Development</strong> <span class="fa fa-star"></span> May 19, 2015</p>
     </div> <!-- caption -->
 
   </div> <!-- card -->
@@ -74,7 +74,7 @@ include ("navigation.php");
 
     <div class="caption">
       <h3><a href="orange11.php">The Orange Eleven</a></h3>
-      <p><strong>Development</strong> | December 3, 2014</p>
+      <p><strong>Development</strong> <span class="fa fa-star"></span> December 3, 2014</p>
     </div> <!-- caption -->
 
   </div> <!-- card -->
@@ -96,7 +96,7 @@ include ("navigation.php");
 
     <div class="caption">
       <h3><a href="frogurts.php">Lydia's Frogurts</a></h3>
-      <p><strong>Branding</strong> | February 2, 2015</p>
+      <p><strong>Branding</strong> <span class="fa fa-star"></span> February 2, 2015</p>
     </div> <!-- caption -->
 
   </div> <!-- card -->
@@ -116,7 +116,7 @@ include ("navigation.php");
 
     <div class="caption">
       <h3><a href="nekoatsume.php">Kitty Collector</a></h3>
-      <p><strong>Design</strong> | November 9, 2015</p>
+      <p><strong>Design</strong> <span class="fa fa-star"></span> November 9, 2015</p>
     </div> <!-- caption -->
 
   </div> <!-- card -->
@@ -136,7 +136,7 @@ include ("navigation.php");
 
     <div class="caption">
       <h3><a href="amaterasu.php">Amaterasu</a></h3>
-      <p><strong>Design</strong> | March 2, 2015</p>
+      <p><strong>Design</strong> <span class="fa fa-star"></span> March 2, 2015</p>
     </div> <!-- caption -->
 
   </div> <!-- card -->
@@ -157,7 +157,7 @@ include ("navigation.php");
 
     <div class="caption">
       <h3><a href="kuroko.php">The Best Present</a></h3>
-      <p><strong>Vector Frame Animation</strong> | January 31, 2016</p>
+      <p><strong>Vector Frame Animation</strong> <span class="fa fa-star"></span> January 31, 2016</p>
     </div> <!-- caption -->
 
   </div> <!-- card -->
