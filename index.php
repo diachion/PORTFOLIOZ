@@ -45,7 +45,7 @@ $random = (rand(0, count($bg)-1));
             Imagine it. Plan it. Create it.
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
 <div class="container">
-  <h1 class="text-center">Imagine it. Plan it. Create it.</h1>
+  <h1 class="text-center" style="margin-bottom: 70px;">Imagine it. Plan it. Create it.</h1>
 
   <div class="col-sm-4 text-center">
     <img src="imgs/icons/laptop.svg" alt="Websites / Apps">
@@ -72,26 +72,47 @@ $random = (rand(0, count($bg)-1));
 <div class="container">
   <div id="best-works-carousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
-    <ol class="carousel-indicators">
+<!--     <ol class="carousel-indicators">
       <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
       <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-    </ol>
+    </ol> -->
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
+
       <div class="item active">
-        <img src="imgs/thumbnails/orange11.jpg" alt="The Orange 11">
-        <div class="carousel-caption">
-          Kicking off with a good start
-        </div>
-      </div>
+
+        <div class="container">
+          <div class="col-md-6">
+            <img class="carousel-image" src="imgs/thumbnails/okami.jpg" alt="The Orange 11">
+          </div>
+
+          <div class="col-md-6">
+            <h1>hello world</h1>
+            <span>when the sun goes down and the lights burn out, then it's time for you to shine.. 
+                  brighter than a shooting star. so shine no matter where you are</span>
+            <a class="btn-works btn-link-out" href="orange11.php">View Project</a>
+          </div>
+        </div> <!-- container -->
+
+      </div> <!-- item -->
+
       <div class="item">
-        <img src="imgs/thumbnails/orange11.jpg" alt="The Orange 11">
-        <div class="carousel-caption">
-          ...
-        </div>
-      </div>
+
+        <div class="container">
+          <div class="col-md-6">
+            <img class="carousel-image" src="imgs/thumbnails/orange11.jpg" alt="The Orange 11">
+          </div>
+
+          <div class="col-md-6">
+            <h1>hello world</h1>
+            <span>when the sun goes down and the lights burn out, then it's time for you to shine.. 
+                  brighter than a shooting star. so shine no matter where you are</span>
+          </div>
+        </div> <!-- container -->
+
+      </div> <!-- item -->
+
     </div>
 
     <!-- Controls -->
@@ -106,7 +127,6 @@ $random = (rand(0, count($bg)-1));
   </div>
 </div>  <!-- container-->
 
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>hello world.
 
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
             FOOTER

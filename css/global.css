@@ -123,9 +123,91 @@ h1 {
 	and classes that builds on top of Bootstrap's
 	own button class and assets for my site
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+        WORKS PAGINATION BUTTONS
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
+.btn-works {
+  display: inline-block;
+  position: relative;
+  background-color: transparent;
+  border: 3px solid #13374C;
+  color: #13374C;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 400px;
+  padding: 7px;
+  overflow: hidden; }
+
+/* -=-=-=-=-=-=-=-=-=-=- LINK OUT =-=-=-=-=-=-=-=-=-=-=-=-=- */
+.btn-link-out::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 0;
+  height: 103%;
+  top: 50%;
+  left: 50%;
+  background: #92BAD8;
+  border-radius: 30px;
+  opacity: 0;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%); }
+.btn-link-out:hover, .btn-link-out:active {
+  color: #13374C; }
+  .btn-link-out:hover::after, .btn-link-out:active::after {
+    width: 100%;
+    opacity: 1; }
+.btn-link-out:focus {
+  text-decoration: none;
+  color: #13374C; }
+
+/* -=-=-=-=-=-=-=-=-=-=- RIGHT / NEXT =-=-=-=-=-=-=-=-=-=-=-=-=- */
+.btn-fill-right:hover, .btn-fill-right:active {
+  color: #13374C; }
+  .btn-fill-right:hover::after, .btn-fill-right:active::after {
+    width: 100%; }
+.btn-fill-right::after {
+  content: '';
+  background: #92BAD8;
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s; }
+
+/* -=-=-=-=-=-=-=-=-=-=- LEFT / PREVIOUS =-=-=-=-=-=-=-=-=-=-=-=-=- */
+.btn-fill-left:hover, .btn-fill-left:active {
+  color: #13374C; }
+  .btn-fill-left:hover::after, .btn-fill-left:active::after {
+    width: 100%; }
+.btn-fill-left::after {
+  content: '';
+  background: #92BAD8;
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s; }
+
 /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
     	CARDS
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+.thumbnail {
+  border-radius: 0; }
+
 .works-thumbnail {
   position: relative;
   width: 100%;
@@ -150,7 +232,7 @@ h1 {
 
 .card {
   border: 1px solid #ccc;
-  box-shadow: 1px 1px 5px 1px #E1EDF4;
+  box-shadow: 0 0 7px #E1EDF4;
   margin-bottom: 15px;
   height: 330px;
   background-color: #E1EDF4;
@@ -256,6 +338,9 @@ h1 {
   max-width: 1280px;
   height: auto; }
 
+.modal {
+  padding-right: 0 !important; }
+
 /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
     Popovers/Tooltips/Helpers
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
@@ -285,17 +370,32 @@ h1 {
   align-items: center;
   justify-content: center; }
 
-.divider {
-  background-image: url("../imgs/DarkTheme_Dividerv2.png");
-  background-repeat: repeat-x;
-  margin: 35px 0 25px 0;
-  height: 40px; }
-
 .header-font {
   font-family: "Nunito", sans-serif; }
 
 .padding-bot {
-  padding-bottom: 30px; }
+  padding-bottom: 20px; }
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+      CAROUSEL
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+.carousel {
+  margin-top: 100px; }
+
+.carousel-image {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 600px;
+  height: auto; }
+
+.carousel-control.right, .carousel-control.left {
+  background-image: none; }
+
+.carousel-control .glyphicon-chevron-right, .carousel-control .glyphicon-chevron-left {
+  font-size: 3.5em;
+  color: #000;
+  margin-top: -40px; }
 
 /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
       (JOIN THE) DARK (SIDE) THEME
@@ -334,6 +434,11 @@ h1 {
     margin-top: -1px; }
     .dark-theme .jumbotron h1, .dark-theme .jumbotron h2, .dark-theme .jumbotron h3, .dark-theme .jumbotron h4, .dark-theme .jumbotron h5, .dark-theme .jumbotron h6 {
       color: #13374C; }
+  .dark-theme .dark-divider {
+    background-image: url("../imgs/DarkTheme_Dividerv2.png");
+    background-repeat: repeat-x;
+    margin: 35px 0 25px 0;
+    height: 40px; }
   .dark-theme > footer {
     border-top: 1px dashed #92BAD8;
     margin-top: 50px; }
@@ -373,6 +478,11 @@ h1 {
     background-size: cover;
     background-position: 50%;
     padding-top: 210px; }
+  .light-theme .light-divider {
+    background-image: url("../imgs/LightTheme_Divider.png");
+    background-repeat: repeat-x;
+    margin: 35px 0 25px 0;
+    height: 40px; }
   .light-theme > footer {
     border-top: 1px dashed #13374C;
     margin-top: 50px; }
@@ -384,7 +494,7 @@ h1 {
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
 .nav-wrapper {
   position: relative;
-  z-index: 9999;
+  z-index: 999;
   height: 60px;
   background-color: #E1EDF4; }
 
@@ -483,6 +593,12 @@ h1 {
 /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
         INDIVIDUAL WORKS PAGES
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
+.blurb {
+  margin-bottom: 10px; }
+  .blurb > p {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px 0; }
+
 .work-main {
   width: 100%;
   max-width: 800px;

@@ -9,3 +9,99 @@
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
 
 
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+        WORKS PAGINATION BUTTONS
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
+.btn-works {
+  display: inline-block;
+  position: relative;
+	background-color: transparent;
+  border: 3px solid $maindark;
+  color: $maindark;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 400px;
+  padding: 7px;
+  overflow: hidden;
+}
+
+/* -=-=-=-=-=-=-=-=-=-=- LINK OUT =-=-=-=-=-=-=-=-=-=-=-=-=- */
+.btn-link-out {
+  &::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+       -moz-transition: all 0.3s;
+            transition: all 0.3s;
+    width: 0;
+    height: 103%;
+    top: 50%;
+    left: 50%;
+    background: $maindarkalt;
+    border-radius: 30px;
+    opacity: 0;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+       -moz-transform: translateX(-50%) translateY(-50%);
+        -ms-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+  }
+  &:hover, &:active, {
+    color: $maindark;
+    &::after {
+      width: 100%;
+      opacity: 1;
+    }
+  }
+  &:focus {
+    text-decoration: none;
+    color: $maindark;
+  }
+}
+
+
+/* -=-=-=-=-=-=-=-=-=-=- RIGHT / NEXT =-=-=-=-=-=-=-=-=-=-=-=-=- */
+.btn-fill-right {
+  &:hover, &:active {
+    color: $maindark;
+    &::after {
+      width: 100%;
+    }
+  }
+  &::after {
+    content: '';
+    background: $maindarkalt;
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    -webkit-transition: all 0.4s;
+       -moz-transition: all 0.4s;
+            transition: all 0.4s;
+  }
+}
+
+/* -=-=-=-=-=-=-=-=-=-=- LEFT / PREVIOUS =-=-=-=-=-=-=-=-=-=-=-=-=- */
+.btn-fill-left {
+  &:hover, &:active {
+    color: $maindark;
+    &::after {
+      width: 100%;
+    }
+  }
+  &::after {
+    content: '';
+    background: $maindarkalt;
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    -webkit-transition: all 0.4s;
+       -moz-transition: all 0.4s;
+            transition: all 0.4s;
+  }
+}

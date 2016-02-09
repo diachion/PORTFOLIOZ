@@ -132,17 +132,21 @@ include ("navigation.php");
 </div>  <!-- container-->
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
 
-<hr/>
+<div class="container">
+  <div class="col-md-12 light-divider text-center"></div>
+</div>  <!-- container-->
 
 <!-- -=-=-=-=- WORK INFORMATION -=-=-=-=- -->
 <div class="container">
   <div class="col-md-12">
-    <h2>The Story</h2>
+    <h2 class="header-font">The Story</h2>
       <p> Meet Amaterasu, the goddess of the sun, part of Japanese myth. She is from the PS3 game, Okami HD, and at the time 
       I created this image, I was a huge fan of the game. I really loved the artwork of the game, 
       and decided I had to recreate one of the many wallpapers and artwork of the game. </p>
 
-    <h2>The Process</h2>
+    <div class="padding-bot"></div>
+
+    <h2 class="header-font">The Process</h2>
       <p> I searched for an official image of the game and found this one. Placing the image in Adobe Illustrator as a template, 
       I began to carefully trace the image with the pen tool and then later fill the shapes with more details. </p>
 
@@ -154,18 +158,25 @@ include ("navigation.php");
 </div>  <!-- container-->
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
 
-
-<hr/>
+<div class="container">
+  <div class="col-md-12 light-divider text-center"></div>
+</div>  <!-- container-->
 
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
             WORKS NAVIGATION
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
-<div class="container">
-  <div class="text-center">
-    <h4>navigation stuff goes down here to navigate between works</h4>
-    <button type="button" class="btn btn-primary">Previous</button>
-    <button type="button" class="btn btn-primary">Next</button>
+<div class="container text-center">
+
+  <div class="col-xs-6 text-center">
+    <a class="btn-works btn-fill-left" href="nekoatsume.php"><span class="fa fa-long-arrow-left"></span> Previous</a>
+    <h4 class="no-header">Kitty Collector</h4>
   </div>
+
+  <div class="col-xs-6 text-center">
+    <a class="btn-works btn-fill-right" href="kuroko.php">Next <span class="fa fa-long-arrow-right"></span></a>
+    <h4 class="no-header">The Best Present</h4>
+  </div>
+
 </div>  <!-- container-->
 
 

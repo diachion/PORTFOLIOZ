@@ -21,11 +21,18 @@ include ("navigation.php");
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
 
 <div class="container">
+
+<!-- -=-=-=-=- TL;DR / BLURB -=-=-=-=- -->
+<div class="col-md-12 text-center blurb">
+  <p> Too long; didn't read. </p>
+</div>
+<!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
+
+
 <!-- -=-=-=-=- FINISHED WORK -=-=-=-=- -->
 	<div class="col-md-8 text-center">
     <img class="work-main" src="imgs/works/betterme/bm-focus.jpg" alt="work 1"/>
   </div> <!-- column -->
-
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
 
 
@@ -42,7 +49,8 @@ include ("navigation.php");
         <li>PHP</li>
         <li>MySQL</li>
       </ul>
-    <button type="button" class="btn btn-primary">Visit Website</button>
+    <a class="btn-works btn-link-out text-center" style="margin-bottom: 5px;" href="http://betterme.mike-ho.com" target="new">Visit Website</a>
+    <a class="btn-works btn-link-out text-center" style="margin-bottom: 30px;" href="https://play.google.com/store/apps/details?id=com.myapps.betterme&hl=en" target="new">Visit Google Play Store</a>
   </div> <!-- column -->
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
 </div>  <!-- container-->
@@ -140,39 +148,70 @@ include ("navigation.php");
 </div>  <!-- container-->
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
 
-<hr/>
+<div class="container">
+  <div class="col-md-12 light-divider text-center"></div>
+</div>  <!-- container-->
 
 <!-- -=-=-=-=- WORK INFORMATION -=-=-=-=- -->
 <div class="container">
   <div class="col-md-12">
-    <h2>The Story</h2>
-      <p> Meet Amaterasu, the goddess of the sun. She's from the PS3 game, Okami HD, and at the time 
-      I created this image, I was a huge fan of the game. I really loved the artwork of the game, 
-      and decided I had to recreate one of the many wallpapers and artwork of the game. </p>
+    <h2 class="header-font">The Story</h2>
+      <p> Feeling lazy and unmotivated? Yeah? Well, me too. But have no fear! Better Me is here! This project all started with a classmate pitching 
+      his mobile application idea to our Digital Design and Development program at BCIT. The whole idea of this app is to help people motivate
+      themselves to complete everyday mudane tasks and get rewarded! </p>
 
-    <h2>The Process</h2>
-      <p> I searched for an official image of the game and found this one. Placing the image in Adobe Illustrator as a template, 
-      I began to carefully trace the image with the pen tool and then later fill the shapes with more details. </p>
+  <div class="padding-bot"></div>
 
-      <p> The main focus of this piece are the usage of different patterns and stroke appearances. </p>
+    <h2 class="header-font">My Responsibilities</h2>
 
-      <p> The main tools I used in the program, Adobe Illustrator were: pen tool, shape tools, paintbrush, custom brushes, 
-      and custom patterns. </p>
+    <p> I was the person who was in charge of the HTML and CSS portions of this project. I took the mockups created by our designer and
+    implemented it to the working app. I also suggested and gave feedback on the design choices and overall design of Better Me. </p>
+
+  <div class="padding-bot"></div>
+
+    <h2 class="header-font">The Process</h2>
+      <p> The project leader already had basic designs and functionalities in mind before we started development. I, along with the designers,
+      created wireframes and mockups of the interface. Several changes and modifications were made until we were all satisfied with the design. </p>
+
+      <p> I, along with our main developer, started to work on the coding process. I provided all the basic HTML and CSS for him. After he was
+      done with all the back-end development, I jumped in and polished the CSS. The designers also helped with the CSS. During this, we were all
+      struggling and trying to learn new methods and shortcuts that would make our coding easier, but still produce the same result. </p>
+
+      <p> In the end, a few modifications were needed in terms of the design and colors. After all was done, our main developer launched Better Me
+      on the Google Play Store. It's now live on there, so please check it out if time permits!</p>
+
+  <div class="padding-bot"></div>
+
+    <h2 class="header-font">My Thoughts</h2>
+
+    <p> It was a crazy and stressful ride throughout this whole project because this was my first time in a project this large. Overall, I learned
+    quite a few new skills. This project helped my CSS skills grow and expand. But most importantly, this project helped me learn and realize how
+    important communication and time management is in a project. If both are weak, problems will surely arise in the group. Try to not let that 
+    happen and communicate, set milestones, and plan accordingly! </p>
+
   </div>
 </div>  <!-- container-->
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
 
-<hr/>
+<div class="container">
+  <div class="col-md-12 light-divider text-center"></div>
+</div>  <!-- container-->
 
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
             WORKS NAVIGATION
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
-<div class="container">
-  <div class="text-center">
-    <h4>navigation stuff goes down here to navigate between works</h4>
-    <button type="button" class="btn btn-primary">Previous</button>
-    <button type="button" class="btn btn-primary">Next</button>
+<div class="container text-center">
+
+  <div class="col-xs-6 text-center">
+    <a class="btn-works btn-fill-left" href="kuroko.php"><span class="fa fa-long-arrow-left"></span> Previous</a>
+    <h4 class="no-header">The Best Present</h4>
   </div>
+
+  <div class="col-xs-6 text-center">
+    <a class="btn-works btn-fill-right" href="parkpal.php">Next <span class="fa fa-long-arrow-right"></span></a>
+    <h4 class="no-header">Park Pal</h4>
+  </div>
+  
 </div>  <!-- container-->
 
 

@@ -37,7 +37,7 @@ include ("navigation.php");
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
 
 <div class="container">
-  <div class="col-md-12 divider text-center"></div>
+  <div class="col-md-12 dark-divider text-center"></div>
 </div>  <!-- container-->
 
 <!-- -=-=-=-=- SKILLS -=-=-=-=- -->
@@ -68,7 +68,7 @@ include ("navigation.php");
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
 
 <div class="container">
-  <div class="col-md-12 divider text-center"></div>
+  <div class="col-md-12 dark-divider text-center"></div>
 </div>  <!-- container-->
 
 <!-- -=-=-=-=- LISTEN TO MY STORY -=-=-=-=- -->
