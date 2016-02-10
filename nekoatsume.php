@@ -21,6 +21,14 @@ include ("navigation.php");
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
 
 <div class="container">
+
+<!-- -=-=-=-=- TL;DR / BLURB -=-=-=-=- -->
+<div class="col-md-12 text-center blurb">
+  <p> Too long; didn't read. </p>
+</div>
+<!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
+
+
 <!-- -=-=-=-=- FINISHED WORK -=-=-=-=- -->
 	<div class="col-md-8 text-center">
     <img class="work-main" src="imgs/works/nekoatsume/nekoatsume.jpg" alt="work 1"/>

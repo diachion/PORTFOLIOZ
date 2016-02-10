@@ -24,7 +24,8 @@ include ("navigation.php");
 
 <!-- -=-=-=-=- TL;DR / BLURB -=-=-=-=- -->
 <div class="col-md-12 text-center blurb">
-  <p> Too long; didn't read. </p>
+  <p> Better Me is a mobile application that is aimed towards individuals who need that extra push and motivation to get everyday
+  mudane taks done. </p>
 </div>
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
 
@@ -182,7 +183,7 @@ include ("navigation.php");
 
   <div class="padding-bot"></div>
 
-    <h2 class="header-font">My Thoughts</h2>
+    <h2 class="header-font">What I Learned</h2>
 
     <p> It was a crazy and stressful ride throughout this whole project because this was my first time in a project this large. Overall, I learned
     quite a few new skills. This project helped my CSS skills grow and expand. But most importantly, this project helped me learn and realize how
