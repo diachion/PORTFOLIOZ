@@ -24,7 +24,8 @@ include ("navigation.php");
 
 <!-- -=-=-=-=- TL;DR / BLURB -=-=-=-=- -->
 <div class="col-md-12 text-center blurb">
-  <p> Too long; didn't read. </p>
+  <p> GOOOOOAAALLL!! A fansite for the Netherlands National Football Team, the Orange Eleven. All you need to know about this team is provided
+  in this site. </p>
 </div>
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
 
@@ -155,20 +156,37 @@ include ("navigation.php");
 <div class="container">
   <div class="col-md-12">
     <h2 class="header-font">The Story</h2>
-      <p> Meet Amaterasu, the goddess of the sun. She's from the PS3 game, Okami HD, and at the time 
-      I created this image, I was a huge fan of the game. I really loved the artwork of the game, 
-      and decided I had to recreate one of the many wallpapers and artwork of the game. </p>
+      <p> A final project working in teams for the first term of my program at BCIT, and the topic was to create a website of whatever topic
+      you choose. And what did we pick? Soccer! (Or football in this case). A very fun and exciting sport to watch and play. </p>
 
-    <div class="padding-bot"></div>
+  <div class="padding-bot"></div>
+
+    <h2 class="header-font">My Responsibilities</h2>
+      <p> I was mainly in charge of parts of the HTML and CSS, specifically the navigation bar, contact page, overall layout design, and media queries for
+      responsive design. </p>
+
+  <div class="padding-bot"></div>
 
     <h2 class="header-font">The Process</h2>
-      <p> I searched for an official image of the game and found this one. Placing the image in Adobe Illustrator as a template, 
-      I began to carefully trace the image with the pen tool and then later fill the shapes with more details. </p>
+      <p> Our team huddled and brainstormed ideas for our project. We kicked off with the necessary documents, such as the design brief and commissioning report. 
+      We then scored a lot of points by creating a user interaction flowchart, wireframes, mockups, and prototypes of the site. A lot of feedback 
+      and revisions were passed back and forth along the process. Going through this process helped us achieve our goal, which was to create a website 
+      about the Orange Eleven, in a mostly hassle-free environment. </p>
 
-      <p> The main focus of this piece are the usage of different patterns and stroke appearances. </p>
+      <p> In terms of developing the website, we sectioned off responsibilities to each team member. Because we didn't use any version control systems, 
+      such as GitHub, we had to manually merge files together. The reason why we didn't use GitHub was because we weren't quite familiar with it that
+      much during that time. </p>
 
-      <p> The main tools I used in the program, Adobe Illustrator were: pen tool, shape tools, paintbrush, custom brushes, 
-      and custom patterns. </p>
+      <p> HTML and CSS were all new and foreign to most of us during the development of this project, so we were all struggling and learning. We helped
+      each other out with our parts when we ever got stuck and had no idea how to proceed. A lot of teamwork and communication skills were used in this 
+      project. </p>
+
+  <div class="padding-bot"></div>
+
+    <h2 class="header-font">What I Learned</h2>
+      <p> This was my first time working with media queries, and it's not all that difficult, just really tedious and time consuming. But once I got it all
+      working, it really is nice to look at. </p>
+
   </div>
 </div>  <!-- container-->
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->

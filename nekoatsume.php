@@ -24,7 +24,8 @@ include ("navigation.php");
 
 <!-- -=-=-=-=- TL;DR / BLURB -=-=-=-=- -->
 <div class="col-md-12 text-center blurb">
-  <p> Too long; didn't read. </p>
+  <p> Inspired from the popular mobile app game, Neko Atsume: virtual kitties visiting your virtual yard and just hanging out. If only this was real.. 
+    oh wait! If composited photographs and graphics mix together, you'll get virtual kitties visiting your yard! Awesome! </p>
 </div>
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
 
@@ -152,20 +153,25 @@ include ("navigation.php");
 <div class="container">
   <div class="col-md-12">
     <h2 class="header-font">The Story</h2>
-      <p> Meet Amaterasu, the goddess of the sun. She's from the PS3 game, Okami HD, and at the time 
-      I created this image, I was a huge fan of the game. I really loved the artwork of the game, 
-      and decided I had to recreate one of the many wallpapers and artwork of the game. </p>
+      <p>When virutal cats from the popular mobile app game, Neko Atsume, meets real life... you get this as a result! At the time I made this,
+      I was really absorbed and addicted to the game. It also didn't help when I saw a video on YouTube that had a real life simulation of the game. 
+      When the time rolled around in Advanced Photoshop class to create any image you wanted, as long as the requirements were met, I jumped at that 
+      opportunity to create this. Nothing is better than creating something you have passion for, and it being an assignment? That's a bonus! </p>
 
-    <div class="padding-bot"></div>
+  <div class="padding-bot"></div>
+
+    <h2 class="header-font">My Main Focus</h2>
+      <p> The main focus of this piece are the usage of my various Adobe Photoshop skills mixed with my Adobe Illustrator skills. </p>
+
+   <div class="padding-bot"></div>
 
     <h2 class="header-font">The Process</h2>
-      <p> I searched for an official image of the game and found this one. Placing the image in Adobe Illustrator as a template, 
-      I began to carefully trace the image with the pen tool and then later fill the shapes with more details. </p>
+      <p> i'm hungry </p>
 
-      <p> The main focus of this piece are the usage of different patterns and stroke appearances. </p>
+      <p> it's 2:15 am and i should go sleep </p>
 
-      <p> The main tools I used in the program, Adobe Illustrator were: pen tool, shape tools, paintbrush, custom brushes, 
-      and custom patterns. </p>
+      <p> The main tools and techniques I used in Adobe Photoshop were: masking, smart objects, smart filters, clipping masks, brushes, layer styles, 
+      adjustment layers, and custom brushes. The main tools and techniques I used in Adobe Illustrator were: pen tool and pathfinder. </p>
   </div>
 </div>  <!-- container-->
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->

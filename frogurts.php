@@ -24,7 +24,7 @@ include ("navigation.php");
 
 <!-- -=-=-=-=- TL;DR / BLURB -=-=-=-=- -->
 <div class="col-md-12 text-center blurb">
-  <p> Too long; didn't read. </p>
+  <p> Yummy and deliciously cold frozen yogurt for you! The process of creating a logo for a fictitious company. </p>
 </div>
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
 

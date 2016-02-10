@@ -21,6 +21,15 @@ include ("navigation.php");
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
 
 <div class="container">
+
+<!-- -=-=-=-=- TL;DR / BLURB -=-=-=-=- -->
+<div class="col-md-12 text-center blurb">
+  <p> The sight of cherry blossom petals slowly falling down as you gaze off into the distance with the sun shining brightly behind you. This is a
+  simple recreation of an artwork from the PlayStation 3 video game, Okami HD. </p>
+</div>
+<!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
+
+
 <!-- -=-=-=-=- FINISHED WORK -=-=-=-=- -->
 	<div class="col-md-8 text-center">
     <img class="work-main" src="imgs/works/amaterasu/amaterasu.jpg" alt="work 1"/>
@@ -141,19 +150,33 @@ include ("navigation.php");
   <div class="col-md-12">
     <h2 class="header-font">The Story</h2>
       <p> Meet Amaterasu, the goddess of the sun, part of Japanese myth. She is from the PS3 game, Okami HD, and at the time 
-      I created this image, I was a huge fan of the game. I really loved the artwork of the game, 
-      and decided I had to recreate one of the many wallpapers and artwork of the game. </p>
+      I decided to create this work, I was a huge fan of the game. The artwork for this game is gorgeous and I can't help but cry at how visually
+      appealing this game is (though, Ori and the Blind Forest is better, but that doesn't matter here). So, I decided I had to recreate one of the 
+      many wallpapers and artworks of the game. What's even better was that this fit well with an assignment I had at the time at BCIT. </p>
 
-    <div class="padding-bot"></div>
+  <div class="padding-bot"></div>
+
+    <h2 class="header-font">My Main Focus</h2>
+      <p> The main focus of this piece are the usage of different patterns and stroke appearances. The majority of the background elements are covered
+      in a pattern instead of solid color. The outline strokes are from a custom brush. </p>
+
+  <div class="padding-bot"></div>
 
     <h2 class="header-font">The Process</h2>
-      <p> I searched for an official image of the game and found this one. Placing the image in Adobe Illustrator as a template, 
-      I began to carefully trace the image with the pen tool and then later fill the shapes with more details. </p>
+      <p> I searched for an official image of the game and found the one on the thumbnail above. I placed the image in Adobe Illustrator, making it a
+      template. I then started to trace the image, starting with the basic outlines then slowly adding in more details. </p>
 
-      <p> The main focus of this piece are the usage of different patterns and stroke appearances. </p>
-
-      <p> The main tools I used in the program, Adobe Illustrator were: pen tool, shape tools, paintbrush, custom brushes, 
+      <p> The main tools I used in the program, Adobe Illustrator were: pen tool, shape tools, spiral tool, paintbrush, custom brushes, 
       and custom patterns. </p>
+
+      <p> I used the pen tool for the outlines of all the different elements. I used the shape tools to create some of the elements, such as the sun.
+      I used the spiral tool for the swirls on Amaterasu's body. The cherry blossom leaves were drawn by hand using the paintbrush. </p>
+
+      <p> I created three of the patterns in Illustrator, while the other three I got as free use on the internet. The three patterns I created were: 
+      the small orange suns used as the sun rays, the blue arches used as water, and the green flowers used as grass. The custom brush for the outlines
+      were from the internet as free use. </p>
+
+      <p>  </p>
   </div>
 </div>  <!-- container-->
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->

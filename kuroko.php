@@ -24,7 +24,7 @@ include ("navigation.php");
 
 <!-- -=-=-=-=- TL;DR / BLURB -=-=-=-=- -->
 <div class="col-md-12 text-center blurb">
-  <p> Too long; didn't read. </p>
+  <p> From the popular Japanese anime, Kuroko no Basuke. A short clip of Kuroko Tetsuya, the main character, smiling all in vectored HD glory. </p>
 </div>
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
 

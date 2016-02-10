@@ -89,9 +89,11 @@ $random = (rand(0, count($bg)-1));
 
           <div class="col-md-6">
             <h1>hello world</h1>
-            <span>when the sun goes down and the lights burn out, then it's time for you to shine.. 
-                  brighter than a shooting star. so shine no matter where you are</span>
-            <a class="btn-works btn-link-out" href="orange11.php">View Project</a>
+            <p>when the sun goes down and the lights burn out, then it's time for yooou to shine.. 
+            brighter than a shooooooting staaaar. so shine no matter wherreee yoou are</p>
+            <p>fill the darkest night with a brilliant light 'cause it's time for yooou to shine..
+            brighter than a shooooting staaar. so shine no matter wherreee yoou aaareee .. toniiight ~ </p>
+            
           </div>
         </div> <!-- container -->
 
@@ -106,8 +108,10 @@ $random = (rand(0, count($bg)-1));
 
           <div class="col-md-6">
             <h1>hello world</h1>
-            <span>when the sun goes down and the lights burn out, then it's time for you to shine.. 
-                  brighter than a shooting star. so shine no matter where you are</span>
+            <p>when the sun goes down and the lights burn out, then it's time for yooou to shine.. 
+            brighter than a shooooooting staaaar. so shine no matter wherreee yoou are</p>
+            <p>fill the darkest night with a brilliant light 'cause it's time for yooou to shine..
+            brighter than a shooooting staaar. so shine no matter wherreee yoou aaareee .. toniiight ~ </p>
           </div>
         </div> <!-- container -->
 

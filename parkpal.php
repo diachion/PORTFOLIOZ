@@ -24,7 +24,8 @@ include ("navigation.php");
 
 <!-- -=-=-=-=- TL;DR / BLURB -=-=-=-=- -->
 <div class="col-md-12 text-center blurb">
-  <p> Too long; didn't read. </p>
+  <p> Visiting Vancouver or just want to find a nice park to relax in? Look no further! Park Pal here will guide you on popular parks in the
+  Greater Vancouver area and help you find activities to do in each park. </p>
 </div>
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
 
@@ -153,20 +154,38 @@ include ("navigation.php");
 <div class="container">
   <div class="col-md-12">
     <h2 class="header-font">The Story</h2>
-      <p> Meet Amaterasu, the goddess of the sun. She's from the PS3 game, Okami HD, and at the time 
-      I created this image, I was a huge fan of the game. I really loved the artwork of the game, 
-      and decided I had to recreate one of the many wallpapers and artwork of the game. </p>
+      <p> Being a student studying abroad in beautiful British Columbia, I wanted to get out and enjoy what this province had in store for me, especially
+      in the Greater Vancouver area. However, there was one little problem: I wasn't familiar with this area and was too lazy to go do research on which
+      places were good to visit. So, when an assignment that focused on Vancouver tourism came up in one of my classes at BCIT, I took that opportunity 
+      to create myself a web app that solved my problem. ...Welcome to Park Pal! </p>
 
-    <div class="padding-bot"></div>
+  <div class="padding-bot"></div>
+
+    <h2 class="header-font">My Main Focus</h2>
+      <p> I created Park Pal to practice and get a better grasp on my JQuery skills. This web app is coded using primarily JQuery as a result. </p>
+
+  <div class="padding-bot"></div>
 
     <h2 class="header-font">The Process</h2>
-      <p> I searched for an official image of the game and found this one. Placing the image in Adobe Illustrator as a template, 
-      I began to carefully trace the image with the pen tool and then later fill the shapes with more details. </p>
+      <p> There were many things I could have focused on when it came to places to visit in Vancouver. I chose to narrow it down to popular parks in
+      the area because I was interested on what parks there were to visit. I did my research on five popular parks and included them in Park Pal. </p>
 
-      <p> The main focus of this piece are the usage of different patterns and stroke appearances. </p>
+      <p> In the beginning, I was imagining a self tour guide with a checklist of places to visit, but decided against it when I started developing 
+      the web app. The reason being was because a checklist seemed like it forces the users to complete all the tasks listed to "complete" the tour. If
+      they don't check off everything on the list, then it might make them feel unaccomplished. So instead, I just made the checklists into regular 
+      bullet point lists to show what activities are available in each park. Users can pick and choose where they want to visit now. </p>
 
-      <p> The main tools I used in the program, Adobe Illustrator were: pen tool, shape tools, paintbrush, custom brushes, 
-      and custom patterns. </p>
+      <p> The navigation is using JQuery tabs and the other elements are using slide effects. Each individual page slides in or out on toggle, and the
+      information slides down or up on toggle. I also created modals for the popups using JQuery, which I had some trouble with because of the z-index
+      and click functions. But in the end, everything works! </p>
+
+  <div class="padding-bot"></div>
+
+    <h2 class="header-font">What I Learned</h2>
+      <p> A project that uses an extensive amount of JQuery will be extremely slow and laggy for the user to navigate around. Also, depending on the
+      amount and load of content on each page, it can contribute to the lag. The lag really shows on mobile because phones tend to be less powerful than
+      computers. </p>
+
   </div>
 </div>  <!-- container-->
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->

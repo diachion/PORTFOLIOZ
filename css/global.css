@@ -597,7 +597,8 @@ h1 {
   margin-bottom: 10px; }
   .blurb > p {
     background-color: rgba(255, 255, 255, 0.5);
-    padding: 10px 0; }
+    padding: 10px 8px;
+    box-shadow: 0 0 1px #FFFC9D; }
 
 .work-main {
   width: 100%;
