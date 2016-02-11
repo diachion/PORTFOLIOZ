@@ -49,3 +49,13 @@ h1 {
   margin-left: 0.5em;
 }
 
+.social-media>a>span {
+  font-size: 3em;
+  color: $mainlight;
+  padding: 0 5px;
+  transition: all 0.3s ease;
+    &:hover {
+      color: $mainlightalt;
+    }
+}
+

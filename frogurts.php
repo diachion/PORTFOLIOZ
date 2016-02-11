@@ -150,20 +150,30 @@ include ("navigation.php");
 <div class="container">
   <div class="col-md-12">
     <h2 class="header-font">The Story</h2>
-      <p> Meet Amaterasu, the goddess of the sun. She's from the PS3 game, Okami HD, and at the time 
-      I created this image, I was a huge fan of the game. I really loved the artwork of the game, 
-      and decided I had to recreate one of the many wallpapers and artwork of the game. </p>
+      <p> If you were to start a business of your own, what would it be? For me, being the food lover I am, I decided to go with a frozen yogurt place. 
+      At the time, I just discovered the godly treats that were called frozen yogurt, and I was just itching to create something with it when an assignment
+      I had required us to create a logo for a fictitious company. </p>
+
+    <div class="padding-bot"></div>
+
+    <h2 class="header-font">The Main Focus</h2>
+      <p> The process of creating a logo from scratch, from sketches to prototypes to the final result. </p>
 
     <div class="padding-bot"></div>
 
     <h2 class="header-font">The Process</h2>
-      <p> I searched for an official image of the game and found this one. Placing the image in Adobe Illustrator as a template, 
-      I began to carefully trace the image with the pen tool and then later fill the shapes with more details. </p>
+      <p> I had zero ideas on how my logo should look like in the beginning. I was thinking of something with a cup of frozen yogurt, so I went with that
+      in the beginning. I then searched up frozen yogurt company logos and got inspiration from all the different logos. I started to add and remove various
+      elements from my logo. Then I asked myself, "what kind of image do I want to portray to my customers?". I wanted it to be a simple yet elegant little 
+      shop, so I decided that adding a ribbon to the logo would portray the elegant side, and the simplicity of the logo would portray the simple
+      side. </p>
 
-      <p> The main focus of this piece are the usage of different patterns and stroke appearances. </p>
+      <p> It was all brainstorming and sketches in the beginning, taking one logo and modifying it. Comparing the first logo I had with the final logo
+      I decided upon is completely different. When I found a logo I liked quite well, I transferred the sketch to a digital medium. I decided to use
+      Adobe Illustrator for that because I was more comfortable with using that program for logo designs. I did the same thing on Illustrator as I did 
+      with my sketches - taking the logo and modifying it until I was satisfied. </p>
 
-      <p> The main tools I used in the program, Adobe Illustrator were: pen tool, shape tools, paintbrush, custom brushes, 
-      and custom patterns. </p>
+      <p> I chose the colors red and blue because the colors look elegant together. Red is also a color known for stimulating hunger. </p>
   </div>
 </div>  <!-- container-->
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->

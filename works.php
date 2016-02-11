@@ -144,7 +144,7 @@ include ("navigation.php");
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
 
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
-<div class="col-sm-6 col-md-4 text-center">
+<!-- <div class="col-sm-6 col-md-4 text-center">
   <div class="card">
 
     <div class="works-thumbnail">
@@ -153,15 +153,15 @@ include ("navigation.php");
         <p>VIEW PROJECT</p>
         <a href="kuroko.php"></a>
       </figcaption>
-    </div> <!-- thumbnail -->
+    </div> --> <!-- thumbnail -->
 
-    <div class="caption">
+<!--     <div class="caption">
       <h3><a href="kuroko.php">The Best Present</a></h3>
       <p><strong>Vector Frame Animation</strong> <span class="fa fa-star"></span> January 31, 2016</p>
-    </div> <!-- caption -->
+    </div> --> <!-- caption -->
 
-  </div> <!-- card -->
-</div> <!-- col-md-4 -->
+<!--   </div> --> <!-- card -->
+<!-- </div> --> <!-- col-md-4 -->
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
 
 </div> <!-- container-->

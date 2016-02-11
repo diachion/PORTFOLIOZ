@@ -48,7 +48,7 @@ include ("navigation.php");
         <li>CSS 3</li>
         <li>JQuery</li>
       </ul>
-    <a class="btn-works btn-link-out text-center" style="margin-bottom: 30px;" href="http://betterme.mike-ho.com" target="new">Visit Website</a>
+    <a class="btn-works btn-link-out text-center" style="margin-bottom: 30px;" href="http://www.parkpal.lydiaquon.com/" target="new">Visit Website</a>
   </div> <!-- column -->
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
 </div>  <!-- container-->
@@ -161,7 +161,7 @@ include ("navigation.php");
 
   <div class="padding-bot"></div>
 
-    <h2 class="header-font">My Main Focus</h2>
+    <h2 class="header-font">The Main Focus</h2>
       <p> I created Park Pal to practice and get a better grasp on my JQuery skills. This web app is coded using primarily JQuery as a result. </p>
 
   <div class="padding-bot"></div>

@@ -156,7 +156,7 @@ include ("navigation.php");
 
   <div class="padding-bot"></div>
 
-    <h2 class="header-font">My Main Focus</h2>
+    <h2 class="header-font">The Main Focus</h2>
       <p> The main focus of this piece are the usage of different patterns and stroke appearances. The majority of the background elements are covered
       in a pattern instead of solid color. The outline strokes are from a custom brush. </p>
 
@@ -185,6 +185,7 @@ include ("navigation.php");
   <div class="col-md-12 light-divider text-center"></div>
 </div>  <!-- container-->
 
+
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
             WORKS NAVIGATION
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
@@ -196,11 +197,28 @@ include ("navigation.php");
   </div>
 
   <div class="col-xs-6 text-center">
+    <a class="btn-works btn-fill-right" href="betterme.php">Next <span class="fa fa-long-arrow-right"></span></a>
+    <h4 class="no-header">Better Me</h4>
+  </div>
+
+</div>  <!-- container-->
+
+<!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+            KUROKOCCHI NAVIGATION
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
+<!-- <div class="container text-center">
+
+  <div class="col-xs-6 text-center">
+    <a class="btn-works btn-fill-left" href="nekoatsume.php"><span class="fa fa-long-arrow-left"></span> Previous</a>
+    <h4 class="no-header">Kitty Collector</h4>
+  </div>
+
+  <div class="col-xs-6 text-center">
     <a class="btn-works btn-fill-right" href="kuroko.php">Next <span class="fa fa-long-arrow-right"></span></a>
     <h4 class="no-header">The Best Present</h4>
   </div>
 
-</div>  <!-- container-->
+</div> -->  <!-- container-->
 
 
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-

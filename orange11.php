@@ -48,7 +48,7 @@ include ("navigation.php");
         <li>CSS 3</li>
         <li>JQuery</li>
       </ul>
-    <a class="btn-works btn-link-out text-center" style="margin-bottom: 30px;" href="http://betterme.mike-ho.com" target="new">Visit Website</a>
+    <a class="btn-works btn-link-out text-center" style="margin-bottom: 30px;" href="http://www.orange11.lydiaquon.com/" target="new">Visit Website</a>
   </div> <!-- column -->
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
 </div>  <!-- container-->
@@ -161,6 +161,11 @@ include ("navigation.php");
 
   <div class="padding-bot"></div>
 
+    <h2 class="header-font">The Main Focus</h2>
+      <p> A simple website to practice our HTML and CSS skills. This was just the tip of the iceberg for more complicated projects down the road! </p>
+
+  <div class="padding-bot"></div>
+
     <h2 class="header-font">My Responsibilities</h2>
       <p> I was mainly in charge of parts of the HTML and CSS, specifically the navigation bar, contact page, overall layout design, and media queries for
       responsive design. </p>
@@ -184,8 +189,8 @@ include ("navigation.php");
   <div class="padding-bot"></div>
 
     <h2 class="header-font">What I Learned</h2>
-      <p> This was my first time working with media queries, and it's not all that difficult, just really tedious and time consuming. But once I got it all
-      working, it really is nice to look at. </p>
+      <p> This was my first time working with media queries, and it's not all that difficult, just really tedious and time consuming. All that hard
+      work is worth it in the end, though! </p>
 
   </div>
 </div>  <!-- container-->

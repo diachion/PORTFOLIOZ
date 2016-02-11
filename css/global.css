@@ -107,6 +107,14 @@ h1 {
 .icon-right {
   margin-left: 0.5em; }
 
+.social-media > a > span {
+  font-size: 3em;
+  color: #E1EDF4;
+  padding: 0 5px;
+  transition: all 0.3s ease; }
+  .social-media > a > span:hover {
+    color: #A0D6FF; }
+
 /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
      $COMPONENTS
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */

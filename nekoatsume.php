@@ -160,18 +160,28 @@ include ("navigation.php");
 
   <div class="padding-bot"></div>
 
-    <h2 class="header-font">My Main Focus</h2>
+    <h2 class="header-font">The Main Focus</h2>
       <p> The main focus of this piece are the usage of my various Adobe Photoshop skills mixed with my Adobe Illustrator skills. </p>
 
    <div class="padding-bot"></div>
 
     <h2 class="header-font">The Process</h2>
-      <p> i'm hungry </p>
-
-      <p> it's 2:15 am and i should go sleep </p>
+      <p> I had a slight hard time trying to find photographs to composite into the image. In the end, I chose the Pusheen plush eating a cookie, the
+      yarn ball, and the running mouse. Now the question is: can you find the running mouse? It's easily missable and sometimes I even forget
+      I added one... </p>
 
       <p> The main tools and techniques I used in Adobe Photoshop were: masking, smart objects, smart filters, clipping masks, brushes, layer styles, 
-      adjustment layers, and custom brushes. The main tools and techniques I used in Adobe Illustrator were: pen tool and pathfinder. </p>
+      adjustment layers, and custom brushes. The main tools and techniques I used in Adobe Illustrator were: pen tool and pathfinder. The main
+      composition was in Photoshop, and elements done in Illustrator were brought over to Photoshop. </p>
+
+      <p> Using Photoshop, the photographs were composited into the image by turning the layers into smart objects and using masking to get rid of 
+      elements that were not needed. Two brushes were created by me, which were the tree leaves shadows and the cherry blossoms behind the logo. The
+      text used a mix of layer styles and adjustment layers. The light beams used a mix of smart filters, clipping masks, and adjustment layers. The 
+      finishing touches of turning the whole image slightly red was the result from adjustment layers. </p>
+
+      <p> On Illustrator, vectoring the kitties and logo were a pain for me. The original image for the kitties using the kotatsu (the table) was in a 
+      different perspective than the background image I used. So, I had to do many readjustments and no matter what I did, it still looked a little bit 
+      off. In the end after a few hours, I finally got the prespective correct! Whew! </p>
   </div>
 </div>  <!-- container-->
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->

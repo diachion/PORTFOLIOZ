@@ -163,6 +163,11 @@ include ("navigation.php");
 
   <div class="padding-bot"></div>
 
+    <h2 class="header-font">The Main Focus</h2>
+      <p> Better Me was a project to get us more comfortable with working with different programming languages and working with databases. </p>
+
+  <div class="padding-bot"></div>
+
     <h2 class="header-font">My Responsibilities</h2>
       <p> I was the person who was in charge of the HTML and CSS portions of this project. I took the mockups created by our designer and
       implemented it to the working app. I also suggested and gave feedback on the design choices and overall design of Better Me. </p>
@@ -177,8 +182,9 @@ include ("navigation.php");
       done with all the back-end development, I jumped in and polished the CSS. The designers also helped with the CSS. During this, we were all
       struggling and trying to learn new methods and shortcuts that would make our coding easier, but still produce the same result. </p>
 
-      <p> In the end, a few modifications were needed in terms of the design and colors. After all was done, our main developer launched Better Me
-      on the Google Play Store. It's now live on there, so please check it out if time permits!</p>
+      <p> In the end, a few modifications were needed in terms of the design and colors. The shade of light blue and the monotonous feel of all that 
+      blue we had at the time made users feel really relaxed and sleepy, which was not what we wanted. So, we decided to use different shades of blue
+      that had more contrast. After all was done, our main developer launched Better Me on the Google Play Store. </p>
 
   <div class="padding-bot"></div>
 
@@ -196,10 +202,29 @@ include ("navigation.php");
   <div class="col-md-12 light-divider text-center"></div>
 </div>  <!-- container-->
 
+
+
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
             WORKS NAVIGATION
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
 <div class="container text-center">
+
+  <div class="col-xs-6 text-center">
+    <a class="btn-works btn-fill-left" href="amaterasu.php"><span class="fa fa-long-arrow-left"></span> Previous</a>
+    <h4 class="no-header">Amaterasu</h4>
+  </div>
+
+  <div class="col-xs-6 text-center">
+    <a class="btn-works btn-fill-right" href="parkpal.php">Next <span class="fa fa-long-arrow-right"></span></a>
+    <h4 class="no-header">Park Pal</h4>
+  </div>
+  
+</div>  <!-- container-->
+
+<!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+            KUROKOCCHI NAVIGATION
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
+<!-- <div class="container text-center">
 
   <div class="col-xs-6 text-center">
     <a class="btn-works btn-fill-left" href="kuroko.php"><span class="fa fa-long-arrow-left"></span> Previous</a>
@@ -211,7 +236,7 @@ include ("navigation.php");
     <h4 class="no-header">Park Pal</h4>
   </div>
   
-</div>  <!-- container-->
+</div> -->  <!-- container-->
 
 
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
