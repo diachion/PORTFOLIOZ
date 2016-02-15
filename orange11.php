@@ -32,7 +32,7 @@ include ("navigation.php");
 
 <!-- -=-=-=-=- FINISHED WORK -=-=-=-=- -->
 	<div class="col-md-8 text-center">
-    <img class="work-main" src="imgs/works/orange11/oel-focus.jpg" alt="work 1"/>
+    <img class="work-main" src="imgs/works/orange11/oel-focus.jpg" alt="Orange 11"/>
   </div> <!-- column -->
 
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
@@ -59,7 +59,7 @@ include ("navigation.php");
 
   <div class="col-xs-6 col-md-3 text-center">
     <a class="thumbnail" data-toggle="modal" data-target="#oel-main">
-      <img src="imgs/works/orange11/oel-main.jpg" alt="original"/>
+      <img src="imgs/works/orange11/oel-main.jpg" alt="Orange 11 Main Page"/>
     </a>
   </div> <!-- column -->
 
@@ -71,7 +71,7 @@ include ("navigation.php");
         <h4 class="modal-title" id="myModalLabel">Home Page</h4>
       </div>
       <div class="modal-body">
-        <p><img class="modal-img" src="imgs/works/orange11/oel-main.jpg" alt="progress"/></p>
+        <p><img class="modal-img" src="imgs/works/orange11/oel-main.jpg" alt="Orange 11 Main Page"/></p>
         <p>The main page, which is also the News page.</p>
       </div>
     </div>
@@ -81,7 +81,7 @@ include ("navigation.php");
 
   <div class="col-xs-6 col-md-3 text-center">
     <a class="thumbnail" data-toggle="modal" data-target="#oel-history">
-      <img src="imgs/works/orange11/oel-history.jpg" alt="progress"/>
+      <img src="imgs/works/orange11/oel-history.jpg" alt="Orange 11 History Page"/>
     </a>
   </div> <!-- column -->
 
@@ -93,7 +93,7 @@ include ("navigation.php");
         <h4 class="modal-title" id="myModalLabel">History Page</h4>
       </div>
       <div class="modal-body">
-        <p><img class="modal-img" src="imgs/works/orange11/oel-history.jpg" alt="progress"/></p>
+        <p><img class="modal-img" src="imgs/works/orange11/oel-history.jpg" alt="Orange 11 History Page"/></p>
         <p>Tells the history of the team.</p>
       </div>
     </div>
@@ -103,7 +103,7 @@ include ("navigation.php");
 
   <div class="col-xs-6 col-md-3 text-center">
     <a class="thumbnail" data-toggle="modal" data-target="#oel-fifa">
-      <img src="imgs/works/orange11/oel-fifa.jpg" alt="progress"/>
+      <img src="imgs/works/orange11/oel-fifa.jpg" alt="Orange 11 FIFA Page"/>
     </a>
   </div> <!-- column -->
 
@@ -115,7 +115,7 @@ include ("navigation.php");
         <h4 class="modal-title" id="myModalLabel">FIFA Page</h4>
       </div>
       <div class="modal-body">
-        <p><img class="modal-img" src="imgs/works/orange11/oel-fifa.jpg" alt="progress"/></p>
+        <p><img class="modal-img" src="imgs/works/orange11/oel-fifa.jpg" alt="Orange 11 FIFA Page"/></p>
         <p>Articles about FIFA.</p>
       </div>
     </div>
@@ -125,7 +125,7 @@ include ("navigation.php");
 
   <div class="col-xs-6 col-md-3 text-center">
     <a class="thumbnail" data-toggle="modal" data-target="#oel-stats">
-      <img src="imgs/works/orange11/oel-stats.jpg" alt="progress"/>
+      <img src="imgs/works/orange11/oel-stats.jpg" alt="Orange 11 Player Stats Page"/>
     </a>
   </div> <!-- column -->
 
@@ -137,7 +137,7 @@ include ("navigation.php");
         <h4 class="modal-title" id="myModalLabel">Player Statistics Page</h4>
       </div>
       <div class="modal-body">
-        <p><img class="modal-img" src="imgs/works/orange11/oel-stats.jpg" alt="progress"/></p>
+        <p><img class="modal-img" src="imgs/works/orange11/oel-stats.jpg" alt="Orange 11 Player Stats Page"/></p>
         <p>Statistics of the players on the team.</p>
       </div>
     </div>

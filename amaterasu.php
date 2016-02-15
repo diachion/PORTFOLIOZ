@@ -32,7 +32,7 @@ include ("navigation.php");
 
 <!-- -=-=-=-=- FINISHED WORK -=-=-=-=- -->
 	<div class="col-md-8 text-center">
-    <img class="work-main" src="imgs/works/amaterasu/amaterasu.jpg" alt="work 1"/>
+    <img class="work-main" src="imgs/works/amaterasu/amaterasu.jpg" alt="Amaterasu"/>
   </div> <!-- column -->
 
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
@@ -56,7 +56,7 @@ include ("navigation.php");
 
   <div class="col-xs-6 col-md-3 text-center">
     <a class="thumbnail" data-toggle="modal" data-target="#ammy-original">
-      <img src="imgs/works/amaterasu/original.jpg" alt="original"/>
+      <img src="imgs/works/amaterasu/original.jpg" alt="Amaterasu Original"/>
     </a>
   </div> <!-- column -->
 
@@ -68,7 +68,7 @@ include ("navigation.php");
         <h4 class="modal-title" id="myModalLabel">Original Artwork</h4>
       </div>
       <div class="modal-body">
-        <p><img class="modal-img" src="imgs/works/amaterasu/original.jpg" alt="progress"/></p>
+        <p><img class="modal-img" src="imgs/works/amaterasu/original.jpg" alt="Amaterasu Original"/></p>
         <p>This is the original official artwork of Amaterasu from Okami HD.</p>
       </div>
     </div>
@@ -77,7 +77,7 @@ include ("navigation.php");
 
   <div class="col-xs-6 col-md-3 text-center">
     <a class="thumbnail" data-toggle="modal" data-target="#ammy-progress1">
-      <img src="imgs/works/amaterasu/progress-o1.jpg" alt="progress"/>
+      <img src="imgs/works/amaterasu/progress-o1.jpg" alt="Amaterasu Progress #1"/>
     </a>
   </div> <!-- column -->
 
@@ -89,7 +89,7 @@ include ("navigation.php");
         <h4 class="modal-title" id="myModalLabel">Progress #1</h4>
       </div>
       <div class="modal-body">
-        <p><img class="modal-img" src="imgs/works/amaterasu/progress-o1.jpg" alt="progress"/></p>
+        <p><img class="modal-img" src="imgs/works/amaterasu/progress-o1.jpg" alt="Amaterasu Progress #1"/></p>
         <p>I used the pen tool to outline basic shapes and filled them with base colors.</p>
       </div>
     </div>
@@ -98,7 +98,7 @@ include ("navigation.php");
 
   <div class="col-xs-6 col-md-3 text-center">
     <a class="thumbnail" data-toggle="modal" data-target="#ammy-progress2">
-      <img src="imgs/works/amaterasu/progress-o2.jpg" alt="progress"/>
+      <img src="imgs/works/amaterasu/progress-o2.jpg" alt="Amaterasu Progress #2"/>
     </a>
   </div> <!-- column -->
 
@@ -110,7 +110,7 @@ include ("navigation.php");
         <h4 class="modal-title" id="myModalLabel">Progress #2</h4>
       </div>
       <div class="modal-body">
-        <p><img class="modal-img" src="imgs/works/amaterasu/progress-o2.jpg" alt="progress"/></p>
+        <p><img class="modal-img" src="imgs/works/amaterasu/progress-o2.jpg" alt="Amaterasu Progress #2"/></p>
         <p>I added in a few more elements and details with the pen tool.</p>
       </div>
     </div>
@@ -119,7 +119,7 @@ include ("navigation.php");
 
   <div class="col-xs-6 col-md-3 text-center">
     <a class="thumbnail" data-toggle="modal" data-target="#ammy-progress3">
-      <img src="imgs/works/amaterasu/progress-o3.jpg" alt="progress"/>
+      <img src="imgs/works/amaterasu/progress-o3.jpg" alt="Amaterasu Progress #3"/>
     </a>
   </div> <!-- column -->
 
@@ -131,7 +131,7 @@ include ("navigation.php");
         <h4 class="modal-title" id="myModalLabel">Progress #3</h4>
       </div>
       <div class="modal-body">
-        <p><img class="modal-img" src="imgs/works/amaterasu/progress-o3.jpg" alt="progress"/></p>
+        <p><img class="modal-img" src="imgs/works/amaterasu/progress-o3.jpg" alt="Amaterasu Progress #3"/></p>
         <p>I added in patterns, both free and custom ones, to some elements. I also added in free brush strokes for the outlines.</p>
       </div>
     </div>
@@ -228,7 +228,8 @@ include ("navigation.php");
 include ("footer.php");
 ?>
 
-<!-- falling sakura petals -->
+<!-- falling sakura petals
 <script>
   $("body").sakura();
-</script>
+</script> 
+-->

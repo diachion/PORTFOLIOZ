@@ -32,7 +32,7 @@ include ("navigation.php");
 
 <!-- -=-=-=-=- FINISHED WORK -=-=-=-=- -->
 	<div class="col-md-8 text-center">
-    <img class="work-main" src="imgs/works/nekoatsume/nekoatsume.jpg" alt="work 1"/>
+    <img class="work-main" src="imgs/works/nekoatsume/nekoatsume.jpg" alt="Neko Atsume"/>
   </div> <!-- column -->
 
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
@@ -57,7 +57,7 @@ include ("navigation.php");
 
   <div class="col-xs-6 col-md-3 text-center">
     <a class="thumbnail" data-toggle="modal" data-target="#na-original">
-      <img src="imgs/works/nekoatsume/progress-o1.jpg" alt="original"/>
+      <img src="imgs/works/nekoatsume/progress-o1.jpg" alt="Neko Atsume Original"/>
     </a>
   </div> <!-- column -->
 
@@ -69,7 +69,7 @@ include ("navigation.php");
         <h4 class="modal-title" id="myModalLabel">Original Background Image</h4>
       </div>
       <div class="modal-body">
-        <p><img class="modal-img" src="imgs/works/nekoatsume/progress-o1.jpg" alt="progress"/></p>
+        <p><img class="modal-img" src="imgs/works/nekoatsume/progress-o1.jpg" alt="Neko Atsume Original"/></p>
         <p>The original image I used for the background.</p>
       </div>
     </div>
@@ -78,7 +78,7 @@ include ("navigation.php");
 
   <div class="col-xs-6 col-md-3 text-center">
     <a class="thumbnail" data-toggle="modal" data-target="#na-progress1">
-      <img src="imgs/works/nekoatsume/progress-o2.jpg" alt="progress"/>
+      <img src="imgs/works/nekoatsume/progress-o2.jpg" alt="Neko Atsume Progress #1"/>
     </a>
   </div> <!-- column -->
 
@@ -90,7 +90,7 @@ include ("navigation.php");
         <h4 class="modal-title" id="myModalLabel">Progress #1</h4>
       </div>
       <div class="modal-body">
-        <p><img class="modal-img" src="imgs/works/nekoatsume/progress-o2.jpg" alt="progress"/></p>
+        <p><img class="modal-img" src="imgs/works/nekoatsume/progress-o2.jpg" alt="Neko Atsume Progress #1"/></p>
         <p>I got more photographs and composited them into the background image. I also vectored some elements from Adobe Illustrator and 
         transfered it over to Adobe Photoshop.</p>
       </div>
@@ -100,7 +100,7 @@ include ("navigation.php");
 
   <div class="col-xs-6 col-md-3 text-center">
     <a class="thumbnail" data-toggle="modal" data-target="#na-progress2">
-      <img src="imgs/works/nekoatsume/progress-o3.jpg" alt="progress"/>
+      <img src="imgs/works/nekoatsume/progress-o3.jpg" alt="Neko Atsume Progress #2"/>
     </a>
   </div> <!-- column -->
 
@@ -112,7 +112,7 @@ include ("navigation.php");
         <h4 class="modal-title" id="myModalLabel">Progress #2</h4>
       </div>
       <div class="modal-body">
-        <p><img class="modal-img" src="imgs/works/nekoatsume/progress-o3.jpg" alt="progress"/></p>
+        <p><img class="modal-img" src="imgs/works/nekoatsume/progress-o3.jpg" alt="Neko Atsume Progress #2"/></p>
         <p>I added shadows to some elements, the text on the wood, and a custom tree leaves shadow brush over a part of the image.</p>
       </div>
     </div>
@@ -121,7 +121,7 @@ include ("navigation.php");
 
   <div class="col-xs-6 col-md-3 text-center">
     <a class="thumbnail" data-toggle="modal" data-target="#na-progress3">
-      <img src="imgs/works/nekoatsume/progress-o4.jpg" alt="progress"/>
+      <img src="imgs/works/nekoatsume/progress-o4.jpg" alt="Neko Atsume Progress #3"/>
     </a>
   </div> <!-- column -->
 
@@ -133,7 +133,7 @@ include ("navigation.php");
         <h4 class="modal-title" id="myModalLabel">Progress #3</h4>
       </div>
       <div class="modal-body">
-        <p><img class="modal-img" src="imgs/works/nekoatsume/progress-o4.jpg" alt="progress"/></p>
+        <p><img class="modal-img" src="imgs/works/nekoatsume/progress-o4.jpg" alt="Neko Atsume Progress #3"/></p>
         <p>I added and changed some elements, redid the custom tree leaves shadows brush to make the leaves look more like actual leaves, added
         a second custom brush of cherry blossom leaves and petals behind the logo, and added beams of light by putting a black and white image
         and set the blending mode to "screen".</p>

@@ -84,15 +84,14 @@ $random = (rand(0, count($bg)-1));
 
         <div class="container">
           <div class="col-md-6">
-            <img class="carousel-image" src="imgs/thumbnails/okami.jpg" alt="The Orange 11">
+            <img class="carousel-image" src="imgs/thumbnails/CAROUSEL-oel.jpg" alt="The Orange 11">
           </div>
 
           <div class="col-md-6">
-            <h1>hello world</h1>
-            <p>when the sun goes down and the lights burn out, then it's time for yooou to shine.. 
-            brighter than a shooooooting staaaar. so shine no matter wherreee yoou are</p>
-            <p>fill the darkest night with a brilliant light 'cause it's time for yooou to shine..
-            brighter than a shooooting staaar. so shine no matter wherreee yoou aaareee .. toniiight ~ </p>
+            <h1>The Orange Eleven</h1>
+            <p class="padding-bot">A fansite for the Netherlands National Football Team, the Orange Eleven. All you need to know about this team is provided in this site.
+            So, let's get kicking! </p>
+            <p><a class="btn-carousel btn-link-out text-center" href="orange11.php">View Project</a></p>
             
           </div>
         </div> <!-- container -->
@@ -103,15 +102,14 @@ $random = (rand(0, count($bg)-1));
 
         <div class="container">
           <div class="col-md-6">
-            <img class="carousel-image" src="imgs/thumbnails/orange11.jpg" alt="The Orange 11">
+            <img class="carousel-image" src="imgs/thumbnails/CAROUSEL-bm.jpg" alt="Better Me">
           </div>
 
           <div class="col-md-6">
-            <h1>hello world</h1>
-            <p>when the sun goes down and the lights burn out, then it's time for yooou to shine.. 
-            brighter than a shooooooting staaaar. so shine no matter wherreee yoou are</p>
-            <p>fill the darkest night with a brilliant light 'cause it's time for yooou to shine..
-            brighter than a shooooting staaar. so shine no matter wherreee yoou aaareee .. toniiight ~ </p>
+            <h1>Better Me</h1>
+            <p class="padding-bot">Better Me is a mobile application that is aimed towards individuals who need that extra push and motivation to get everyday 
+            mudane taks done. Get motivated, get rewarded, feel better! </p>
+            <p><a class="btn-carousel btn-link-out text-center" href="betterme.php">View Project</a></p>
           </div>
         </div> <!-- container -->
 
@@ -129,6 +127,29 @@ $random = (rand(0, count($bg)-1));
       <span class="sr-only">Next</span>
     </a>
   </div>
+</div>  <!-- container-->
+
+
+<!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+            What are you waiting for?
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
+<div class="container">
+  <h1 class="text-center" style="margin-bottom: 70px;">So, what are you waiting for?</h1>
+
+  <div class="col-xs-6 text-center">
+    <a href="works.php">
+      <img src="imgs/icons/folder.svg" alt="My Works">
+      <h2 class="text-center">My Works</h2>
+    </a>
+  </div> <!-- column -->
+
+  <div class="col-xs-6 text-center">
+    <a href="contact.php">
+      <img src="imgs/icons/letter.svg" alt="Contact Me">
+      <h2 class="text-center">Contact Me</h2>
+    </a>
+  </div> <!-- column -->
+
 </div>  <!-- container-->
 
 

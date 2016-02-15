@@ -31,7 +31,7 @@ include ("navigation.php");
 
 <!-- -=-=-=-=- FINISHED WORK -=-=-=-=- -->
 	<div class="col-md-8 text-center">
-    <img class="work-main" src="imgs/works/frogurts/fg-focus.jpg" alt="work 1"/>
+    <img class="work-main" src="imgs/works/frogurts/fg-focus.jpg" alt="Lydia's Frogurts"/>
   </div> <!-- column -->
 
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
@@ -54,12 +54,12 @@ include ("navigation.php");
 <div class="container">
 
   <div class="col-xs-6 col-md-3 text-center">
-    <a class="thumbnail" data-toggle="modal" data-target="#pp-designs">
-      <img src="imgs/works/frogurts/pp-designs.jpg" alt="progress"/>
+    <a class="thumbnail" data-toggle="modal" data-target="#fg-sketches">
+      <img src="imgs/works/frogurts/fg-sketches.jpg" alt="Logo Sketches"/>
     </a>
   </div> <!-- column -->
 
-  <div class="modal fade" id="pp-designs" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal fade" id="fg-sketches" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -67,7 +67,7 @@ include ("navigation.php");
         <h4 class="modal-title" id="myModalLabel">Sketches of logos</h4>
       </div>
       <div class="modal-body">
-        <p><img class="modal-img" src="imgs/works/frogurts/pp-designs.jpg" alt="progress"/></p>
+        <p><img class="modal-img" src="imgs/works/frogurts/fg-sketches.jpg" alt="Logo Sketches"/></p>
         <p>The various sketches of logos I came up with.</p>
       </div>
     </div>
@@ -76,7 +76,7 @@ include ("navigation.php");
 
   <div class="col-xs-6 col-md-3 text-center">
     <a class="thumbnail" data-toggle="modal" data-target="#fg-idea1">
-      <img src="imgs/works/frogurts/fg-idea1.jpg" alt="progress"/>
+      <img src="imgs/works/frogurts/fg-idea1.jpg" alt="Logo Idea #1"/>
     </a>
   </div> <!-- column -->
 
@@ -88,7 +88,7 @@ include ("navigation.php");
         <h4 class="modal-title" id="myModalLabel">Logo Ideas #1</h4>
       </div>
       <div class="modal-body">
-        <p><img class="modal-img" src="imgs/works/frogurts/fg-idea1.jpg" alt="progress"/></p>
+        <p><img class="modal-img" src="imgs/works/frogurts/fg-idea1.jpg" alt="Logo Idea #1"/></p>
         <p>Some logo ideas I had, which I created and modified on Adobe Illustrator.</p>
       </div>
     </div>
@@ -97,7 +97,7 @@ include ("navigation.php");
 
   <div class="col-xs-6 col-md-3 text-center">
     <a class="thumbnail" data-toggle="modal" data-target="#fg-idea2">
-      <img src="imgs/works/frogurts/fg-idea2.jpg" alt="original"/>
+      <img src="imgs/works/frogurts/fg-idea2.jpg" alt="Logo Idea #2"/>
     </a>
   </div> <!-- column -->
 
@@ -109,7 +109,7 @@ include ("navigation.php");
         <h4 class="modal-title" id="myModalLabel">Logo Ideas #2</h4>
       </div>
       <div class="modal-body">
-        <p><img class="modal-img" src="imgs/works/frogurts/fg-idea2.jpg" alt="progress"/></p>
+        <p><img class="modal-img" src="imgs/works/frogurts/fg-idea2.jpg" alt="Logo Idea #2"/></p>
         <p>Some logo ideas I had, which I created and modified on Adobe Illustrator.</p>
       </div>
     </div>
@@ -119,7 +119,7 @@ include ("navigation.php");
 
   <div class="col-xs-6 col-md-3 text-center">
     <a class="thumbnail" data-toggle="modal" data-target="#fg-idea3">
-      <img src="imgs/works/frogurts/fg-idea3.jpg" alt="progress"/>
+      <img src="imgs/works/frogurts/fg-idea3.jpg" alt="Logo Idea #3"/>
     </a>
   </div> <!-- column -->
 
@@ -131,7 +131,7 @@ include ("navigation.php");
         <h4 class="modal-title" id="myModalLabel">Logo Ideas #3</h4>
       </div>
       <div class="modal-body">
-        <p><img class="modal-img" src="imgs/works/frogurts/fg-idea3.jpg" alt="progress"/></p>
+        <p><img class="modal-img" src="imgs/works/frogurts/fg-idea3.jpg" alt="Logo Idea #3"/></p>
         <p>Some logo ideas I had, which I created and modified on Adobe Illustrator.</p>
       </div>
     </div>

@@ -32,7 +32,7 @@ include ("navigation.php");
 
 <!-- -=-=-=-=- FINISHED WORK -=-=-=-=- -->
 	<div class="col-md-8 text-center">
-    <img class="work-main" src="imgs/works/parkpal/pp-focus.jpg" alt="work 1"/>
+    <img class="work-main" src="imgs/works/parkpal/pp-focus.jpg" alt="Park Pal"/>
   </div> <!-- column -->
 
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
@@ -59,7 +59,7 @@ include ("navigation.php");
 
   <div class="col-xs-6 col-md-3 text-center">
     <a class="thumbnail" data-toggle="modal" data-target="#pp-designs">
-      <img src="imgs/works/parkpal/pp-designs.jpg" alt="progress"/>
+      <img src="imgs/works/parkpal/pp-designs.jpg" alt="Park Pal Designs"/>
     </a>
   </div> <!-- column -->
 
@@ -71,7 +71,7 @@ include ("navigation.php");
         <h4 class="modal-title" id="myModalLabel">Early Designs</h4>
       </div>
       <div class="modal-body">
-        <p><img class="modal-img" src="imgs/works/parkpal/pp-designs.jpg" alt="progress"/></p>
+        <p><img class="modal-img" src="imgs/works/parkpal/pp-designs.jpg" alt="Park Pal Designs"/></p>
         <p>Some of my early designs and mockups.</p>
       </div>
     </div>
@@ -80,7 +80,7 @@ include ("navigation.php");
 
   <div class="col-xs-6 col-md-3 text-center">
     <a class="thumbnail" data-toggle="modal" data-target="#pp-welcome">
-      <img src="imgs/works/parkpal/pp-welcome.jpg" alt="progress"/>
+      <img src="imgs/works/parkpal/pp-welcome.jpg" alt="Park Pal Welcome Page"/>
     </a>
   </div> <!-- column -->
 
@@ -92,7 +92,7 @@ include ("navigation.php");
         <h4 class="modal-title" id="myModalLabel">Welcome Screen</h4>
       </div>
       <div class="modal-body">
-        <p><img class="modal-img" src="imgs/works/parkpal/pp-welcome.jpg" alt="progress"/></p>
+        <p><img class="modal-img" src="imgs/works/parkpal/pp-welcome.jpg" alt="Park Pal Welcome Page"/></p>
         <p>The screen that shows up when you first launch the site.</p>
       </div>
     </div>
@@ -101,7 +101,7 @@ include ("navigation.php");
 
   <div class="col-xs-6 col-md-3 text-center">
     <a class="thumbnail" data-toggle="modal" data-target="#pp-main">
-      <img src="imgs/works/parkpal/pp-main.jpg" alt="original"/>
+      <img src="imgs/works/parkpal/pp-main.jpg" alt="Park Pal Main Page"/>
     </a>
   </div> <!-- column -->
 
@@ -113,7 +113,7 @@ include ("navigation.php");
         <h4 class="modal-title" id="myModalLabel">Home Page</h4>
       </div>
       <div class="modal-body">
-        <p><img class="modal-img" src="imgs/works/parkpal/pp-main.jpg" alt="progress"/></p>
+        <p><img class="modal-img" src="imgs/works/parkpal/pp-main.jpg" alt="Park Pal Main Page"/></p>
         <p>The main page, which has the list of all the available parks.</p>
       </div>
     </div>
@@ -123,7 +123,7 @@ include ("navigation.php");
 
   <div class="col-xs-6 col-md-3 text-center">
     <a class="thumbnail" data-toggle="modal" data-target="#pp-stanley">
-      <img src="imgs/works/parkpal/pp-stanley.jpg" alt="progress"/>
+      <img src="imgs/works/parkpal/pp-stanley.jpg" alt="Park Pal Stanley Park Page"/>
     </a>
   </div> <!-- column -->
 
@@ -135,7 +135,7 @@ include ("navigation.php");
         <h4 class="modal-title" id="myModalLabel">Stanley Park's Page</h4>
       </div>
       <div class="modal-body">
-        <p><img class="modal-img" src="imgs/works/parkpal/pp-stanley.jpg" alt="progress"/></p>
+        <p><img class="modal-img" src="imgs/works/parkpal/pp-stanley.jpg" alt="Park Pal Stanley Park Page"/></p>
         <p>The page for Stanley Park. Other pages for other parks are similar.</p>
       </div>
     </div>

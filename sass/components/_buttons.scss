@@ -10,7 +10,7 @@
 
 
 /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
-        WORKS PAGINATION BUTTONS
+        GENERAL BUTTONS
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
 .btn-works {
   display: inline-block;
@@ -21,6 +21,19 @@
   border-radius: 30px;
   width: 100%;
   max-width: 400px;
+  padding: 7px;
+  overflow: hidden;
+}
+
+.btn-carousel {
+  display: inline-block;
+  position: relative;
+  background-color: transparent;
+  border: 3px solid $mainlight;
+  color: $mainlight;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 300px;
   padding: 7px;
   overflow: hidden;
 }

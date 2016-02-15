@@ -28,6 +28,7 @@
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
 .carousel {
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .carousel-image {
@@ -67,7 +68,9 @@
         .navbar-nav>li>a {
           font-family: $headerfont;
           color: $maindark;
-          transition: all 0.4s ease;
+          -webkit-transition: all 0.4s ease;
+             -moz-transition: all 0.4s ease;
+                  transition: all 0.4s ease;
             &:hover {
               color: $mainlightalt;
               text-transform: uppercase;
@@ -76,7 +79,9 @@
         .navbar-brand {
           font-family: $headerfont;
           color: $maindark;
-          transition: all 0.4s ease;
+          -webkit-transition: all 0.4s ease;
+             -moz-transition: all 0.4s ease;
+                  transition: all 0.4s ease;
             &:hover {
               color: $mainlightalt;;
             }
@@ -131,7 +136,9 @@
         .navbar-nav>li>a {
           font-family: $headerfont;
           color: $mainlight;
-          transition: all 0.4s ease;
+          -webkit-transition: all 0.4s ease;
+             -moz-transition: all 0.4s ease;
+                  transition: all 0.4s ease;
             &:hover {
               color: $accent;
               text-transform: uppercase;
@@ -140,7 +147,9 @@
         .navbar-brand {
           font-family: $headerfont;
           color: $mainlight;
-          transition: all 0.4s ease;
+          -webkit-transition: all 0.4s ease;
+             -moz-transition: all 0.4s ease;
+                  transition: all 0.4s ease;
             &:hover {
               color: $accent;;
             }

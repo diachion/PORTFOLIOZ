@@ -25,7 +25,7 @@ include ("navigation.php");
   <div class="card">
 
     <div class="works-thumbnail">
-      <img src="imgs/thumbnails/betterme.jpg" alt="work 1"/>
+      <img src="imgs/thumbnails/betterme.jpg" alt="Better Me"/>
       <figcaption>
         <p>VIEW PROJECT</p>
         <a href="betterme.php"></a>
@@ -45,7 +45,7 @@ include ("navigation.php");
   <div class="card">
 
     <div class="works-thumbnail">
-      <img src="imgs/thumbnails/parkpal.jpg" alt="work 1"/>
+      <img src="imgs/thumbnails/parkpal.jpg" alt="Park Pal"/>
       <figcaption>
         <p>VIEW PROJECT</p>
         <a href="parkpal.php"></a>
@@ -65,7 +65,7 @@ include ("navigation.php");
   <div class="card">
 
     <div class="works-thumbnail">
-      <img src="imgs/thumbnails/orange11.jpg" alt="work 1"/>
+      <img src="imgs/thumbnails/orange11.jpg" alt="Orange 11"/>
       <figcaption>
         <p>VIEW PROJECT</p>
         <a href="orange11.php"></a>
@@ -87,7 +87,7 @@ include ("navigation.php");
   <div class="card">
 
     <div class="works-thumbnail">
-      <img src="imgs/thumbnails/frogurts.jpg" alt="work 1"/>
+      <img src="imgs/thumbnails/frogurts.jpg" alt="Lydia's Frogurts"/>
       <figcaption>
         <p>VIEW PROJECT</p>
         <a href="frogurts.php"></a>
@@ -107,7 +107,7 @@ include ("navigation.php");
   <div class="card">
 
     <div class="works-thumbnail">
-      <img src="imgs/thumbnails/nekoatsume.jpg" alt="work 1"/>
+      <img src="imgs/thumbnails/nekoatsume.jpg" alt="Neko Atsume"/>
       <figcaption>
         <p>VIEW PROJECT</p>
         <a href="nekoatsume.php"></a>
@@ -127,7 +127,7 @@ include ("navigation.php");
   <div class="card">
 
     <div class="works-thumbnail">
-      <img src="imgs/thumbnails/okami.jpg" alt="work 1"/>
+      <img src="imgs/thumbnails/okami.jpg" alt="Amaterasu"/>
       <figcaption>
         <p>VIEW PROJECT</p>
         <a href="amaterasu.php"></a>

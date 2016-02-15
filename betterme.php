@@ -32,7 +32,7 @@ include ("navigation.php");
 
 <!-- -=-=-=-=- FINISHED WORK -=-=-=-=- -->
 	<div class="col-md-8 text-center">
-    <img class="work-main" src="imgs/works/betterme/bm-focus.jpg" alt="work 1"/>
+    <img class="work-main" src="imgs/works/betterme/bm-focus.jpg" alt="Better Me"/>
   </div> <!-- column -->
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
 
@@ -62,7 +62,7 @@ include ("navigation.php");
 
   <div class="col-xs-6 col-md-3 text-center">
     <a class="thumbnail" data-toggle="modal" data-target="#bm-designs">
-      <img src="imgs/works/betterme/bm-designs.jpg" alt="progress"/>
+      <img src="imgs/works/betterme/bm-designs.jpg" alt="Better Me Designs"/>
     </a>
   </div> <!-- column -->
 
@@ -74,7 +74,7 @@ include ("navigation.php");
         <h4 class="modal-title" id="myModalLabel">Early Designs</h4>
       </div>
       <div class="modal-body">
-        <p><img class="modal-img" src="imgs/works/betterme/bm-designs.jpg" alt="progress"/></p>
+        <p><img class="modal-img" src="imgs/works/betterme/bm-designs.jpg" alt="Better Me Designs"/></p>
         <p>Some of the early designs and mockups.</p>
       </div>
     </div>
@@ -83,7 +83,7 @@ include ("navigation.php");
 
   <div class="col-xs-6 col-md-3 text-center">
     <a class="thumbnail" data-toggle="modal" data-target="#bm-main">
-      <img src="imgs/works/betterme/bm-main.jpg" alt="progress"/>
+      <img src="imgs/works/betterme/bm-main.jpg" alt="Better Me Main Page"/>
     </a>
   </div> <!-- column -->
 
@@ -95,7 +95,7 @@ include ("navigation.php");
         <h4 class="modal-title" id="myModalLabel">Login Screen</h4>
       </div>
       <div class="modal-body">
-        <p><img class="modal-img" src="imgs/works/betterme/bm-main.jpg" alt="progress"/></p>
+        <p><img class="modal-img" src="imgs/works/betterme/bm-main.jpg" alt="Better Me Main Page"/></p>
         <p>The screen that shows up when you first launch the app.</p>
       </div>
     </div>
@@ -104,7 +104,7 @@ include ("navigation.php");
 
   <div class="col-xs-6 col-md-3 text-center">
     <a class="thumbnail" data-toggle="modal" data-target="#bm-categories">
-      <img src="imgs/works/betterme/bm-categories.jpg" alt="original"/>
+      <img src="imgs/works/betterme/bm-categories.jpg" alt="Better Me Categories Page"/>
     </a>
   </div> <!-- column -->
 
@@ -116,7 +116,7 @@ include ("navigation.php");
         <h4 class="modal-title" id="myModalLabel">Categories Page</h4>
       </div>
       <div class="modal-body">
-        <p><img class="modal-img" src="imgs/works/betterme/bm-categories.jpg" alt="progress"/></p>
+        <p><img class="modal-img" src="imgs/works/betterme/bm-categories.jpg" alt="Better Me Categories Page"/></p>
         <p>The categories page, or main page, where you select which category you want to tackle. Or, you can choose to create your own custom category.</p>
       </div>
     </div>
@@ -126,7 +126,7 @@ include ("navigation.php");
 
   <div class="col-xs-6 col-md-3 text-center">
     <a class="thumbnail" data-toggle="modal" data-target="#bm-tasks">
-      <img src="imgs/works/betterme/bm-tasks.jpg" alt="progress"/>
+      <img src="imgs/works/betterme/bm-tasks.jpg" alt="Better Me Task Page"/>
     </a>
   </div> <!-- column -->
 
@@ -138,7 +138,7 @@ include ("navigation.php");
         <h4 class="modal-title" id="myModalLabel">"Active" Category Page</h4>
       </div>
       <div class="modal-body">
-        <p><img class="modal-img" src="imgs/works/betterme/bm-tasks.jpg" alt="progress"/></p>
+        <p><img class="modal-img" src="imgs/works/betterme/bm-tasks.jpg" alt="Better Me Task Page"/></p>
         <p>One of the categories, which is the list of tasks to complete. Other category lists are similar to this one.</p>
       </div>
     </div>
