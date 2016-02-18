@@ -81,6 +81,9 @@
       width: 100%;
     }
   }
+  &:focus {
+    text-decoration: none;
+  }
   &::after {
     content: '';
     background: $maindarkalt;
@@ -103,6 +106,9 @@
     &::after {
       width: 100%;
     }
+  }
+  &:focus {
+    text-decoration: none;
   }
   &::after {
     content: '';

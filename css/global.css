@@ -111,6 +111,8 @@ h1 {
   font-size: 3em;
   color: #E1EDF4;
   padding: 0 5px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
   transition: all 0.3s ease; }
   .social-media > a > span:hover {
     color: #A0D6FF; }
@@ -191,6 +193,8 @@ h1 {
   color: #13374C; }
   .btn-fill-right:hover::after, .btn-fill-right:active::after {
     width: 100%; }
+.btn-fill-right:focus {
+  text-decoration: none; }
 .btn-fill-right::after {
   content: '';
   background: #92BAD8;
@@ -209,6 +213,8 @@ h1 {
   color: #13374C; }
   .btn-fill-left:hover::after, .btn-fill-left:active::after {
     width: 100%; }
+.btn-fill-left:focus {
+  text-decoration: none; }
 .btn-fill-left::after {
   content: '';
   background: #92BAD8;

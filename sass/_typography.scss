@@ -53,7 +53,9 @@ h1 {
   font-size: 3em;
   color: $mainlight;
   padding: 0 5px;
-  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+     -moz-transition: all 0.3s ease;
+          transition: all 0.3s ease;
     &:hover {
       color: $mainlightalt;
     }

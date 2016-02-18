@@ -228,8 +228,9 @@ include ("navigation.php");
 include ("footer.php");
 ?>
 
-<!-- falling sakura petals
+<!-- falling sakura petals -->
 <script>
+if(window.innerWidth > 1100){
   $("body").sakura();
-</script> 
--->
+}
+</script>
