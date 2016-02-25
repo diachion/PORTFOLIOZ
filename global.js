@@ -18,4 +18,20 @@ $(document).ready(function(){
     // scroll down tooltip
     $(".down-arrow").tooltip();
 
+    // carousel
+    $(".webapps").click(function(){
+      $(".carousel").carousel(0);
+    });
+
+    $(".uiux").click(function(){
+      $(".carousel").carousel(1);
+    });
+
+
+    $(".designs").click(function(){
+      $(".carousel").carousel(2);
+    });
+
+
+
 }); 

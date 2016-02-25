@@ -1,7 +1,7 @@
 <footer>
 
 <div class="col-md-12 text-center">
-	<p class="footz">&copy; Lydia Quon 2016 <span class="fa fa-star"></span> Proudly built on Bootstrap</p>
+	<p class="footz">Copyright &copy; 2016 Lydia Quon</p>
 </div>
 
 </footer>

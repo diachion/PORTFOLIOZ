@@ -48,17 +48,17 @@ $random = (rand(0, count($bg)-1));
   <h1 class="text-center" style="margin-bottom: 70px;">Imagine it. Plan it. Create it.</h1>
 
   <div class="col-sm-4 text-center">
-    <img src="imgs/icons/laptop.svg" alt="Websites / Apps">
+    <img class="webapps" src="imgs/icons/laptop.svg" alt="Websites / Apps">
     <h2 class="text-center">Websites / Apps</h2>
   </div> <!-- column -->
 
   <div class="col-sm-4 text-center">
-    <img src="imgs/icons/browser.svg" alt="UI / UX Design">
+    <img class="uiux" src="imgs/icons/browser.svg" alt="UI / UX Design">
     <h2 class="text-center">UI / UX Design</h2>
   </div> <!-- column -->
 
   <div class="col-sm-4 text-center">
-    <img src="imgs/icons/pencil.svg" alt="Graphic Designs">
+    <img class="designs" src="imgs/icons/pencil.svg" alt="Graphic Designs">
     <h2 class="text-center">Graphic Designs</h2>
   </div> <!-- column -->
 
@@ -70,7 +70,7 @@ $random = (rand(0, count($bg)-1));
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
 
 <div class="container">
-  <div id="best-works-carousel" class="carousel slide" data-ride="carousel">
+  <div id="best-works-carousel" class="carousel slide" data-ride="carousel" data-interval="false">
     <!-- Indicators -->
 <!--     <ol class="carousel-indicators">
       <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -98,6 +98,7 @@ $random = (rand(0, count($bg)-1));
 
       </div> <!-- item -->
 
+
       <div class="item">
 
         <div class="container">
@@ -110,6 +111,24 @@ $random = (rand(0, count($bg)-1));
             <p class="padding-bot">Better Me is a mobile application that is aimed towards individuals who need that extra push and motivation to get everyday 
             mudane taks done. Get motivated, get rewarded, feel better! </p>
             <p><a class="btn-carousel btn-link-out text-center" href="betterme.php">View Project</a></p>
+          </div>
+        </div> <!-- container -->
+
+      </div> <!-- item -->
+
+
+      <div class="item">
+
+        <div class="container">
+          <div class="col-md-6">
+            <img class="carousel-image" src="imgs/thumbnails/CAROUSEL-na.jpg" alt="Neko Atsume">
+          </div>
+
+          <div class="col-md-6">
+            <h1>Neko Atsume</h1>
+            <p class="padding-bot">Inspired from the popular mobile app game, Neko Atsume: virtual kitties visiting your virtual yard and just hanging out.
+            What happens when real life meets virtual kitties?</p>
+            <p><a class="btn-carousel btn-link-out text-center" href="nekoatsume.php">View Project</a></p>
           </div>
         </div> <!-- container -->
 
