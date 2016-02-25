@@ -24,8 +24,31 @@ include ("navigation.php");
     <h4> Location: </h4> <p class="padding-bot"> Burnaby, BC </p>
   </div>
 
-  <div class="col-md-7 text-center">
-    <p> Contact form is currently unavailable! </p>
+  <div class="col-md-7">
+    <!-- <p> Contact form is currently unavailable! </p> -->
+
+    <form>
+      <div class="form-group">
+        <label for="form-name">Name</label>
+        <input type="text" class="form-control" id="form-name" placeholder="Enter Name"/>
+      </div>
+      <div class="form-group">
+        <label for="form-email">Email</label>
+        <input type="email" class="form-control" id="form-email" placeholder="Enter Email"/>
+      </div>
+      <div class="form-group">
+        <label for="form-subject">Subject</label>
+        <input type="text" class="form-control" id="form-subject" placeholder="Subject"/>
+      </div>
+      <div class="form-group">
+        <label for="form-message">Message</label>
+        <textarea class="form-control" rows="3" id="form-message" placeholder="Enter Message"></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-default" id="form-submit">Submit</button>
+      </div>
+    </form>
+
   </div>
 
 </div>  <!-- container-->
