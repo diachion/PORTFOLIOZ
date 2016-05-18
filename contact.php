@@ -20,33 +20,35 @@ include ("navigation.php");
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
 <div class="container">
 	<div class="col-md-5 text-center">
-    <h4> Email: </h4> <p class="padding-bot"> lydiaquon@gmail.com </p>
-    <h4> Location: </h4> <p class="padding-bot"> Burnaby, BC </p>
+    <h4><span class="fa fa-envelope"></span> Email: </h4> <p class="padding-bot"> lydiaquon@gmail.com </p>
+    <h4><span class="fa fa-map-marker"></span> Location: </h4> <p class="padding-bot"> Burnaby, BC </p>
   </div>
 
-  <div class="col-md-7">
-    <!-- <p> Contact form is currently unavailable! </p> -->
+  <div class="col-md-7 text-center blurb-dark">
+    <p> Want to contact me? Please leave a message using the nifty form below! Thanks! </p>
 
-    <form>
-      <div class="form-group">
-        <label for="form-name">Name</label>
-        <input type="text" class="form-control" id="form-name" placeholder="Enter Name"/>
+    <form id="form" parsley-validate method="post" action="formsubmit.php">
+      <div class="form-wrap">
+        <label class="line" for="name">Name<span class="required-star">*</span></label>
+        <input id="name" class="input-text" type="text" name="name" placeholder="ex. lydia quon" required/>
       </div>
-      <div class="form-group">
-        <label for="form-email">Email</label>
-        <input type="email" class="form-control" id="form-email" placeholder="Enter Email"/>
+
+      <div class="form-wrap">
+        <label class="line" for="email">Email Address<span class="required-star">*</span></label>
+        <input id="email" class="input-text" type="email" name="email" data-parsley-trigger="change" placeholder="ex. lydiaquon@gmail.com" required/>
       </div>
-      <div class="form-group">
-        <label for="form-subject">Subject</label>
-        <input type="text" class="form-control" id="form-subject" placeholder="Subject"/>
+  
+      <div class="form-wrap">
+        <label class="line" for="subject">Subject<span class="required-star">*</span></label>
+        <input id="subject" class="input-text" type="text" name="subject" placeholder="ex. job opportunity" required/>
       </div>
-      <div class="form-group">
-        <label for="form-message">Message</label>
-        <textarea class="form-control" rows="3" id="form-message" placeholder="Enter Message"></textarea>
+
+      <div class="form-wrap">
+        <label class="line"  for="message">Message<span class="required-star">*</span></label>
+        <textarea id="message" rows="5" name="message" class="line" placeholder="ex. are you currently looking for a job opening?" required></textarea>
       </div>
-      <div class="form-group">
-        <button type="submit" class="btn btn-default" id="form-submit">Submit</button>
-      </div>
+      
+      <button id="submit" class="btn btn-submit" type="submit"><span class='submit-txt'>Send Message</span><span class='process-txt'>Processing...</span></button>
     </form>
 
   </div>

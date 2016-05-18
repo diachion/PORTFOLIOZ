@@ -367,6 +367,112 @@ h1 {
 /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
     	FORMS
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+.required-star {
+  color: #FFFC9D;
+  font-weight: bold; }
+
+input.parsley-error,
+select.parsley-error,
+textarea.parsley-error {
+  color: #FFFC9D; }
+
+.parsley-errors-list {
+  margin: 2px 0 3px;
+  padding: 0;
+  list-style-type: none;
+  font-size: 0.9em;
+  line-height: 0.9em;
+  opacity: 0;
+  position: absolute;
+  color: #FFFC9D;
+  transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -webkit-transition: all .3s ease-in; }
+  .parsley-errors-list.filled {
+    opacity: 1; }
+
+.form-wrap {
+  margin: 35px auto 0 auto;
+  position: relative; }
+  .form-wrap label.line {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    text-align: left; }
+    .form-wrap label.line::after {
+      content: "";
+      display: block;
+      height: 2px;
+      width: 100%;
+      transform: scaleX(0);
+      position: absolute;
+      background: #FFFC9D;
+      bottom: 2px;
+      left: 0;
+      z-index: 999;
+      -webkit-transition: all .25s ease;
+      -moz-transition: all .25s ease;
+      transition: all .25s ease; }
+    .form-wrap label.line.focus::after {
+      transform: scaleX(1); }
+  .form-wrap input[type=text], .form-wrap input[type=email] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #A0D6FF;
+    width: 100%;
+    padding: 8px 10px;
+    outline-width: 0;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    transition: all .25s ease;
+    position: relative;
+    margin-bottom: 3px; }
+    .form-wrap input[type=text]:focus, .form-wrap input[type=email]:focus {
+      background: rgba(225, 237, 244, 0.3); }
+
+textarea {
+  resize: vertical;
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #A0D6FF;
+  padding: 8px;
+  outline: none;
+  overflow-y: auto; }
+  textarea:focus {
+    background: rgba(225, 237, 244, 0.3); }
+
+#form {
+  width: 100%;
+  margin: 0 auto; }
+
+#submit {
+  background: #A0D6FF;
+  color: #13374C;
+  width: 100%;
+  max-width: 200px;
+  font-size: 1.2em;
+  border: 1px solid #A0D6FF;
+  display: block;
+  margin: 30px auto;
+  padding: 10px;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  transition: all .3s ease; }
+  #submit .process-txt {
+    display: none; }
+  #submit:hover {
+    background: transparent;
+    color: #A0D6FF; }
+  #submit.processing {
+    opacity: .5;
+    pointer-events: none; }
+    #submit.processing .submit-txt {
+      display: none; }
+    #submit.processing .process-txt {
+      display: block; }
+
 /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
     Modals
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
@@ -652,6 +758,13 @@ h1 {
     background-color: rgba(255, 255, 255, 0.5);
     padding: 10px 8px;
     box-shadow: 0 0 1px #FFFC9D; }
+
+.blurb-dark {
+  margin-bottom: 10px; }
+  .blurb-dark > p {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 10px 8px;
+    box-shadow: 0 0 1px #E1EDF4; }
 
 .work-main {
   width: 100%;

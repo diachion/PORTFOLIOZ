@@ -1,5 +1,3 @@
-$(document).ready(function(){
-  
 // ------------ affix the navbar after scroll below header ------------
     $(".index .navbar").affix({
       offset: {
@@ -31,4 +29,22 @@ $(document).ready(function(){
       $(".carousel").carousel(2);
     });
 
-}); 
+// form validation
+$(function () {
+  $('#form').parsley().on('field:validated', function() {
+     console.log("Validating");
+    var ok = $('.parsley-error').length === 0;
+    $('.bs-callout-warning').toggleClass('hidden', ok);
+  })
+  .on('form:submit', function() {
+    $("#submit").addClass("processing");
+    return true;
+  });
+});
+
+// Fancy underline stuff
+$("input").focus(function() { $(this).prev().addClass("focus"); });
+$("input").blur(function() { $(this).prev().removeClass("focus"); });
+
+$("textarea").focus(function() { $(this).prev().addClass("focus"); });
+$("textarea").blur(function() { $(this).prev().removeClass("focus"); });
