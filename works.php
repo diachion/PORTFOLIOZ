@@ -25,6 +25,44 @@ include ("navigation.php");
   <div class="card">
 
     <div class="works-thumbnail">
+      <img src="imgs/thumbnails/dermengine.jpg" alt="DermEngine"/>
+      <figcaption>
+        <p>VIEW PROJECT</p>
+        <a href="dermengine.php"></a>
+      </figcaption>
+    </div> <!-- thumbnail -->
+
+    <div class="caption">
+      <h3><a href="dermengine.php">DermEngine Homepage</a></h3>
+      <p><strong>Development</strong> <span class="fa fa-star"></span> May 2016</p>
+    </div> <!-- caption -->
+
+  </div> <!-- card -->
+</div> <!-- col-md-4 -->
+
+<div class="col-sm-6 col-md-4 text-center">
+  <div class="card">
+
+    <div class="works-thumbnail">
+      <img src="imgs/thumbnails/rcmp.jpg" alt="RCMP"/>
+      <figcaption>
+        <p>VIEW PROJECT</p>
+        <a href="rcmp.php"></a>
+      </figcaption>
+    </div> <!-- thumbnail -->
+
+    <div class="caption">
+      <h3><a href="rcmp.php">RCMP | MetaOptima</a></h3>
+      <p><strong>Development</strong> <span class="fa fa-star"></span> May 2016</p>
+    </div> <!-- caption -->
+
+  </div> <!-- card -->
+</div> <!-- col-md-4 -->
+
+<div class="col-sm-6 col-md-4 text-center">
+  <div class="card">
+
+    <div class="works-thumbnail">
       <img src="imgs/thumbnails/betterme.jpg" alt="Better Me"/>
       <figcaption>
         <p>VIEW PROJECT</p>
