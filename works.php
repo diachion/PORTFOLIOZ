@@ -34,7 +34,7 @@ include ("navigation.php");
 
     <div class="caption">
       <h3><a href="dermengine.php">DermEngine Homepage</a></h3>
-      <p><strong>Development</strong> <span class="fa fa-star"></span> May 2016</p>
+      <p><strong>Development</strong> <span class="fa fa-star"></span> May 19, 2016</p>
     </div> <!-- caption -->
 
   </div> <!-- card -->

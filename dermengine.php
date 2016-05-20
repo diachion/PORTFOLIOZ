@@ -24,15 +24,14 @@ include ("navigation.php");
 
 <!-- -=-=-=-=- TL;DR / BLURB -=-=-=-=- -->
 <div class="col-md-12 text-center blurb">
-  <p> Inspired from the popular mobile app game, Neko Atsume: virtual kitties visiting your virtual yard and just hanging out. If only this was real.. 
-    oh wait! If composited photographs and graphics mix together, you'll get virtual kitties visiting your yard! Awesome! </p>
+  <p> Are you a doctor? Do you have a MoleScope? Do your patients have a MoleScope? Yes? Then it's time to get DermEngine to easily communicate with your patients! </p>
 </div>
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
 
 
 <!-- -=-=-=-=- FINISHED WORK -=-=-=-=- -->
   <div class="col-md-8 text-center">
-    <img class="work-main" src="imgs/works/rcmp/rcmp-focus.jpg" alt="BCIP with MetaOptima and RCMP"/>
+    <img class="work-main" src="imgs/works/dermengine/de-focus.jpg" alt="DermEngine"/>
   </div> <!-- column -->
 
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
@@ -41,7 +40,7 @@ include ("navigation.php");
 <!-- -=-=-=-=- WORK INFORMATION -=-=-=-=- -->
   <div class="col-md-4">
     <h3 class="no-header"><span class="fa fa-tag icon-left"></span>Development</h3>
-    <h3 class="no-header"><span class="fa fa-calendar-check-o icon-left"></span>May 2016</h3>
+    <h3 class="no-header"><span class="fa fa-calendar-check-o icon-left"></span>May 19, 2016</h3>
     <h3 class="no-header"><span class="fa fa-file-code-o icon-left"></span>Technologies Used:</h3>
       <ul class="tech-list">
         <li>HTML 5</li>
@@ -59,7 +58,7 @@ include ("navigation.php");
 
   <div class="col-xs-6 col-md-3 text-center">
     <a class="thumbnail" data-toggle="modal" data-target="#na-original">
-      <img src="imgs/works/nekoatsume/progress-o1.jpg" alt="Neko Atsume Original"/>
+      <img src="imgs/works/dermengine/progress-o1.jpg" alt="Neko Atsume Original"/>
     </a>
   </div> <!-- column -->
 
@@ -71,7 +70,7 @@ include ("navigation.php");
         <h4 class="modal-title" id="myModalLabel">Mockup</h4>
       </div>
       <div class="modal-body">
-        <p><img class="modal-img" src="imgs/works/nekoatsume/progress-o1.jpg" alt="Neko Atsume Original"/></p>
+        <p><img class="modal-img" src="imgs/works/dermengine/progress-o1.jpg" alt="Neko Atsume Original"/></p>
         <p>Part of the mockup I did.</p>
       </div>
     </div>
@@ -79,12 +78,12 @@ include ("navigation.php");
 </div>
 
   <div class="col-xs-6 col-md-3 text-center">
-    <a class="thumbnail" data-toggle="modal" data-target="#na-progress1">
-      <img src="imgs/works/nekoatsume/progress-o2.jpg" alt="Neko Atsume Progress #1"/>
+    <a class="thumbnail" data-toggle="modal" data-target="#de-information">
+      <img src="imgs/works/dermengine/de-information.jpg" alt="DermEngine"/>
     </a>
   </div> <!-- column -->
 
-  <div class="modal fade" id="na-progress1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal fade" id="de-information" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -92,7 +91,7 @@ include ("navigation.php");
         <h4 class="modal-title" id="myModalLabel">Information</h4>
       </div>
       <div class="modal-body">
-        <p><img class="modal-img" src="imgs/works/nekoatsume/progress-o2.jpg" alt="Neko Atsume Progress #1"/></p>
+        <p><img class="modal-img" src="imgs/works/dermengine/de-information.jpg" alt="DermEngine"/></p>
         <p>Some information content of the page.</p>
       </div>
     </div>
@@ -100,12 +99,12 @@ include ("navigation.php");
 </div>
 
   <div class="col-xs-6 col-md-3 text-center">
-    <a class="thumbnail" data-toggle="modal" data-target="#na-progress2">
-      <img src="imgs/works/nekoatsume/progress-o3.jpg" alt="Neko Atsume Progress #2"/>
+    <a class="thumbnail" data-toggle="modal" data-target="#de-fbi">
+      <img src="imgs/works/dermengine/de-fbi.jpg" alt="DermEngine Full-Body Imaging"/>
     </a>
   </div> <!-- column -->
 
-  <div class="modal fade" id="na-progress2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal fade" id="de-fbi" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -113,7 +112,7 @@ include ("navigation.php");
         <h4 class="modal-title" id="myModalLabel">Full-Body Imaging Page</h4>
       </div>
       <div class="modal-body">
-        <p><img class="modal-img" src="imgs/works/nekoatsume/progress-o3.jpg" alt="Neko Atsume Progress #2"/></p>
+        <p><img class="modal-img" src="imgs/works/dermengine/de-fbi.jpg" alt="DermEngine Full-Body Imaging"/></p>
         <p>Page about Full-Body Imaging and its features.</p>
       </div>
     </div>
@@ -121,12 +120,12 @@ include ("navigation.php");
 </div>
 
   <div class="col-xs-6 col-md-3 text-center">
-    <a class="thumbnail" data-toggle="modal" data-target="#na-progress3">
-      <img src="imgs/works/nekoatsume/progress-o4.jpg" alt="Neko Atsume Progress #3"/>
+    <a class="thumbnail" data-toggle="modal" data-target="#de-dashboard">
+      <img src="imgs/works/dermengine/de-dashboard.jpg" alt="DermEngine Management Dashboard"/>
     </a>
   </div> <!-- column -->
 
-  <div class="modal fade" id="na-progress3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal fade" id="de-dashboard" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -134,7 +133,7 @@ include ("navigation.php");
         <h4 class="modal-title" id="myModalLabel">Management Dashboard Page</h4>
       </div>
       <div class="modal-body">
-        <p><img class="modal-img" src="imgs/works/nekoatsume/progress-o4.jpg" alt="Neko Atsume Progress #3"/></p>
+        <p><img class="modal-img" src="imgs/works/dermengine/de-dashboard.jpg" alt="DermEngine Management Dashboard"/></p>
         <p>Page about the Management Dashboard.</p>
       </div>
     </div>
@@ -152,28 +151,26 @@ include ("navigation.php");
 <div class="container">
   <div class="col-md-12">
     <h2 class="header-font">The Story</h2>
-      <p> MetaOptima teamed up with the Royal Canadian Mounted Police (RCMP) to test the DermEngine system. This webpage serves the purpose of having the RCMP sign up to participate in the project. </p>
+      <p> MetaOptima created the MoleScope, a smartphone attachment for dermoscopy, which is intended for patients to use. The DermEngine system is created for the use of doctors. Since the MoleScope website is already up and running beautifully, a DermEngine website is needed as well. </p>
 
   <div class="padding-bot"></div>
 
     <h2 class="header-font">The Main Focus</h2>
-      <p> The main focus was to provide information about the project to the RCMP as well as getting them to sign up to participate in the project. </p>
+      <p> The main focus was to provide information about the DermEngine system. </p>
 
    <div class="padding-bot"></div>
 
     <h2 class="header-font">The Process</h2>
-      <p> My job was to create a page that gives information to the RCMP about the BCIP project with MetaOptima and the RCMP. Initially, I thought it was just pure information with images, so I created the layout as such. Later down the road, I was told to also create a form for them to sign up with. </p>
+      <p> A website was already initially built, detailing some of the features and information pertaining to the DermEngine system. However, more information/content to add was needed, and styling changes were needed to be made. The website originally didn't have a navigation bar, so I had to create one from scratch. I haven't touched navigation bars in about a year since I started working on this, so it was a challenge for me. I also created the email sign up form (not the backend) and the error message. </p>
 
-      <p> I've never created one page layouts before, so I was experimenting with a lot of different layout options as well as getting inspiration and ideas from Pinterest. Once I was satisfied with a layout, I sent it in for feedback. Once everything was approved, I created a simple mockup then started coding it. </p>
+      <p> A new layout was needed later, so I created a mockup, got feedback, made changes, and started coding. I drew inspiration on layouts from Pinterest, and mixed and matched elements I liked into something that worked well together. </p>
 
-      <p> This page was also the first time I've ever used reveal/scrolling animations. I wanted something interactive instead of a static, boring page. Scroll reveals are really cool if used correctly, and I tried my best to make it look nice but not overused or overdone.  </p>
-
-      <p> This was also the first time I actually made a working form (I didn't touch any of the backend process/coding though). I wanted to style it to make it look more appealing than the default form, and this was also my first time styling a form. So, creating the whole form was a huge challenge for me, but in the end, I'm really happy with the results! </p>
+      <p> A use of scroll reveal animations along with tabs were created, but were never fully used because of various reasons involving the content to be displayed on the website. </p>
 
   <div class="padding-bot"></div>
 
     <h2 class="header-font">What I Learned</h2>
-      <p> Scroll reveal animations is a pain to work with if you haven't worked with any kind of JQuery or CSS animations before. I also learned how to create a fixed background with content on top as you scroll. </p>
+      <p> Mockups may look good initially, but once it's all coded, some elements on the page may actually look bad. Changes (a LOT of changes) are always needed when building a website. Feedback is constant and there's always some new things to add or change. Also, if you're building a website with no content, it's best to get a general idea of what type of content and how long the content will be before designing the layout. Or, you can design a layout that adapts easily with any type of content. Either create a layout based on the content, or create the content based on the layout. </p>
 
   </div>
 </div>  <!-- container-->

@@ -24,8 +24,7 @@ include ("navigation.php");
 
 <!-- -=-=-=-=- TL;DR / BLURB -=-=-=-=- -->
 <div class="col-md-12 text-center blurb">
-  <p> Inspired from the popular mobile app game, Neko Atsume: virtual kitties visiting your virtual yard and just hanging out. If only this was real.. 
-    oh wait! If composited photographs and graphics mix together, you'll get virtual kitties visiting your yard! Awesome! </p>
+  <p> A webpage for a Build in Canada Innovation Program (BCIP) project with MetaOptima and the Royal Canadian Mounted Police (RCMP), serving to get the RCMP to participate in the project </p>
 </div>
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
 
@@ -190,7 +189,7 @@ include ("navigation.php");
 
   <div class="col-xs-6 text-center">
     <a class="btn-works btn-fill-left" href="dermengine.php"><span class="fa fa-long-arrow-left"></span> Previous</a>
-    <h4 class="no-header">DermEngine</h4>
+    <h4 class="no-header">DermEngine Homepage</h4>
   </div>
 
   <div class="col-xs-6 text-center">
