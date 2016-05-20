@@ -57,12 +57,12 @@ include ("navigation.php");
 <div class="container">
 
   <div class="col-xs-6 col-md-3 text-center">
-    <a class="thumbnail" data-toggle="modal" data-target="#na-original">
-      <img src="imgs/works/dermengine/progress-o1.jpg" alt="Neko Atsume Original"/>
+    <a class="thumbnail" data-toggle="modal" data-target="#de-mockup">
+      <img src="imgs/works/dermengine/de-mockup.jpg" alt="DermEngine Mockup"/>
     </a>
   </div> <!-- column -->
 
- <div class="modal fade" id="na-original" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+ <div class="modal fade" id="de-mockup" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -70,7 +70,7 @@ include ("navigation.php");
         <h4 class="modal-title" id="myModalLabel">Mockup</h4>
       </div>
       <div class="modal-body">
-        <p><img class="modal-img" src="imgs/works/dermengine/progress-o1.jpg" alt="Neko Atsume Original"/></p>
+        <p><img class="modal-img" src="imgs/works/dermengine/de-mockup.jpg" alt="DermEngine Mockup"/></p>
         <p>Part of the mockup I did.</p>
       </div>
     </div>

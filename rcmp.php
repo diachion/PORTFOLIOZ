@@ -40,7 +40,7 @@ include ("navigation.php");
 <!-- -=-=-=-=- WORK INFORMATION -=-=-=-=- -->
   <div class="col-md-4">
     <h3 class="no-header"><span class="fa fa-tag icon-left"></span>Development</h3>
-    <h3 class="no-header"><span class="fa fa-calendar-check-o icon-left"></span>May 2016</h3>
+    <h3 class="no-header"><span class="fa fa-calendar-check-o icon-left"></span>May 13, 2016</h3>
     <h3 class="no-header"><span class="fa fa-file-code-o icon-left"></span>Technologies Used:</h3>
       <ul class="tech-list">
         <li>HTML 5</li>
@@ -57,12 +57,12 @@ include ("navigation.php");
 <div class="container">
 
   <div class="col-xs-6 col-md-3 text-center">
-    <a class="thumbnail" data-toggle="modal" data-target="#na-original">
-      <img src="imgs/works/nekoatsume/progress-o1.jpg" alt="Neko Atsume Original"/>
+    <a class="thumbnail" data-toggle="modal" data-target="#rcmp-wireframe">
+      <img src="imgs/works/rcmp/rcmp-wireframe.jpg" alt="RCMP MetaOptima Wireframes"/>
     </a>
   </div> <!-- column -->
 
- <div class="modal fade" id="na-original" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+ <div class="modal fade" id="rcmp-wireframe" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -70,7 +70,7 @@ include ("navigation.php");
         <h4 class="modal-title" id="myModalLabel">Mockup</h4>
       </div>
       <div class="modal-body">
-        <p><img class="modal-img" src="imgs/works/nekoatsume/progress-o1.jpg" alt="Neko Atsume Original"/></p>
+        <p><img class="modal-img" src="imgs/works/rcmp/rcmp-wireframe.jpg" alt="RCMP MetaOptima Wireframes"/></p>
         <p>Part of the mockup I did.</p>
       </div>
     </div>
@@ -78,12 +78,12 @@ include ("navigation.php");
 </div>
 
   <div class="col-xs-6 col-md-3 text-center">
-    <a class="thumbnail" data-toggle="modal" data-target="#na-progress1">
-      <img src="imgs/works/nekoatsume/progress-o2.jpg" alt="Neko Atsume Progress #1"/>
+    <a class="thumbnail" data-toggle="modal" data-target="#rcmp-information">
+      <img src="imgs/works/rcmp/rcmp-information.jpg" alt="RCMP MetaOptima Information Content"/>
     </a>
   </div> <!-- column -->
 
-  <div class="modal fade" id="na-progress1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal fade" id="rcmp-information" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -91,7 +91,7 @@ include ("navigation.php");
         <h4 class="modal-title" id="myModalLabel">Information</h4>
       </div>
       <div class="modal-body">
-        <p><img class="modal-img" src="imgs/works/nekoatsume/progress-o2.jpg" alt="Neko Atsume Progress #1"/></p>
+        <p><img class="modal-img" src="imgs/works/rcmp/rcmp-information.jpg" alt="RCMP MetaOptima Information Content"/></p>
         <p>Information about the BCIP, MetaOptima, and the project.</p>
       </div>
     </div>
@@ -99,12 +99,12 @@ include ("navigation.php");
 </div>
 
   <div class="col-xs-6 col-md-3 text-center">
-    <a class="thumbnail" data-toggle="modal" data-target="#na-progress2">
-      <img src="imgs/works/nekoatsume/progress-o3.jpg" alt="Neko Atsume Progress #2"/>
+    <a class="thumbnail" data-toggle="modal" data-target="#rcmp-faq">
+      <img src="imgs/works/rcmp/rcmp-faq.jpg" alt="RCMP MetaOptima FAQ Page"/>
     </a>
   </div> <!-- column -->
 
-  <div class="modal fade" id="na-progress2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal fade" id="rcmp-faq" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -112,7 +112,7 @@ include ("navigation.php");
         <h4 class="modal-title" id="myModalLabel">FAQ Page</h4>
       </div>
       <div class="modal-body">
-        <p><img class="modal-img" src="imgs/works/nekoatsume/progress-o3.jpg" alt="Neko Atsume Progress #2"/></p>
+        <p><img class="modal-img" src="imgs/works/rcmp/rcmp-faq.jpg" alt="RCMP MetaOptima FAQ Page"/></p>
         <p>Page that lists all the frequently asked questions.</p>
       </div>
     </div>
@@ -120,12 +120,12 @@ include ("navigation.php");
 </div>
 
   <div class="col-xs-6 col-md-3 text-center">
-    <a class="thumbnail" data-toggle="modal" data-target="#na-progress3">
-      <img src="imgs/works/nekoatsume/progress-o4.jpg" alt="Neko Atsume Progress #3"/>
+    <a class="thumbnail" data-toggle="modal" data-target="#rcmp-form">
+      <img src="imgs/works/rcmp/rcmp-form.jpg" alt="RCMP MetaOptima Sign Up Form"/>
     </a>
   </div> <!-- column -->
 
-  <div class="modal fade" id="na-progress3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal fade" id="rcmp-form" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -133,7 +133,7 @@ include ("navigation.php");
         <h4 class="modal-title" id="myModalLabel">Sign Up Form</h4>
       </div>
       <div class="modal-body">
-        <p><img class="modal-img" src="imgs/works/nekoatsume/progress-o4.jpg" alt="Neko Atsume Progress #3"/></p>
+        <p><img class="modal-img" src="imgs/works/rcmp/rcmp-form.jpg" alt="RCMP MetaOptima Sign Up Form"/></p>
         <p>The form to sign up in order to participate in the project.</p>
       </div>
     </div>
