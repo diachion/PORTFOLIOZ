@@ -4,6 +4,7 @@
 	<title>Lydia Quon Portfolio</title>
   	<meta charset="UTF-8"/>
   	<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <link rel="icon" href="imgs/favicon.png">
 <!-- SEO AND META TAGS STUFF -->
 	<meta name="description" content="Lydia Quon Portfolio. Front-end web developer and designer based in Vancouver,
 	British Columbia."/>
