@@ -152,28 +152,28 @@ include ("navigation.php");
 <div class="container">
   <div class="col-md-12">
     <h2 class="header-font">The Story</h2>
-      <p> MetaOptima teamed up with the Royal Canadian Mounted Police (RCMP) to test the DermEngine system. This webpage serves the purpose of having the RCMP sign up to participate in the project. </p>
+      <p> Tandem Accounting Group Ltd. started off with a basic website and branding materials. I was to improve their existing website with a more appealing and professional one. New design concepts of the company's business cards and email signatures were also created. </p>
 
   <div class="padding-bot"></div>
 
     <h2 class="header-font">The Main Focus</h2>
-      <p> The main focus was to provide information about the project to the RCMP as well as getting them to sign up to participate in the project. </p>
+      <p> The main focus was to create a website for Tandem that explains who they are and what they do. Additional rebranding and redesigns of their company image were also done. </p>
 
    <div class="padding-bot"></div>
 
     <h2 class="header-font">The Process</h2>
-      <p> My job was to create a page that gives information to the RCMP about the BCIP project with MetaOptima and the RCMP. Initially, I thought it was just pure information with images, so I created the layout as such. Later down the road, I was told to also create a form for them to sign up with. </p>
+      <p> <b>WordPress</b> <span class="fa fa-long-arrow-right"></span> Tandem didn't start out with a fully developed website. My job was to create a new one and I was free to alter the color scheme. It was basically a rebranding of their company. Knowing this, I played with different color schemes and created various Style Tiles, which shows how a website might look like with the chosen colors, fonts and components. After coming up with a few Style Tiles, they were sent for review and the popular choice was chosen to use on the final website. </p>
 
-      <p> I've never created one page layouts before, so I was experimenting with a lot of different layout options as well as getting inspiration and ideas from Pinterest. Once I was satisfied with a layout, I sent it in for feedback. Once everything was approved, I created a simple mockup then started coding it. </p>
+      <p>The original website was created using WordPress with a simple free theme. I changed it to a premium theme and started creating the basic layout of how the site will look like and where content will be. I downloaded a few plugins that helped with the layout of the website as well. Custom CSS were also added to pages where the theme had no option to change it. Content was added last along with other minor changes. </p>
 
-      <p> This page was also the first time I've ever used reveal/scrolling animations. I wanted something interactive instead of a static, boring page. Scroll reveals are really cool if used correctly, and I tried my best to make it look nice but not overused or overdone.  </p>
+      <p> <b>Business Cards</b> <span class="fa fa-long-arrow-right"></span> With this being my first time working with print and business cards, I had to do some research on how to go about this. I looked up different styles and designs of business cards for inspiration. Using Adobe Illustrator with print settings, I then put pieces from each to create business card concepts and designs for Tandem. </p>
 
-      <p> This was also the first time I actually made a working form (I didn't touch any of the backend process/coding though). I wanted to style it to make it look more appealing than the default form, and this was also my first time styling a form. So, creating the whole form was a huge challenge for me, but in the end, I'm really happy with the results! </p>
+      <p> <b>Email Signatures</b> <span class="fa fa-long-arrow-right"></span> I was asked to improve upon Tandem's current email signatures at the time. I looked up various email signatures for inspiration and created a few concepts with variations for Tandem. </p>
 
   <div class="padding-bot"></div>
 
     <h2 class="header-font">What I Learned</h2>
-      <p> Scroll reveal animations is a pain to work with if you haven't worked with any kind of JQuery or CSS animations before. I also learned how to create a fixed background with content on top as you scroll. </p>
+      <p> Premium WordPress themes are much more user friendly compared to free themes. Using premium themes is easier for the developer as well as others who would want to edit content. It was also my first time working with print materials, especially business cards, and specific  settings on Adobe Illustrator are needed ensure the printed product will come out nicely. </p>
 
   </div>
 </div>  <!-- container-->
@@ -189,13 +189,13 @@ include ("navigation.php");
 <div class="container text-center">
 
   <div class="col-xs-6 text-center">
-    <a class="btn-works btn-fill-left" href="dermengine.php"><span class="fa fa-long-arrow-left"></span> Previous</a>
-    <h4 class="no-header">DermEngine Homepage</h4>
+    <a class="btn-works btn-fill-left" href="amaterasu.php"><span class="fa fa-long-arrow-left"></span> Previous</a>
+    <h4 class="no-header">Amaterasu</h4>
   </div>
 
   <div class="col-xs-6 text-center">
-    <a class="btn-works btn-fill-right" href="betterme.php">Next <span class="fa fa-long-arrow-right"></span></a>
-    <h4 class="no-header">Better Me</h4>
+    <a class="btn-works btn-fill-right" href="dermengine.php">Next <span class="fa fa-long-arrow-right"></span></a>
+    <h4 class="no-header">DermEngine Homepage</h4>
   </div>
   
 </div>  <!-- container-->

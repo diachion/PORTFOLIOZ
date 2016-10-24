@@ -196,8 +196,8 @@ include ("navigation.php");
 <div class="container text-center">
 
   <div class="col-xs-6 text-center">
-    <a class="btn-works btn-fill-left" href="frogurts.php"><span class="fa fa-long-arrow-left"></span> Previous</a>
-    <h4 class="no-header">Lydia's Frogurts</h4>
+    <a class="btn-works btn-fill-left" href="orange11.php"><span class="fa fa-long-arrow-left"></span> Previous</a>
+    <h4 class="no-header">The Orange Eleven</h4>
   </div>
 
   <div class="col-xs-6 text-center">

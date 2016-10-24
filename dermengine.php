@@ -161,6 +161,8 @@ include ("navigation.php");
    <div class="padding-bot"></div>
 
     <h2 class="header-font">The Process</h2>
+      <p> <span class="fa fa-exclamation-triangle"></span> Please note that this website is continuing to be improved upon and altered, so the live site may not match the screenshots (which was what I worked on at the time). </p>
+      
       <p> A website was already initially built, detailing some of the features and information pertaining to the DermEngine system. However, more information/content to add was needed, and styling changes were needed to be made. The website originally didn't have a navigation bar, so I had to create one from scratch. I haven't touched navigation bars in about a year since I started working on this, so it was a challenge for me. I also created the email sign up form (not the backend) and the error message. </p>
 
       <p> A new layout was needed later, so I created a mockup, got feedback, made changes, and started coding. I drew inspiration on layouts from Pinterest, and mixed and matched elements I liked into something that worked well together. </p>
@@ -186,8 +188,8 @@ include ("navigation.php");
 <div class="container text-center">
 
   <div class="col-xs-6 text-center">
-    <a class="btn-works btn-fill-left" href="amaterasu.php"><span class="fa fa-long-arrow-left"></span> Previous</a>
-    <h4 class="no-header">Amaterasu</h4>
+    <a class="btn-works btn-fill-left" href="tandem.php"><span class="fa fa-long-arrow-left"></span> Previous</a>
+    <h4 class="no-header">Tandem Accounting Group Ltd.</h4>
   </div>
 
   <div class="col-xs-6 text-center">

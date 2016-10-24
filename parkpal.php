@@ -200,8 +200,8 @@ include ("navigation.php");
 <div class="container text-center">
 
   <div class="col-xs-6 text-center">
-    <a class="btn-works btn-fill-left" href="betterme.php"><span class="fa fa-long-arrow-left"></span> Previous</a>
-    <h4 class="no-header">Better Me</h4>
+    <a class="btn-works btn-fill-left" href="rcmp.php"><span class="fa fa-long-arrow-left"></span> Previous</a>
+    <h4 class="no-header">RCMP | MetaOptima</h4>
   </div>
 
   <div class="col-xs-6 text-center">

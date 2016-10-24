@@ -197,8 +197,8 @@ include ("navigation.php");
   </div>
 
   <div class="col-xs-6 text-center">
-    <a class="btn-works btn-fill-right" href="dermengine.php">Next <span class="fa fa-long-arrow-right"></span></a>
-    <h4 class="no-header">DermEngine Homepage</h4>
+    <a class="btn-works btn-fill-right" href="tandem.php">Next <span class="fa fa-long-arrow-right"></span></a>
+    <h4 class="no-header">Tandem Accounting Group Ltd.</h4>
   </div>
 
 </div>  <!-- container-->

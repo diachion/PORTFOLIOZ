@@ -211,8 +211,8 @@ include ("navigation.php");
   </div>
 
   <div class="col-xs-6 text-center">
-    <a class="btn-works btn-fill-right" href="frogurts.php">Next <span class="fa fa-long-arrow-right"></span></a>
-    <h4 class="no-header">Lydia's Frogurts</h4>
+    <a class="btn-works btn-fill-right" href="nekoatsume.php">Next <span class="fa fa-long-arrow-right"></span></a>
+    <h4 class="no-header">Kitty Collector</h4>
   </div>
   
 </div>  <!-- container-->
