@@ -21,7 +21,7 @@ include ("navigation.php");
 <div class="container">
 	<div class="col-md-5 text-center">
     <h4><span class="fa fa-envelope"></span> Email: </h4> <p class="padding-bot"> lydiaquon@gmail.com </p>
-    <h4><span class="fa fa-map-marker"></span> Location: </h4> <p class="padding-bot"> Burnaby, BC </p>
+    <h4><span class="fa fa-map-marker"></span> Location: </h4> <p class="padding-bot"> California Bay Area </p>
   </div>
 
   <div class="col-md-7 text-center blurb-dark">

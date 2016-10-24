@@ -25,6 +25,25 @@ include ("navigation.php");
   <div class="card">
 
     <div class="works-thumbnail">
+      <img src="imgs/thumbnails/tandem.jpg" alt="Tandem Accounting Group Ltd."/>
+      <figcaption>
+        <p>VIEW PROJECT</p>
+        <a href="tandem.php"></a>
+      </figcaption>
+    </div> <!-- thumbnail -->
+
+    <div class="caption">
+      <h3><a href="tandem.php">Tandem Accounting Group Ltd.</a></h3>
+      <p><strong>Design & Development</strong> <span class="fa fa-star"></span> August 2, 2016</p>
+    </div> <!-- caption -->
+
+  </div> <!-- card -->
+</div> <!-- col-md-4 -->
+
+<div class="col-sm-6 col-md-4 text-center">
+  <div class="card">
+
+    <div class="works-thumbnail">
       <img src="imgs/thumbnails/dermengine.jpg" alt="DermEngine"/>
       <figcaption>
         <p>VIEW PROJECT</p>
@@ -59,7 +78,7 @@ include ("navigation.php");
   </div> <!-- card -->
 </div> <!-- col-md-4 -->
 
-<div class="col-sm-6 col-md-4 text-center">
+<!-- <div class="col-sm-6 col-md-4 text-center">
   <div class="card">
 
     <div class="works-thumbnail">
@@ -68,15 +87,15 @@ include ("navigation.php");
         <p>VIEW PROJECT</p>
         <a href="betterme.php"></a>
       </figcaption>
-    </div> <!-- thumbnail -->
+    </div> --> <!-- thumbnail -->
 
-    <div class="caption">
+<!--     <div class="caption">
       <h3><a href="betterme.php">Better Me</a></h3>
       <p><strong>Development</strong> <span class="fa fa-star"></span> December 3, 2015</p>
-    </div> <!-- caption -->
+    </div> --> <!-- caption -->
 
-  </div> <!-- card -->
-</div> <!-- col-md-4 -->
+<!--   </div> --> <!-- card -->
+<!-- </div> --> <!-- col-md-4 -->
 
 
 <div class="col-sm-6 col-md-4 text-center">
@@ -121,7 +140,7 @@ include ("navigation.php");
 
 
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
-<div class="col-sm-6 col-md-4 text-center">
+<!-- <div class="col-sm-6 col-md-4 text-center">
   <div class="card">
 
     <div class="works-thumbnail">
@@ -130,15 +149,15 @@ include ("navigation.php");
         <p>VIEW PROJECT</p>
         <a href="frogurts.php"></a>
       </figcaption>
-    </div> <!-- thumbnail -->
+    </div> --> <!-- thumbnail -->
 
-    <div class="caption">
+<!--     <div class="caption">
       <h3><a href="frogurts.php">Lydia's Frogurts</a></h3>
       <p><strong>Branding</strong> <span class="fa fa-star"></span> February 2, 2015</p>
-    </div> <!-- caption -->
+    </div> --> <!-- caption -->
 
-  </div> <!-- card -->
-</div> <!-- col-md-4 -->
+  <!-- </div> --> <!-- card -->
+<!-- </div>  --><!-- col-md-4 -->
 
 
 <div class="col-sm-6 col-md-4 text-center">
