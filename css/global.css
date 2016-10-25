@@ -140,7 +140,7 @@ h1 {
   display: inline-block;
   position: relative;
   background-color: transparent;
-  border: 3px solid #13374C;
+  border: 2px solid #13374C;
   color: #13374C;
   border-radius: 30px;
   width: 100%;
@@ -152,7 +152,7 @@ h1 {
   display: inline-block;
   position: relative;
   background-color: transparent;
-  border: 3px solid #E1EDF4;
+  border: 2px solid #E1EDF4;
   color: #E1EDF4;
   border-radius: 30px;
   width: 100%;

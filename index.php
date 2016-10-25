@@ -85,14 +85,13 @@ $random = (rand(0, count($bg)-1));
 
         <div class="container">
           <div class="col-md-6">
-            <img class="carousel-image" src="imgs/thumbnails/CAROUSEL-oel.jpg" alt="The Orange 11">
+            <img class="carousel-image" src="imgs/thumbnails/CAROUSEL-rcmp.jpg" alt="BCIP with MetaOptima and RCMP">
           </div>
 
           <div class="col-md-6">
-            <h1>The Orange Eleven</h1>
-            <p class="padding-bot">A fansite for the Netherlands National Football Team, the Orange Eleven. All you need to know about this team is provided in this site.
-            So, let's get kicking! </p>
-            <p><a class="btn-carousel btn-link-out text-center" href="orange11.php">View Project</a></p>
+            <h1>RCMP | METAOPTIMA</h1>
+            <p class="padding-bot">A webpage for a Build in Canada Innovation Program (BCIP) project with MetaOptima and the Royal Canadian Mounted Police (RCMP), serving to get the RCMP to participate in the project</p>
+            <p><a class="btn-carousel btn-link-out text-center" href="rcmp.php">View Project</a></p>
             
           </div>
         </div> <!-- container -->
@@ -104,14 +103,13 @@ $random = (rand(0, count($bg)-1));
 
         <div class="container">
           <div class="col-md-6">
-            <img class="carousel-image" src="imgs/thumbnails/CAROUSEL-bm.jpg" alt="Better Me">
+            <img class="carousel-image" src="imgs/thumbnails/CAROUSEL-de.jpg" alt="DermEngine">
           </div>
 
           <div class="col-md-6">
-            <h1>Better Me</h1>
-            <p class="padding-bot">Better Me is a mobile application that is aimed towards individuals who need that extra push and motivation to get everyday 
-            mudane taks done. Get motivated, get rewarded, feel better! </p>
-            <p><a class="btn-carousel btn-link-out text-center" href="betterme.php">View Project</a></p>
+            <h1>DERMENGINE HOMEPAGE</h1>
+            <p class="padding-bot">Are you a doctor? Do you have a MoleScope? Do your patients have a MoleScope? Yes? Then it's time to get DermEngine to easily communicate with your patients!</p>
+            <p><a class="btn-carousel btn-link-out text-center" href="dermengine.php">View Project</a></p>
           </div>
         </div> <!-- container -->
 
@@ -122,14 +120,13 @@ $random = (rand(0, count($bg)-1));
 
         <div class="container">
           <div class="col-md-6">
-            <img class="carousel-image" src="imgs/thumbnails/CAROUSEL-na.jpg" alt="Neko Atsume">
+            <img class="carousel-image" src="imgs/thumbnails/CAROUSEL-tandem.jpg" alt="Tandem Accounting Group Ltd.">
           </div>
 
           <div class="col-md-6">
-            <h1>Neko Atsume</h1>
-            <p class="padding-bot">Inspired from the popular mobile app game, Neko Atsume: virtual kitties visiting your virtual yard and just hanging out.
-            What happens when real life meets virtual kitties?</p>
-            <p><a class="btn-carousel btn-link-out text-center" href="nekoatsume.php">View Project</a></p>
+            <h1>TANDEM ACCOUNTING GROUP LTD.</h1>
+            <p class="padding-bot">A WordPress website built for Tandem Accounting Group Ltd. along with rebranding designs and concepts for their business cards and email signatures.</p>
+            <p><a class="btn-carousel btn-link-out text-center" href="tandem.php">View Project</a></p>
           </div>
         </div> <!-- container -->
 
